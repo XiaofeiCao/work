@@ -15,7 +15,7 @@ Ensure backward compatibility
 
 ## Folder structure
 ### Proposal 1(current)
-1. According to the ARM template categories, basically [this issue](https://github.com/Azure/cadl-ranch/issues/585)
+According to the ARM template categories, basically [this issue](https://github.com/Azure/cadl-ranch/issues/585)
 ```
 Azure
  |-> ResourceManager
@@ -32,7 +32,8 @@ Azure
              |-> Resource Move // move resource to another subscription(not sure, maybe just in Resources is enough?)
 ```
 
-2. Flatten the hierarchy, only Resources
+### Proposal 2
+Flatten the hierarchy, only Resources, since almost all operations must belong to a certain resource.
 ```
 Azure
  |-> ResourceManager
