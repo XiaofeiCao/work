@@ -19,12 +19,11 @@ According to the ARM template categories, basically [this issue](https://github.
 ```
 Azure
  |-> ResourceManager
-       |-> Models
-             |-> Resources // resources and their common CRUD operations
-             |-> CommonTypes // special common-types like ManagedIdentity
-                |-> ManagedIdentities
-                |-> EncryptionProperties
-                |-> SKUs, etc
+       |-> Resources // resources and their common CRUD operations
+       |-> CommonTypes // special common-types like ManagedIdentity
+          |-> ManagedIdentities
+          |-> EncryptionProperties
+          |-> SKUs, etc
        |-> Operations // uncommon operations, or operations with multiple scenarios, irrelavant of resource types
              |-> LROs
              |-> Pageables
