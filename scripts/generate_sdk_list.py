@@ -16,8 +16,8 @@ def main():
             version_client_content = fin.read()
 
     table_content = """
-    |sdk|version|lastReleased|
-    |--|--|--|
+    |index|sdk|version|lastReleased|\n
+    |--|--|--|--|
     """
     count=0
     for package_dir in listing:
@@ -48,8 +48,8 @@ def main():
         print(last_release_date)
 
         print(sdk_name)
-        table_content += f'\n| {sdk_name} | {version} | {last_release_date} |'
         count=count+1
+        table_content += f'\n| {count} | {sdk_name} | {version} | {last_release_date} |'
     print(count)
     print(table_content)
     
