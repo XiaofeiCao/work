@@ -32,7 +32,7 @@ jobs:
           python-version: '3.10'
       - name: Generate migration report
         run: |
-          ./scripts/generate_sdk_list.py --sdk-root ./azure-sdk-for-java
+          python ./scripts/generate_sdk_list.py --sdk-root ./azure-sdk-for-java
 
       - name: Push report
         run: |
