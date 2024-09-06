@@ -31,7 +31,7 @@ Generated At: {date_time}
 
 ## Detail
 
-|Index|SDK|Version|Last Released|TypeSpec|Swagger|Migration Status|
+|Index|SDK|Version|Last Released|TypeSpec|Migration Status|Swagger|
 |--|--|--|--|--|--|--|"""
 
 def main():
@@ -58,9 +58,9 @@ def main():
         with open(module_info_file, "r") as fin:
             pom_content = fin.read()
             if not pom_content.__contains__("jackson"):
-                migration_status = "MIGRATED"
+                migration_status = ":heavy_check_mark:"
             else: 
-                migration_status = "NOT_MIGRATED"
+                migration_status = ""
 
         changelog_file = os.path.join(package_dir, "CHANGELOG.md")
         with open(changelog_file, "r") as fin:
@@ -93,7 +93,7 @@ def main():
 
     index=1
     for package in packages:
-        table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["typespec"]} | {package["swagger"]} | {package["migration_status"] } |'
+        table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["typespec"]} | {package["migration_status"] } | {package["swagger"]} |'
         index+=1
     with open(os.path.join(sys.path[0], "../sdk_list.md"), "w") as fout:
         fout.write(table_content)
