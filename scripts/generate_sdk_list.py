@@ -93,7 +93,7 @@ def main():
 
     index=1
     for package in packages:
-        migration_status = ":white_check_mark:" if package["migration_status"] == "MIGRATED" else ":white_large_square"
+        migration_status = ":white_check_mark:" if package["migration_status"] == "MIGRATED" else ":white_large_square:"
         table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["typespec"]} | { migration_status } | {package["swagger"]} |'
         index+=1
     with open(os.path.join(sys.path[0], "../sdk_list.md"), "w") as fout:
