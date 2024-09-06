@@ -52,7 +52,7 @@ def main():
             else: 
                 migration_status = "NOT_MIGRATED"
 
-        changelog_file = os.path.join(package_dir, "CHANGELOG.MD")
+        changelog_file = os.path.join(package_dir, "CHANGELOG.md")
         with open(changelog_file, "r") as fin:
             changelog_content = fin.read()
         
