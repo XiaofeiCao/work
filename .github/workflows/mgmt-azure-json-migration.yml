@@ -30,6 +30,12 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: '3.10'
+
+      - name: Update python
+        run: |
+          pip3 install --upgrade wheel
+          pip3 install --upgrade PyYAML
+
       - name: Generate migration report
         run: |
           python ./scripts/generate_sdk_list.py --sdk-root ./azure-sdk-for-java
