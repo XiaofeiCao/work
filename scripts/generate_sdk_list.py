@@ -3,6 +3,7 @@ import glob;
 import os;
 import re;
 import sys;
+import datetime;
 
 GROUP_ID = "com.azure.resourcemanager"
 exclude_projects = (
@@ -14,6 +15,8 @@ exclude_projects = (
 
 readme_template = """
 # MGMT SDK for azure-json migration
+
+Generated At: {date_time}
 
 ## Summary
 
@@ -71,7 +74,10 @@ def main():
     
     packages.sort(key=lambda package: package["last_release_date"])
 
-    table_content = readme_template.replace("{count}", f'{len(packages)}').replace("{migrated_count}", f'{len([p for p in packages if p["migration_status"] == "MIGRATED"])}')
+    table_content = readme_template\
+        .replace("{count}", f'{len(packages)}')\
+        .replace("{migrated_count}", f'{len([p for p in packages if p["migration_status"] == "MIGRATED"])}')\
+        .replace("{date_time}", f'{datetime.datetime.now()}')
 
     index=1;
     for package in packages:
