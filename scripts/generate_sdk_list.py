@@ -2,56 +2,83 @@ import argparse;
 import glob;
 import os;
 import re;
+import sys;
 
 GROUP_ID = "com.azure.resourcemanager"
+exclude_projects = (
+    "azure-resourcemanager-samples",
+    "azure-resourcemanager-test",
+    "azure-resourcemanager",
+    "azure-resourcemanager-perf"
+)
+
+readme_template = """
+# MGMT SDK for azure-json migration
+
+## Summary
+
+- total: {count}
+- migrated: {migrated_count}
+
+## Detail
+
+|Index|SDK|Version|Last Released|TypeSpec|Migration Status|
+|--|--|--|--|--|--|"""
 
 def main():
     (parser, args) = parse_args()
     args = vars(args)
     sdk_root = args["sdk_root"]
     listing = glob.glob(f'{sdk_root}/sdk/*/azure-resourcemanager-*')
-    version_client_file = os.path.join(sdk_root, "eng/versioning/version_client.txt")
-    version_client_content = None
-    with open(version_client_file, "r") as fin:
-            version_client_content = fin.read()
-
-    table_content = """
-    |index|sdk|version|lastReleased|\n
-    |--|--|--|--|
-    """
-    count=0
+    packages = []
     for package_dir in listing:
-        if os.path.exists(os.path.join(package_dir, "tsp-location.yaml")) \
-            or re.match(f'{sdk_root}/sdk/resourcemanager.*', package_dir) or re.match(".*-generated", package_dir):
-                continue
-
-        pom_file = os.path.join(package_dir, "pom.xml")
-        if not os.path.exists(pom_file):
-             continue
-        with open(pom_file, "r") as fin:
-            pom_content = fin.read()
-            if pom_content.__contains__("azure-json"):
-                 continue
-        
         package_dir_segments = package_dir.split("/")
         sdk_name = package_dir_segments[len(package_dir_segments) - 1]
+        print(sdk_name)
+        if re.match(".*-generated", package_dir) or sdk_name in exclude_projects:
+            continue
+        if os.path.exists(os.path.join(package_dir, "tsp-location.yaml")):
+            typespec = True
+        else: 
+            typespec = False
 
-        version_regex = f'{GROUP_ID}:{sdk_name};([\\-|\w|\\.]+);[\\-|\w|\\.]+'
-        version = re.search(version_regex, version_client_content).group(1)
+        module_info_file = os.path.join(package_dir, "src/main/java/module-info.java")
+        if not os.path.exists(module_info_file):
+             continue
+        with open(module_info_file, "r") as fin:
+            pom_content = fin.read()
+            if not pom_content.__contains__("jackson"):
+                migration_status = "MIGRATED"
+            else: 
+                migration_status = "NOT_MIGRATED"
 
         changelog_file = os.path.join(package_dir, "CHANGELOG.MD")
         with open(changelog_file, "r") as fin:
             changelog_content = fin.read()
         
-        last_release_date_regex = f'## {version} \\(([\\-|\d]+)\\)'
-        last_release_date = re.search(last_release_date_regex, changelog_content).group(1)
-        print(last_release_date)
+        last_release_date_regex = f'## ([\\-|\w|\\.]+) \\(([\\-|\d]+)\\)'
+        search_result = re.search(last_release_date_regex, changelog_content)
+        version = search_result.group(1)
+        last_release_date = search_result.group(2)
 
-        print(sdk_name)
-        count=count+1
-        table_content += f'\n| {count} | {sdk_name} | {version} | {last_release_date} |'
-    print(count)
-    print(table_content)
+        packages.append({
+            "sdk_name": sdk_name,
+            "version": version,
+            "last_release_date": last_release_date,
+            "typespec": "true" if typespec else "false",
+            "migration_status": migration_status
+        })
+    
+    packages.sort(key=lambda package: package["last_release_date"])
+
+    table_content = readme_template.replace("{count}", f'{len(packages)}').replace("{migrated_count}", f'{len([p for p in packages if p["migration_status"] == "MIGRATED"])}')
+
+    index=1;
+    for package in packages:
+        table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["typespec"]} | {package["migration_status"] } |'
+        index+=1
+    with open(os.path.join(sys.path[0], "../sdk_list.md"), "w") as fout:
+        fout.write(table_content)
     
 
 def parse_args() -> (argparse.ArgumentParser, argparse.Namespace):
