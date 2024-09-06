@@ -12,6 +12,11 @@ exclude_projects = (
     "azure-resourcemanager",
     "azure-resourcemanager-perf"
 )
+deprecated_projects = (
+    "azure-resourcemanager-machinelearningservices",
+    "azure-resourcemanager-loadtestservice",
+    "azure-resourcemanager-batchai"
+)
 
 readme_template = """
 # MGMT SDK for azure-json migration
@@ -38,7 +43,7 @@ def main():
         package_dir_segments = package_dir.split("/")
         sdk_name = package_dir_segments[len(package_dir_segments) - 1]
         print(sdk_name)
-        if re.match(".*-generated", package_dir) or sdk_name in exclude_projects:
+        if re.match(".*-generated", package_dir) or sdk_name in exclude_projects or sdk_name in deprecated_projects:
             continue
         if os.path.exists(os.path.join(package_dir, "tsp-location.yaml")):
             typespec = True
@@ -68,7 +73,7 @@ def main():
             "sdk_name": sdk_name,
             "version": version,
             "last_release_date": last_release_date,
-            "typespec": "true" if typespec else "false",
+            "typespec": "yes" if typespec else "no",
             "migration_status": migration_status
         })
     
