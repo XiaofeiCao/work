@@ -1,0 +1,45 @@
+name: MGMT - Generate azure-json migration report
+on:
+  schedule:
+    - cron: 0 18 * * *
+  workflow_dispatch:
+
+jobs:
+  build:
+    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+      deployments: none
+      packages: none
+      pull-requests: none
+      security-events: none
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Checkout azure-sdk-for-java
+        uses: actions/checkout@v4
+        with:
+          repository: azure/azure-sdk-for-java
+          path: azure-sdk-for-java
+
+      - name: Setup python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+      - name: Generate migration report
+        run: |
+          ./scripts/generate_sdk_list.py --sdk-root ./azure-sdk-for-java
+
+      - name: Push report
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "Github Actions"
+          {
+            git add ./sdk_list.md && \
+            git commit -m '[Automation] Generate migration report'
+          } || true
+          git push
