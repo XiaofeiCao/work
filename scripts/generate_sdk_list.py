@@ -34,6 +34,15 @@ Generated At: {date_time}
 |Index|SDK|Version|Last Released|TypeSpec|Migration Status|Swagger|
 |--|--|--|--|--|--|--|"""
 
+not_planned_template = """
+
+## Not planned
+
+### resourcemanagerhybrid
+
+|Index|SDK|Version|Last Released|
+|--|--|--|--|"""
+
 def main():
     (parser, args) = parse_args()
     args = vars(args)
@@ -41,12 +50,16 @@ def main():
     listing = glob.glob(f'{sdk_root}/sdk/*/azure-resourcemanager-*')
     sdk_to_swagger = get_sdk_to_swagger_mapping(sdk_root)
     packages = []
+    resourcemanagerhybrid_packages = []
     for package_dir in listing:
+        not_planned = False
         package_dir_segments = package_dir.split("/")
         sdk_name = package_dir_segments[len(package_dir_segments) - 1]
 
         if re.match(".*-generated", package_dir) or sdk_name in exclude_projects or sdk_name in deprecated_projects:
             continue
+        if re.match(".*resourcemanagerhybrid.*", package_dir):
+            not_planned = True
         if os.path.exists(os.path.join(package_dir, "tsp-location.yaml")):
             typespec = True
         else: 
@@ -75,14 +88,21 @@ def main():
         if package_dir.__contains__("sdk/resourcemanager"):
             swagger = ""
 
-        packages.append({
-            "sdk_name": sdk_name,
-            "version": version,
-            "last_release_date": last_release_date,
-            "typespec": "yes" if typespec else "no",
-            "migration_status": migration_status,
-            "swagger": swagger
-        })
+        if not_planned:
+            resourcemanagerhybrid_packages.append({
+                "sdk_name": sdk_name,
+                "version": version,
+                "last_release_date": last_release_date
+            })
+        else: 
+            packages.append({
+                "sdk_name": sdk_name,
+                "version": version,
+                "last_release_date": last_release_date,
+                "typespec": "yes" if typespec else "no",
+                "migration_status": migration_status,
+                "swagger": swagger
+            })
     
     packages.sort(key=lambda package: package["last_release_date"])
 
@@ -95,6 +115,11 @@ def main():
     for package in packages:
         migration_status = ":white_check_mark:" if package["migration_status"] == "MIGRATED" else ":white_large_square:"
         table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["typespec"]} | { migration_status } | {package["swagger"]} |'
+        index+=1
+    table_content += not_planned_template
+    index=1
+    for hybridsdk in resourcemanagerhybrid_packages:
+        table_content += f'\n|{index}| {hybridsdk["sdk_name"]} | {hybridsdk["version"]} | {hybridsdk["last_release_date"]} |'
         index+=1
     with open(os.path.join(sys.path[0], "../sdk_list.md"), "w") as fout:
         fout.write(table_content)
