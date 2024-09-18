@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2024-09-17 18:17:31.088334
+Generated At: 2024-09-18 18:17:10.219003
 
 ## Summary
 
@@ -202,16 +202,16 @@ Generated At: 2024-09-17 18:17:31.088334
 |188| azure-resourcemanager-keyvault | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
 |189| azure-resourcemanager-appservice | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
 |190| azure-resourcemanager-appplatform | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|191| azure-resourcemanager-cosmos | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|192| azure-resourcemanager-containerregistry | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|193| azure-resourcemanager-storage | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|194| azure-resourcemanager-resources | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|195| azure-resourcemanager-authorization | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|196| azure-resourcemanager-msi | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|197| azure-resourcemanager-azurestackhci | 1.0.0-beta.5 | 2024-08-26 | no | :white_check_mark: | specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI |
-|198| azure-resourcemanager-billing | 1.0.0 | 2024-09-05 | no | :white_check_mark: | billing |
-|199| azure-resourcemanager-qumulo | 1.1.0 | 2024-09-10 | no | :white_check_mark: | liftrqumulo |
-|200| azure-resourcemanager-avs | 1.2.0 | 2024-09-11 | no | :white_check_mark: | vmware |
+|191| azure-resourcemanager-containerregistry | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|192| azure-resourcemanager-storage | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|193| azure-resourcemanager-resources | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|194| azure-resourcemanager-authorization | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|195| azure-resourcemanager-msi | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|196| azure-resourcemanager-azurestackhci | 1.0.0-beta.5 | 2024-08-26 | no | :white_check_mark: | specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI |
+|197| azure-resourcemanager-billing | 1.0.0 | 2024-09-05 | no | :white_check_mark: | billing |
+|198| azure-resourcemanager-qumulo | 1.1.0 | 2024-09-10 | no | :white_check_mark: | liftrqumulo |
+|199| azure-resourcemanager-avs | 1.2.0 | 2024-09-11 | no | :white_check_mark: | vmware |
+|200| azure-resourcemanager-cosmos | 2.43.0-beta.1 | 2024-09-13 | no | :white_check_mark: |  |
 
 ## Not planned
 
