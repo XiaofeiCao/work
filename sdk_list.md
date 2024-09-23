@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2024-09-22 18:15:57.654515
+Generated At: 2024-09-23 18:17:34.402174
 
 ## Summary
 
-- total: 200
-- migrated: 44
+- total: 201
+- migrated: 45
 
 ## Detail
 
@@ -212,6 +212,7 @@ Generated At: 2024-09-22 18:15:57.654515
 |198| azure-resourcemanager-qumulo | 1.1.0 | 2024-09-10 | no | :white_check_mark: | liftrqumulo |
 |199| azure-resourcemanager-avs | 1.2.0 | 2024-09-11 | no | :white_check_mark: | vmware |
 |200| azure-resourcemanager-cosmos | 2.43.0-beta.1 | 2024-09-13 | no | :white_check_mark: |  |
+|201| azure-resourcemanager-fabric | 1.0.0-beta.1 | 2024-09-23 | yes | :white_check_mark: |  |
 
 ## Not planned
 
