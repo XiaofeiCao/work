@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2024-09-23 18:17:34.402174
+Generated At: 2024-09-24 18:17:43.078155
 
 ## Summary
 
@@ -170,49 +170,49 @@ Generated At: 2024-09-23 18:17:34.402174
 |156| azure-resourcemanager-storagemover | 1.2.0 | 2024-06-24 | no | :white_large_square: | storagemover |
 |157| azure-resourcemanager-scvmm | 1.0.0 | 2024-06-26 | no | :white_large_square: | scvmm |
 |158| azure-resourcemanager-appcomplianceautomation | 1.0.0 | 2024-06-27 | no | :white_large_square: | appcomplianceautomation |
-|159| azure-resourcemanager-mongocluster | 1.0.0-beta.1 | 2024-07-01 | yes | :white_check_mark: |  |
-|160| azure-resourcemanager-oracledatabase | 1.0.0 | 2024-07-04 | no | :white_large_square: | oracle |
-|161| azure-resourcemanager-informaticadatamanagement | 1.0.0 | 2024-07-15 | no | :white_check_mark: | informatica |
-|162| azure-resourcemanager-dataprotection | 1.3.0 | 2024-07-22 | no | :white_check_mark: | dataprotection |
-|163| azure-resourcemanager-hybridcompute | 1.0.0-beta.6 | 2024-07-22 | no | :white_check_mark: | hybridcompute |
-|164| azure-resourcemanager-computefleet | 1.0.0-beta.2 | 2024-07-23 | yes | :white_check_mark: |  |
-|165| azure-resourcemanager-servicefabricmanagedclusters | 1.0.0-beta.1 | 2024-07-31 | no | :white_check_mark: | servicefabricmanagedclusters |
-|166| azure-resourcemanager-appcontainers | 1.0.0 | 2024-08-07 | no | :white_check_mark: | app |
-|167| azure-resourcemanager-healthdataaiservices | 1.0.0-beta.1 | 2024-08-14 | yes | :white_check_mark: |  |
-|168| azure-resourcemanager-netapp | 1.4.0 | 2024-08-19 | no | :white_check_mark: | netapp |
-|169| azure-resourcemanager-redhatopenshift | 1.0.0-beta.1 | 2024-08-21 | no | :white_check_mark: | specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/openshiftclusters |
-|170| azure-resourcemanager-datafactory | 1.0.0-beta.30 | 2024-08-21 | no | :white_check_mark: | datafactory |
-|171| azure-resourcemanager-hdinsight | 1.1.0-beta.2 | 2024-08-21 | no | :white_check_mark: | hdinsight |
-|172| azure-resourcemanager-machinelearning | 1.1.0 | 2024-08-22 | no | :white_check_mark: | machinelearningservices |
-|173| azure-resourcemanager-hdinsight-containers | 1.0.0-beta.3 | 2024-08-22 | no | :white_check_mark: | specification/hdinsight/resource-manager/Microsoft.HDInsight/HDInsightOnAks |
-|174| azure-resourcemanager-containerservice | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|175| azure-resourcemanager-monitor | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|176| azure-resourcemanager-containerinstance | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|177| azure-resourcemanager-servicebus | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|178| azure-resourcemanager-sql | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|179| azure-resourcemanager-trafficmanager | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|180| azure-resourcemanager-keyvault | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|181| azure-resourcemanager-msi | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|182| azure-resourcemanager-authorization | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|183| azure-resourcemanager-network | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|184| azure-resourcemanager-search | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|185| azure-resourcemanager-privatedns | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|186| azure-resourcemanager-resources | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|187| azure-resourcemanager-dns | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|188| azure-resourcemanager-storage | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|189| azure-resourcemanager-appservice | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|190| azure-resourcemanager-eventhubs | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|191| azure-resourcemanager-cdn | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|192| azure-resourcemanager-compute | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|193| azure-resourcemanager-containerregistry | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|194| azure-resourcemanager-redis | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|195| azure-resourcemanager-appplatform | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
-|196| azure-resourcemanager-azurestackhci | 1.0.0-beta.5 | 2024-08-26 | no | :white_check_mark: | specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI |
-|197| azure-resourcemanager-billing | 1.0.0 | 2024-09-05 | no | :white_check_mark: | billing |
-|198| azure-resourcemanager-qumulo | 1.1.0 | 2024-09-10 | no | :white_check_mark: | liftrqumulo |
-|199| azure-resourcemanager-avs | 1.2.0 | 2024-09-11 | no | :white_check_mark: | vmware |
-|200| azure-resourcemanager-cosmos | 2.43.0-beta.1 | 2024-09-13 | no | :white_check_mark: |  |
-|201| azure-resourcemanager-fabric | 1.0.0-beta.1 | 2024-09-23 | yes | :white_check_mark: |  |
+|159| azure-resourcemanager-oracledatabase | 1.0.0 | 2024-07-04 | no | :white_large_square: | oracle |
+|160| azure-resourcemanager-informaticadatamanagement | 1.0.0 | 2024-07-15 | no | :white_check_mark: | informatica |
+|161| azure-resourcemanager-dataprotection | 1.3.0 | 2024-07-22 | no | :white_check_mark: | dataprotection |
+|162| azure-resourcemanager-hybridcompute | 1.0.0-beta.6 | 2024-07-22 | no | :white_check_mark: | hybridcompute |
+|163| azure-resourcemanager-computefleet | 1.0.0-beta.2 | 2024-07-23 | yes | :white_check_mark: |  |
+|164| azure-resourcemanager-servicefabricmanagedclusters | 1.0.0-beta.1 | 2024-07-31 | no | :white_check_mark: | servicefabricmanagedclusters |
+|165| azure-resourcemanager-appcontainers | 1.0.0 | 2024-08-07 | no | :white_check_mark: | app |
+|166| azure-resourcemanager-healthdataaiservices | 1.0.0-beta.1 | 2024-08-14 | yes | :white_check_mark: |  |
+|167| azure-resourcemanager-netapp | 1.4.0 | 2024-08-19 | no | :white_check_mark: | netapp |
+|168| azure-resourcemanager-redhatopenshift | 1.0.0-beta.1 | 2024-08-21 | no | :white_check_mark: | specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/openshiftclusters |
+|169| azure-resourcemanager-datafactory | 1.0.0-beta.30 | 2024-08-21 | no | :white_check_mark: | datafactory |
+|170| azure-resourcemanager-hdinsight | 1.1.0-beta.2 | 2024-08-21 | no | :white_check_mark: | hdinsight |
+|171| azure-resourcemanager-machinelearning | 1.1.0 | 2024-08-22 | no | :white_check_mark: | machinelearningservices |
+|172| azure-resourcemanager-hdinsight-containers | 1.0.0-beta.3 | 2024-08-22 | no | :white_check_mark: | specification/hdinsight/resource-manager/Microsoft.HDInsight/HDInsightOnAks |
+|173| azure-resourcemanager-containerservice | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|174| azure-resourcemanager-monitor | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|175| azure-resourcemanager-containerinstance | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|176| azure-resourcemanager-servicebus | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|177| azure-resourcemanager-sql | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|178| azure-resourcemanager-trafficmanager | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|179| azure-resourcemanager-keyvault | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|180| azure-resourcemanager-msi | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|181| azure-resourcemanager-authorization | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|182| azure-resourcemanager-network | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|183| azure-resourcemanager-search | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|184| azure-resourcemanager-privatedns | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|185| azure-resourcemanager-resources | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|186| azure-resourcemanager-dns | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|187| azure-resourcemanager-storage | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|188| azure-resourcemanager-appservice | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|189| azure-resourcemanager-eventhubs | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|190| azure-resourcemanager-cdn | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|191| azure-resourcemanager-compute | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|192| azure-resourcemanager-containerregistry | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|193| azure-resourcemanager-redis | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|194| azure-resourcemanager-appplatform | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |
+|195| azure-resourcemanager-azurestackhci | 1.0.0-beta.5 | 2024-08-26 | no | :white_check_mark: | specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI |
+|196| azure-resourcemanager-billing | 1.0.0 | 2024-09-05 | no | :white_check_mark: | billing |
+|197| azure-resourcemanager-qumulo | 1.1.0 | 2024-09-10 | no | :white_check_mark: | liftrqumulo |
+|198| azure-resourcemanager-avs | 1.2.0 | 2024-09-11 | no | :white_check_mark: | vmware |
+|199| azure-resourcemanager-cosmos | 2.43.0-beta.1 | 2024-09-13 | no | :white_check_mark: |  |
+|200| azure-resourcemanager-fabric | 1.0.0-beta.1 | 2024-09-23 | yes | :white_check_mark: |  |
+|201| azure-resourcemanager-mongocluster | 1.0.0-beta.2 | 2024-09-24 | yes | :white_check_mark: |  |
 
 ## Not planned
 
