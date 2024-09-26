@@ -31,8 +31,8 @@ Generated At: {date_time}
 
 ## Detail
 
-|Index|SDK|Version|Last Released|TypeSpec|Migration Status|Swagger|
-|--|--|--|--|--|--|--|"""
+|Index|SDK|Version|Last Released|TypeSpec|Migration Status|Swagger|Tag|
+|--|--|--|--|--|--|--|--|"""
 
 not_planned_template = """
 
@@ -79,10 +79,16 @@ def main():
         with open(changelog_file, "r") as fin:
             changelog_content = fin.read()
         
-        last_release_date_regex = f'## ([\\-|\w|\\.]+) \\(([\\-|\d]+)\\)'
+        last_release_date_regex = '## ([\\-|\w|\\.]+) \\(([\\-|\d]+)\\)'
         search_result = re.search(last_release_date_regex, changelog_content)
         version = search_result.group(1)
         last_release_date = search_result.group(2)
+
+        if not typespec:
+            package_tag_regex = "\\. Package tag ([\\-|\w]+)\\."
+            tag_search_result = re.search(package_tag_regex, changelog_content)
+            if tag_search_result:
+                tag = tag_search_result.group(1)
 
         swagger = "" if typespec else sdk_to_swagger[sdk_name] if sdk_to_swagger.__contains__(sdk_name) else sdk_name.split("-")[len(sdk_name.split("-"))-1]
         if package_dir.__contains__("sdk/resourcemanager"):
@@ -101,7 +107,8 @@ def main():
                 "last_release_date": last_release_date,
                 "typespec": "yes" if typespec else "no",
                 "migration_status": migration_status,
-                "swagger": swagger
+                "swagger": swagger,
+                "package_tag": tag if not typespec else ""
             })
     
     packages.sort(key=lambda package: package["last_release_date"])
@@ -114,7 +121,7 @@ def main():
     index=1
     for package in packages:
         migration_status = ":white_check_mark:" if package["migration_status"] == "MIGRATED" else ":white_large_square:"
-        table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["typespec"]} | { migration_status } | {package["swagger"]} |'
+        table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["typespec"]} | { migration_status } | {package["swagger"]} | {package["package_tag"]} |'
         index+=1
     table_content += not_planned_template
     index=1
