@@ -86,7 +86,7 @@ def main():
         last_release_date = search_result.group(2)
 
         if not typespec:
-            package_tag_regex = "\\. Package tag ([\\-|\w]+)\\."
+            package_tag_regex = " Package tag ([\\-|\w]+)\\."
             tag_search_result = re.search(package_tag_regex, changelog_content)
             if tag_search_result:
                 tag = tag_search_result.group(1)
