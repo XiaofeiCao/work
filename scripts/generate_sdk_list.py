@@ -53,6 +53,7 @@ def main():
     resourcemanagerhybrid_packages = []
     for package_dir in listing:
         not_planned = False
+        tag = ""
         package_dir_segments = package_dir.split("/")
         sdk_name = package_dir_segments[len(package_dir_segments) - 1]
 
