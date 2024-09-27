@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2024-09-26 18:16:49.808090
+Generated At: 2024-09-27 18:17:37.537883
 
 ## Summary
 
-- total: 202
-- migrated: 50
+- total: 203
+- migrated: 51
 
 ## Detail
 
@@ -179,41 +179,42 @@ Generated At: 2024-09-26 18:16:49.808090
 |165| azure-resourcemanager-hdinsight | 1.1.0-beta.2 | 2024-08-21 | no | :white_check_mark: | hdinsight | package-2024-08-preview |
 |166| azure-resourcemanager-machinelearning | 1.1.0 | 2024-08-22 | no | :white_check_mark: | machinelearningservices | package-2024-04 |
 |167| azure-resourcemanager-hdinsight-containers | 1.0.0-beta.3 | 2024-08-22 | no | :white_check_mark: | specification/hdinsight/resource-manager/Microsoft.HDInsight/HDInsightOnAks | package-preview-2024-05 |
-|168| azure-resourcemanager-containerservice | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|169| azure-resourcemanager-monitor | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|170| azure-resourcemanager-containerinstance | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|171| azure-resourcemanager-servicebus | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|172| azure-resourcemanager-sql | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|173| azure-resourcemanager-trafficmanager | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|174| azure-resourcemanager-keyvault | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|175| azure-resourcemanager-msi | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|176| azure-resourcemanager-authorization | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|177| azure-resourcemanager-network | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|178| azure-resourcemanager-search | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|179| azure-resourcemanager-privatedns | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|180| azure-resourcemanager-resources | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|181| azure-resourcemanager-dns | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|182| azure-resourcemanager-storage | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|183| azure-resourcemanager-appservice | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|184| azure-resourcemanager-eventhubs | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|185| azure-resourcemanager-cdn | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|186| azure-resourcemanager-compute | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|187| azure-resourcemanager-containerregistry | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|188| azure-resourcemanager-redis | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|189| azure-resourcemanager-appplatform | 2.42.0 | 2024-08-23 | no | :white_check_mark: |  |  |
-|190| azure-resourcemanager-azurestackhci | 1.0.0-beta.5 | 2024-08-26 | no | :white_check_mark: | specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI | package-2024-04 |
-|191| azure-resourcemanager-billing | 1.0.0 | 2024-09-05 | no | :white_check_mark: | billing | package-2024-04 |
-|192| azure-resourcemanager-qumulo | 1.1.0 | 2024-09-10 | no | :white_check_mark: | liftrqumulo | package-2024-06-19 |
-|193| azure-resourcemanager-avs | 1.2.0 | 2024-09-11 | no | :white_check_mark: | vmware | package-2023-09-01 |
-|194| azure-resourcemanager-cosmos | 2.43.0-beta.1 | 2024-09-13 | no | :white_check_mark: |  |  |
-|195| azure-resourcemanager-fabric | 1.0.0-beta.1 | 2024-09-23 | yes | :white_check_mark: |  |  |
-|196| azure-resourcemanager-desktopvirtualization | 1.2.0 | 2024-09-25 | no | :white_check_mark: | desktopvirtualization | package-2024-04 |
-|197| azure-resourcemanager-standbypool | 1.0.0 | 2024-09-25 | yes | :white_check_mark: |  |  |
-|198| azure-resourcemanager-mongocluster | 1.0.0 | 2024-09-25 | yes | :white_check_mark: |  |  |
-|199| azure-resourcemanager-computeschedule | 1.0.0-beta.1 | 2024-09-25 | yes | :white_check_mark: |  |  |
-|200| azure-resourcemanager-elasticsan | 1.1.0 | 2024-09-25 | no | :white_check_mark: | elasticsan | package-2024-05 |
-|201| azure-resourcemanager-batch | 2.0.0 | 2024-09-26 | no | :white_check_mark: | batch | package-2024-07 |
-|202| azure-resourcemanager-webpubsub | 1.1.0 | 2024-09-26 | no | :white_check_mark: | webpubsub | package-2024-03-01 |
+|168| azure-resourcemanager-azurestackhci | 1.0.0-beta.5 | 2024-08-26 | no | :white_check_mark: | specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI | package-2024-04 |
+|169| azure-resourcemanager-billing | 1.0.0 | 2024-09-05 | no | :white_check_mark: | billing | package-2024-04 |
+|170| azure-resourcemanager-qumulo | 1.1.0 | 2024-09-10 | no | :white_check_mark: | liftrqumulo | package-2024-06-19 |
+|171| azure-resourcemanager-avs | 1.2.0 | 2024-09-11 | no | :white_check_mark: | vmware | package-2023-09-01 |
+|172| azure-resourcemanager-fabric | 1.0.0-beta.1 | 2024-09-23 | yes | :white_check_mark: |  |  |
+|173| azure-resourcemanager-desktopvirtualization | 1.2.0 | 2024-09-25 | no | :white_check_mark: | desktopvirtualization | package-2024-04 |
+|174| azure-resourcemanager-standbypool | 1.0.0 | 2024-09-25 | yes | :white_check_mark: |  |  |
+|175| azure-resourcemanager-mongocluster | 1.0.0 | 2024-09-25 | yes | :white_check_mark: |  |  |
+|176| azure-resourcemanager-computeschedule | 1.0.0-beta.1 | 2024-09-25 | yes | :white_check_mark: |  |  |
+|177| azure-resourcemanager-elasticsan | 1.1.0 | 2024-09-25 | no | :white_check_mark: | elasticsan | package-2024-05 |
+|178| azure-resourcemanager-batch | 2.0.0 | 2024-09-26 | no | :white_check_mark: | batch | package-2024-07 |
+|179| azure-resourcemanager-webpubsub | 1.1.0 | 2024-09-26 | no | :white_check_mark: | webpubsub | package-2024-03-01 |
+|180| azure-resourcemanager-trustedsigning | 1.0.0-beta.1 | 2024-09-27 | yes | :white_check_mark: |  |  |
+|181| azure-resourcemanager-containerservice | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|182| azure-resourcemanager-monitor | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|183| azure-resourcemanager-containerinstance | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|184| azure-resourcemanager-servicebus | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|185| azure-resourcemanager-sql | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|186| azure-resourcemanager-trafficmanager | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|187| azure-resourcemanager-cosmos | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|188| azure-resourcemanager-keyvault | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|189| azure-resourcemanager-msi | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|190| azure-resourcemanager-authorization | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|191| azure-resourcemanager-network | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|192| azure-resourcemanager-search | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|193| azure-resourcemanager-privatedns | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|194| azure-resourcemanager-resources | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|195| azure-resourcemanager-dns | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|196| azure-resourcemanager-storage | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|197| azure-resourcemanager-appservice | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|198| azure-resourcemanager-eventhubs | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|199| azure-resourcemanager-cdn | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|200| azure-resourcemanager-compute | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|201| azure-resourcemanager-containerregistry | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|202| azure-resourcemanager-redis | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
+|203| azure-resourcemanager-appplatform | 2.43.0 | 2024-09-27 | no | :white_check_mark: |  |  |
 
 ## Not planned
 
