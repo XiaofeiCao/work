@@ -31,7 +31,7 @@ Generated At: {date_time}
 
 ## Detail
 
-|Index|SDK|Version|Last Released|TypeSpec|Migration Status|Swagger|Tag|
+|Index|SDK|Version|Last Released|From|Migration Status|Tag|Swagger|
 |--|--|--|--|--|--|--|--|"""
 
 not_planned_template = """
@@ -54,6 +54,7 @@ def main():
     for package_dir in listing:
         not_planned = False
         tag = ""
+        version = ""
         package_dir_segments = package_dir.split("/")
         sdk_name = package_dir_segments[len(package_dir_segments) - 1]
 
@@ -106,7 +107,7 @@ def main():
                 "sdk_name": sdk_name,
                 "version": version,
                 "last_release_date": last_release_date,
-                "typespec": "yes" if typespec else "no",
+                "from": "TypeSpec" if typespec else "Swagger",
                 "migration_status": migration_status,
                 "swagger": swagger,
                 "package_tag": tag if not typespec else ""
@@ -122,7 +123,7 @@ def main():
     index=1
     for package in packages:
         migration_status = ":white_check_mark:" if package["migration_status"] == "MIGRATED" else ":white_large_square:"
-        table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["typespec"]} | { migration_status } | {package["swagger"]} | {package["package_tag"]} |'
+        table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["from"]} | { migration_status } | {package["package_tag"]} | {package["swagger"]} |'
         index+=1
     table_content += not_planned_template
     index=1
