@@ -16,7 +16,8 @@ exclude_projects = (
 deprecated_projects = (
     "azure-resourcemanager-machinelearningservices",
     "azure-resourcemanager-loadtestservice",
-    "azure-resourcemanager-batchai"
+    "azure-resourcemanager-batchai",
+    "azure-resourcemanager-videoanalyzer"
 )
 
 readme_template = """
@@ -28,11 +29,12 @@ Generated At: {date_time}
 
 - total: {count}
 - migrated: {migrated_count}
+- need javadoc fix: {javadoc_fix}
 
 ## Detail
 
-|Index|SDK|Version|Last Released|From|Migration Status|Tag|Swagger|
-|--|--|--|--|--|--|--|--|"""
+|Index|SDK|Version|Last Released|From|Migration Status|Tag|Swagger|Need Javadoc fix|
+|--|--|--|--|--|--|--|--|--|"""
 
 not_planned_template = """
 
@@ -57,6 +59,7 @@ def main():
         version = ""
         package_dir_segments = package_dir.split("/")
         sdk_name = package_dir_segments[len(package_dir_segments) - 1]
+        javadoc_fix = False
 
         if re.match(".*-generated", package_dir) or sdk_name in exclude_projects or sdk_name in deprecated_projects:
             continue
@@ -71,8 +74,8 @@ def main():
         if not os.path.exists(module_info_file):
              continue
         with open(module_info_file, "r") as fin:
-            pom_content = fin.read()
-            if not pom_content.__contains__("jackson"):
+            module_info_file_content = fin.read()
+            if not module_info_file_content.__contains__("jackson"):
                 migration_status = "MIGRATED"
             else: 
                 migration_status = "NOT_MIGRATED"
@@ -92,6 +95,12 @@ def main():
             if tag_search_result:
                 tag = tag_search_result.group(1)
 
+        pom_file = os.path.join(package_dir, "pom.xml")
+        with open(pom_file, "r") as fin:
+            pom_content = fin.read()
+            if pom_content.__contains__("<doclintMissingInclusion>-</doclintMissingInclusion>"):
+                javadoc_fix = True
+
         swagger = "" if typespec else sdk_to_swagger[sdk_name] if sdk_to_swagger.__contains__(sdk_name) else sdk_name.split("-")[len(sdk_name.split("-"))-1]
         if package_dir.__contains__("sdk/resourcemanager"):
             swagger = ""
@@ -110,7 +119,8 @@ def main():
                 "from": "TypeSpec" if typespec else "Swagger",
                 "migration_status": migration_status,
                 "swagger": swagger,
-                "package_tag": tag if not typespec else ""
+                "package_tag": tag if not typespec else "",
+                "javadoc_fix": javadoc_fix
             })
     
     packages.sort(key=lambda package: package["last_release_date"])
@@ -118,12 +128,13 @@ def main():
     table_content = readme_template\
         .replace("{count}", f'{len(packages)}')\
         .replace("{migrated_count}", f'{len([p for p in packages if p["migration_status"] == "MIGRATED"])}')\
-        .replace("{date_time}", f'{datetime.datetime.now()}')
+        .replace("{date_time}", f'{datetime.datetime.now()}')\
+        .replace("{javadoc_fix}", f'{len([p for p in packages if p["javadoc_fix"] == True])}')
 
     index=1
     for package in packages:
         migration_status = ":white_check_mark:" if package["migration_status"] == "MIGRATED" else ":white_large_square:"
-        table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["from"]} | { migration_status } | {package["package_tag"]} | {package["swagger"]} |'
+        table_content += f'\n|{index}| {package["sdk_name"]} | {package["version"]} | {package["last_release_date"]} | {package["from"]} | { migration_status } | {package["package_tag"]} | {package["swagger"]} | {package["javadoc_fix"]} |'
         index+=1
     table_content += not_planned_template
     index=1
