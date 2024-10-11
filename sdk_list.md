@@ -1,13 +1,13 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2024-10-10 18:17:42.467698
+Generated At: 2024-10-11 18:17:31.500149
 
 ## Summary
 
 - total: 202
-- migrated: 67
-- need javadoc fix: 85
+- migrated: 68
+- need javadoc fix: 84
 
 ## Detail
 
@@ -17,198 +17,198 @@ Generated At: 2024-10-10 18:17:42.467698
 |2| azure-resourcemanager-mysql | 1.0.2 | 2022-01-24 | Swagger | :white_large_square: | package-2020-01-01 | mysql | True |
 |3| azure-resourcemanager-azureadexternalidentities | 1.0.0-beta.1 | 2022-03-31 | Swagger | :white_large_square: | package-2021-04-01 | cpim | True |
 |4| azure-resourcemanager-deviceprovisioningservices | 1.1.0-beta.2 | 2022-07-12 | Swagger | :white_large_square: | package-2022-02 | deviceprovisioningservices | True |
-|5| azure-resourcemanager-relay | 1.0.0-beta.2 | 2022-07-19 | Swagger | :white_large_square: | package-2017-04 | relay | True |
-|6| azure-resourcemanager-agrifood | 1.0.0-beta.1 | 2022-09-07 | Swagger | :white_large_square: | package-preview-2021-09 | agrifood | True |
-|7| azure-resourcemanager-securityinsights | 1.0.0-beta.4 | 2022-09-26 | Swagger | :white_large_square: | package-preview-2022-09 | securityinsights | True |
-|8| azure-resourcemanager-securitydevops | 1.0.0-beta.1 | 2022-10-13 | Swagger | :white_large_square: | package-2022-09-01-preview | securitydevops | True |
-|9| azure-resourcemanager-policyinsights | 1.0.0-beta.3 | 2022-10-14 | Swagger | :white_large_square: | package-2022-09 | policyinsights | True |
-|10| azure-resourcemanager-education | 1.0.0-beta.3 | 2022-10-17 | Swagger | :white_large_square: | package-2021-12-01-preview | education | True |
-|11| azure-resourcemanager-resourcegraph | 1.0.0 | 2022-11-02 | Swagger | :white_large_square: | package-2021-03 | resourcegraph | True |
-|12| azure-resourcemanager-networkfunction | 1.0.0-beta.2 | 2022-11-24 | Swagger | :white_large_square: | package-2022-11-01 | networkfunction | True |
-|13| azure-resourcemanager-advisor | 1.0.0-beta.2 | 2023-01-11 | Swagger | :white_large_square: | package-2020-01 | advisor | True |
-|14| azure-resourcemanager-azurearcdata | 1.0.0-beta.3 | 2023-01-11 | Swagger | :white_large_square: | package-2021-08-01 | azurearcdata | True |
-|15| azure-resourcemanager-attestation | 1.0.0-beta.2 | 2023-01-11 | Swagger | :white_large_square: | package-2020-10-01 | attestation | True |
-|16| azure-resourcemanager-billingbenefits | 1.0.0-beta.1 | 2023-01-11 | Swagger | :white_large_square: | package-2022-11-01 | billingbenefits | True |
-|17| azure-resourcemanager-changeanalysis | 1.0.1 | 2023-01-12 | Swagger | :white_large_square: | package-2021-04-01 | changeanalysis | True |
-|18| azure-resourcemanager-commerce | 1.0.0-beta.2 | 2023-01-12 | Swagger | :white_large_square: | package-2015-06-preview | commerce | True |
-|19| azure-resourcemanager-azurestack | 1.0.0-beta.2 | 2023-01-12 | Swagger | :white_large_square: | package-2022-06 | azurestack | True |
-|20| azure-resourcemanager-hybridkubernetes | 1.0.0-beta.3 | 2023-01-12 | Swagger | :white_large_square: | package-2021-10-01 | hybridkubernetes | True |
-|21| azure-resourcemanager-customerinsights | 1.0.0-beta.2 | 2023-01-13 | Swagger | :white_large_square: | package-2017-04 | customer-insights | True |
-|22| azure-resourcemanager-databoxedge | 1.0.0-beta.2 | 2023-01-13 | Swagger | :white_large_square: | package-2019-08 | databoxedge | True |
-|23| azure-resourcemanager-datalakeanalytics | 1.0.0-beta.2 | 2023-01-13 | Swagger | :white_large_square: | package-2016-11 | datalake-analytics | True |
-|24| azure-resourcemanager-deploymentmanager | 1.0.0-beta.2 | 2023-01-16 | Swagger | :white_large_square: | package-2019-11-01-preview | deploymentmanager | True |
-|25| azure-resourcemanager-datalakestore | 1.0.0-beta.2 | 2023-01-16 | Swagger | :white_large_square: | package-2016-11 | datalake-store | True |
-|26| azure-resourcemanager-hanaonazure | 1.0.0-beta.2 | 2023-01-16 | Swagger | :white_large_square: | package-2017-11 | hanaonazure | True |
-|27| azure-resourcemanager-delegatednetwork | 1.0.0-beta.2 | 2023-01-16 | Swagger | :white_large_square: | package-2021-03-15 | dnc | True |
-|28| azure-resourcemanager-datamigration | 1.0.0-beta.2 | 2023-01-17 | Swagger | :white_large_square: | package-2018-04-19 | datamigration | True |
-|29| azure-resourcemanager-logic | 1.0.0-beta.2 | 2023-01-17 | Swagger | :white_large_square: | package-2019-05 | logic | True |
-|30| azure-resourcemanager-devspaces | 1.0.0-beta.2 | 2023-01-17 | Swagger | :white_large_square: | package-2019-04-01 | devspaces | True |
-|31| azure-resourcemanager-logz | 1.0.0-beta.2 | 2023-01-17 | Swagger | :white_large_square: | package-2020-10-01 | logz | True |
-|32| azure-resourcemanager-operationsmanagement | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2015-11-preview | operationsmanagement | True |
-|33| azure-resourcemanager-purview | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2021-07-01 | purview | True |
-|34| azure-resourcemanager-powerbidedicated | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2021-01-01 | powerbidedicated | True |
-|35| azure-resourcemanager-mixedreality | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2021-01 | mixedreality | True |
-|36| azure-resourcemanager-mariadb | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2020-01-01 | mariadb | True |
-|37| azure-resourcemanager-peering | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2021-01-01 | peering | True |
-|38| azure-resourcemanager-storagepool | 1.0.0-beta.2 | 2023-01-19 | Swagger | :white_large_square: | package-2021-08-01 | storagepool | True |
-|39| azure-resourcemanager-subscription | 1.0.0-beta.2 | 2023-01-19 | Swagger | :white_large_square: | package-2020-09 | subscription | True |
-|40| azure-resourcemanager-vmwarecloudsimple | 1.0.0-beta.2 | 2023-01-19 | Swagger | :white_large_square: | package-2019-04-01 | vmwarecloudsimple | True |
-|41| azure-resourcemanager-storageimportexport | 1.0.0-beta.2 | 2023-01-19 | Swagger | :white_large_square: | package-preview-2021-01 | storageimportexport | True |
-|42| azure-resourcemanager-loadtesting | 1.0.0 | 2023-02-01 | Swagger | :white_large_square: | package-2022-12-01 | loadtestservice | True |
-|43| azure-resourcemanager-synapse | 1.0.0-beta.7 | 2023-02-10 | Swagger | :white_large_square: | package-composite-v2 | synapse | True |
-|44| azure-resourcemanager-mediaservices | 2.4.0-beta.1 | 2023-02-17 | Swagger | :white_large_square: | package-account-2023-01 | mediaservices | True |
-|45| azure-resourcemanager-providerhub | 1.0.0 | 2023-02-20 | Swagger | :white_large_square: | package-2020-11-20 | providerhub | True |
-|46| azure-resourcemanager-timeseriesinsights | 1.0.0-beta.2 | 2023-02-27 | Swagger | :white_large_square: | package-2020-05-15 | timeseriesinsights | True |
-|47| azure-resourcemanager-reservations | 1.0.0-beta.2 | 2023-03-20 | Swagger | :white_large_square: | package-2022-11 | reservations | True |
-|48| azure-resourcemanager-orbital | 1.0.0-beta.2 | 2023-03-21 | Swagger | :white_large_square: | package-2022-11-01 | orbital | True |
-|49| azure-resourcemanager-digitaltwins | 1.2.0 | 2023-03-24 | Swagger | :white_large_square: | package-2023-01 | digitaltwins | True |
-|50| azure-resourcemanager-workloads | 1.0.0 | 2023-04-17 | Swagger | :white_large_square: | package-2023-04 | workloads | True |
-|51| azure-resourcemanager-voiceservices | 1.0.0 | 2023-04-25 | Swagger | :white_large_square: | package-2023-01-31 | voiceservices | True |
-|52| azure-resourcemanager-appconfiguration | 1.0.0-beta.7 | 2023-04-28 | Swagger | :white_large_square: | package-2023-03-01 | appconfiguration | True |
-|53| azure-resourcemanager-devhub | 1.0.0-beta.2 | 2023-05-17 | Swagger | :white_large_square: | package-preview-2022-10 | developerhub | True |
-|54| azure-resourcemanager-costmanagement | 1.0.0-beta.6 | 2023-05-22 | Swagger | :white_large_square: | package-2022-10 | cost-management | True |
-|55| azure-resourcemanager-elastic | 1.0.0-beta.4 | 2023-05-23 | Swagger | :white_large_square: | package-2023-02-01-preview | elastic | True |
-|56| azure-resourcemanager-databox | 1.0.0-beta.3 | 2023-05-23 | Swagger | :white_large_square: | package-2022-12 | databox | True |
-|57| azure-resourcemanager-databricks | 1.0.0-beta.4 | 2023-06-08 | Swagger | :white_large_square: | package-2023-05-01 | databricks | True |
-|58| azure-resourcemanager-sqlvirtualmachine | 1.0.0-beta.4 | 2023-06-13 | Swagger | :white_large_square: | package-preview-2022-08 | sqlvirtualmachine | True |
-|59| azure-resourcemanager-managementgroups | 1.0.0-beta.1 | 2023-06-19 | Swagger | :white_large_square: | package-2021-04 | managementgroups | True |
-|60| azure-resourcemanager-graphservices | 1.0.0 | 2023-06-26 | Swagger | :white_large_square: | package-2023-04-13 | graphservicesprod | True |
-|61| azure-resourcemanager-managednetworkfabric | 1.0.0 | 2023-07-17 | Swagger | :white_large_square: | package-2023-06-15 | managednetworkfabric | True |
-|62| azure-resourcemanager-cognitiveservices | 1.1.0-beta.1 | 2023-07-19 | Swagger | :white_large_square: | package-2023-05 | cognitiveservices | True |
-|63| azure-resourcemanager-defendereasm | 1.0.0-beta.1 | 2023-08-17 | Swagger | :white_large_square: | package-preview-2023-04 | riskiq | False |
-|64| azure-resourcemanager-dynatrace | 1.0.0-beta.3 | 2023-08-22 | Swagger | :white_large_square: | package-2023-04-27 | dynatrace | False |
-|65| azure-resourcemanager-maps | 1.0.0 | 2023-08-22 | Swagger | :white_large_square: | package-2023-06 | maps | False |
-|66| azure-resourcemanager-resourceconnector | 1.0.0 | 2023-08-23 | Swagger | :white_large_square: | package-2022-10-27 | resourceconnector | False |
-|67| azure-resourcemanager-apimanagement | 1.0.0-beta.4 | 2023-08-25 | Swagger | :white_large_square: | package-2022-08 | apimanagement | False |
-|68| azure-resourcemanager-networkcloud | 1.0.0 | 2023-08-25 | Swagger | :white_large_square: | package-2023-07-01 | networkcloud | False |
-|69| azure-resourcemanager-iothub | 1.2.0 | 2023-09-20 | Swagger | :white_large_square: | package-2023-06 | iothub | False |
-|70| azure-resourcemanager-managedapplications | 1.0.0-beta.3 | 2023-09-21 | Swagger | :white_large_square: | package-managedapplications-2021-07 | solutions | False |
-|71| azure-resourcemanager-hybridconnectivity | 1.0.0 | 2023-09-22 | Swagger | :white_large_square: | package-2023-03 | hybridconnectivity | False |
-|72| azure-resourcemanager-kubernetesconfiguration | 1.0.0 | 2023-09-25 | Swagger | :white_large_square: | package-2023-05 | kubernetesconfiguration | False |
-|73| azure-resourcemanager-kusto | 1.0.0 | 2023-10-20 | Swagger | :white_large_square: | package-2023-08 | azure-kusto | False |
-|74| azure-resourcemanager-baremetalinfrastructure | 1.0.0-beta.3 | 2023-10-23 | Swagger | :white_large_square: | package-preview-2023-08 | baremetalinfrastructure | False |
-|75| azure-resourcemanager-signalr | 1.0.0-beta.8 | 2023-10-23 | Swagger | :white_large_square: | package-2023-08-01-preview | signalr | False |
-|76| azure-resourcemanager-datadog | 1.0.0 | 2023-10-23 | Swagger | :white_large_square: | package-2023-01 | datadog | False |
-|77| azure-resourcemanager-resourcemover | 1.1.0 | 2023-10-23 | Swagger | :white_large_square: | package-2023-08-01 | resourcemover | False |
-|78| azure-resourcemanager-recoveryservicesdatareplication | 1.0.0-beta.1 | 2023-10-24 | Swagger | :white_large_square: | package-2021-02-16-preview | recoveryservicesdatareplication | False |
-|79| azure-resourcemanager-loganalytics | 1.0.0 | 2023-10-26 | Swagger | :white_large_square: | package-2022-10 | operationalinsights | False |
-|80| azure-resourcemanager-resourcehealth | 1.1.0-beta.2 | 2023-10-26 | Swagger | :white_large_square: | package-preview-2023-10 | resourcehealth | False |
-|81| azure-resourcemanager-connectedvmware | 1.0.0 | 2023-10-26 | Swagger | :white_large_square: | package-2023-10 | connectedvmware | False |
-|82| azure-resourcemanager-applicationinsights | 1.0.0 | 2023-10-27 | Swagger | :white_large_square: | package-2022-06-15-java | applicationinsights | False |
-|83| azure-resourcemanager-devtestlabs | 1.0.0 | 2023-10-27 | Swagger | :white_large_square: | package-2018-09 | devtestlabs | False |
-|84| azure-resourcemanager-paloaltonetworks-ngfw | 1.1.0 | 2023-11-15 | Swagger | :white_large_square: | package-2023-09-01 | ngfw | False |
-|85| azure-resourcemanager-dashboard | 1.0.0 | 2023-11-16 | Swagger | :white_large_square: | package-2023-09-01 | dashboard | False |
-|86| azure-resourcemanager-hybridnetwork | 1.0.0 | 2023-11-20 | Swagger | :white_large_square: | package-2023-09-01 | hybridnetwork | False |
-|87| azure-resourcemanager-servicefabric | 1.0.0-beta.4 | 2023-12-19 | Swagger | :white_large_square: | package-2021-06 | servicefabric | False |
-|88| azure-resourcemanager-deviceupdate | 1.0.0 | 2023-12-19 | Swagger | :white_large_square: | package-2023-07-01 | deviceupdate | False |
-|89| azure-resourcemanager-streamanalytics | 1.0.0-beta.3 | 2024-01-22 | Swagger | :white_large_square: | package-2021-10-preview | streamanalytics | False |
-|90| azure-resourcemanager-springappdiscovery | 1.0.0-beta.1 | 2024-01-23 | Swagger | :white_large_square: | package-2023-01-01-preview | offazurespringboot | False |
-|91| azure-resourcemanager-hardwaresecuritymodules | 1.0.0-beta.2 | 2024-01-24 | Swagger | :white_large_square: | package-2023-12-preview | hardwaresecuritymodules | False |
-|92| azure-resourcemanager-networkanalytics | 1.0.0 | 2024-01-24 | Swagger | :white_large_square: | package-2023-11-15 | networkanalytics | False |
-|93| azure-resourcemanager-hybridcontainerservice | 1.0.0 | 2024-01-24 | Swagger | :white_large_square: | package-2024-01 | hybridaks | False |
-|94| azure-resourcemanager-apicenter | 1.0.0 | 2024-02-22 | Swagger | :white_large_square: | package-2024-03 | apicenter | False |
-|95| azure-resourcemanager-recoveryservicessiterecovery | 1.1.0 | 2024-02-22 | Swagger | :white_large_square: | package-2023-08 | recoveryservicessiterecovery | False |
-|96| azure-resourcemanager-astro | 1.0.0-beta.1 | 2024-02-22 | Swagger | :white_large_square: | package-2023-08-01 | liftrastronomer | False |
-|97| azure-resourcemanager-largeinstance | 1.0.0-beta.1 | 2024-02-27 | Swagger | :white_large_square: | package-2023-07-20-preview | azurelargeinstance | False |
-|98| azure-resourcemanager-playwrighttesting | 1.0.0-beta.2 | 2024-02-27 | Swagger | :white_large_square: | package-2023-10-01-preview | playwrighttesting | False |
-|99| azure-resourcemanager-cosmosdbforpostgresql | 1.1.0-beta.1 | 2024-03-15 | Swagger | :white_large_square: | package-preview-2023-03 | postgresqlhsc | False |
-|100| azure-resourcemanager-chaos | 1.1.0 | 2024-03-15 | Swagger | :white_large_square: | package-2024-01 | chaos | False |
-|101| azure-resourcemanager-quantum | 1.0.0-beta.2 | 2024-03-15 | Swagger | :white_large_square: | package-2023-11-13-preview | quantum | False |
-|102| azure-resourcemanager-newrelicobservability | 1.1.0 | 2024-03-15 | Swagger | :white_large_square: | package-2024-01-01 | newrelic | False |
-|103| azure-resourcemanager-notificationhubs | 1.0.0-beta.4 | 2024-03-15 | Swagger | :white_large_square: | package-preview-2023-10 | notificationhubs | False |
-|104| azure-resourcemanager-communication | 2.1.0 | 2024-03-18 | Swagger | :white_large_square: | package-2023-04 | communication | False |
-|105| azure-resourcemanager-iotfirmwaredefense | 1.0.0 | 2024-03-18 | Swagger | :white_large_square: | package-2024-01-10 | fist | False |
-|106| azure-resourcemanager-storageactions | 1.0.0-beta.1 | 2024-03-21 | Swagger | :white_large_square: | package-2023-01-01 | storageactions | False |
-|107| azure-resourcemanager-confluent | 1.1.0 | 2024-03-21 | Swagger | :white_large_square: | package-2024-02 | confluent | False |
-|108| azure-resourcemanager-workloadssapvirtualinstance | 1.0.0-beta.1 | 2024-03-22 | Swagger | :white_large_square: | package-preview-2023-10 | specification/workloads/resource-manager/Microsoft.Workloads/SAPVirtualInstance | False |
-|109| azure-resourcemanager-sphere | 1.0.0 | 2024-03-26 | Swagger | :white_large_square: | package-2024-04-01 | sphere | False |
-|110| azure-resourcemanager-migrationdiscoverysap | 1.0.0-beta.1 | 2024-04-09 | Swagger | :white_large_square: | package-preview-2023-10 | specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites | False |
-|111| azure-resourcemanager-frontdoor | 1.0.0 | 2024-04-15 | Swagger | :white_large_square: | package-2024-02 | frontdoor | False |
-|112| azure-resourcemanager-healthcareapis | 1.1.0 | 2024-04-15 | Swagger | :white_large_square: | package-2024-03-31 | healthcareapis | False |
-|113| azure-resourcemanager-postgresqlflexibleserver | 1.1.0-beta.3 | 2024-04-18 | Swagger | :white_large_square: | package-flexibleserver-2023-12-01-preview | postgresql | False |
-|114| azure-resourcemanager-confidentialledger | 1.0.0-beta.4 | 2024-04-23 | Swagger | :white_large_square: | package-preview-2023-06 | confidentialledger | False |
-|115| azure-resourcemanager-support | 1.0.0 | 2024-04-23 | Swagger | :white_large_square: | package-2024-04 | support | False |
-|116| azure-resourcemanager-devcenter | 1.0.0-beta.7 | 2024-04-23 | Swagger | :white_large_square: | package-2024-02 | devcenter | False |
-|117| azure-resourcemanager-quota | 1.1.0-beta.1 | 2024-04-24 | Swagger | :white_large_square: | package-2023-06-01-preview | quota | False |
-|118| azure-resourcemanager-edgezones | 1.0.0-beta.1 | 2024-04-24 | Swagger | :white_large_square: | package-2024-04-01-preview | edgezones | False |
-|119| azure-resourcemanager-deviceregistry | 1.0.0-beta.1 | 2024-04-26 | TypeSpec | :white_check_mark: |  |  | False |
-|120| azure-resourcemanager-eventgrid | 1.2.0-beta.6 | 2024-04-28 | Swagger | :white_large_square: | package-2024-06-preview | eventgrid | False |
-|121| azure-resourcemanager-mysqlflexibleserver | 1.0.0-beta.5 | 2024-04-29 | Swagger | :white_large_square: | package-flexibleserver-2023-12-30 | mysql | False |
-|122| azure-resourcemanager-security | 1.0.0-beta.7 | 2024-05-15 | Swagger | :white_large_square: | package-composite-v3 | security | False |
-|123| azure-resourcemanager-containerservicefleet | 1.1.0 | 2024-05-17 | Swagger | :white_large_square: | package-2024-04 | specification/containerservice/resource-manager/Microsoft.ContainerService/fleet | False |
-|124| azure-resourcemanager-recoveryservices | 1.3.0 | 2024-05-20 | Swagger | :white_large_square: | package-2024-04 | recoveryservices | False |
-|125| azure-resourcemanager-redisenterprise | 2.1.0-beta.1 | 2024-05-20 | Swagger | :white_large_square: | package-preview-2024-03 | redisenterprise | False |
-|126| azure-resourcemanager-nginx | 1.1.0-beta.1 | 2024-05-20 | Swagger | :white_large_square: | package-2024-01-01-preview | nginx | False |
-|127| azure-resourcemanager-storagecache | 1.0.0-beta.11 | 2024-05-20 | Swagger | :white_large_square: | package-2024-03 | storagecache | False |
-|128| azure-resourcemanager-maintenance | 1.1.0-beta.1 | 2024-05-20 | Swagger | :white_large_square: | package-preview-2023-10 | maintenance | False |
-|129| azure-resourcemanager-devopsinfrastructure | 1.0.0-beta.1 | 2024-05-23 | TypeSpec | :white_check_mark: |  |  | False |
-|130| azure-resourcemanager-recoveryservicesbackup | 1.4.0 | 2024-05-23 | Swagger | :white_large_square: | package-2024-04 | recoveryservicesbackup | False |
-|131| azure-resourcemanager-mobilenetwork | 1.2.0 | 2024-06-17 | Swagger | :white_large_square: | package-2024-04 | mobilenetwork | False |
-|132| azure-resourcemanager-imagebuilder | 1.1.0 | 2024-06-21 | Swagger | :white_large_square: | package-2024-02 | imagebuilder | False |
-|133| azure-resourcemanager-selfhelp | 1.1.0-beta.5 | 2024-06-21 | Swagger | :white_large_square: | package-2024-03-01-preview | help | False |
-|134| azure-resourcemanager-storagemover | 1.2.0 | 2024-06-24 | Swagger | :white_large_square: | package-2024-07 | storagemover | False |
-|135| azure-resourcemanager-scvmm | 1.0.0 | 2024-06-26 | Swagger | :white_large_square: | package-2023-10 | scvmm | False |
-|136| azure-resourcemanager-appcomplianceautomation | 1.0.0 | 2024-06-27 | Swagger | :white_large_square: | package-2024-06 | appcomplianceautomation | False |
-|137| azure-resourcemanager-oracledatabase | 1.0.0 | 2024-07-04 | Swagger | :white_large_square: | package-2023-09-01 | oracle | False |
-|138| azure-resourcemanager-informaticadatamanagement | 1.0.0 | 2024-07-15 | Swagger | :white_check_mark: | package-2024-05-08 | informatica | False |
-|139| azure-resourcemanager-hybridcompute | 1.0.0-beta.6 | 2024-07-22 | Swagger | :white_check_mark: | package-preview-2024-05 | hybridcompute | False |
-|140| azure-resourcemanager-dataprotection | 1.3.0 | 2024-07-22 | Swagger | :white_check_mark: | package-2024-04 | dataprotection | False |
-|141| azure-resourcemanager-computefleet | 1.0.0-beta.2 | 2024-07-23 | TypeSpec | :white_check_mark: |  |  | False |
-|142| azure-resourcemanager-servicefabricmanagedclusters | 1.0.0-beta.1 | 2024-07-31 | Swagger | :white_check_mark: | package-2024-04 | servicefabricmanagedclusters | False |
-|143| azure-resourcemanager-appcontainers | 1.0.0 | 2024-08-07 | Swagger | :white_check_mark: | package-2024-03 | app | False |
-|144| azure-resourcemanager-healthdataaiservices | 1.0.0-beta.1 | 2024-08-14 | TypeSpec | :white_check_mark: |  |  | False |
-|145| azure-resourcemanager-netapp | 1.4.0 | 2024-08-19 | Swagger | :white_check_mark: | package-2024-03 | netapp | False |
-|146| azure-resourcemanager-datafactory | 1.0.0-beta.30 | 2024-08-21 | Swagger | :white_check_mark: | package-2018-06 | datafactory | False |
-|147| azure-resourcemanager-hdinsight | 1.1.0-beta.2 | 2024-08-21 | Swagger | :white_check_mark: | package-2024-08-preview | hdinsight | False |
-|148| azure-resourcemanager-redhatopenshift | 1.0.0-beta.1 | 2024-08-21 | Swagger | :white_check_mark: | package-2023-11 | specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/openshiftclusters | False |
-|149| azure-resourcemanager-machinelearning | 1.1.0 | 2024-08-22 | Swagger | :white_check_mark: | package-2024-04 | machinelearningservices | False |
-|150| azure-resourcemanager-hdinsight-containers | 1.0.0-beta.3 | 2024-08-22 | Swagger | :white_check_mark: | package-preview-2024-05 | specification/hdinsight/resource-manager/Microsoft.HDInsight/HDInsightOnAks | False |
-|151| azure-resourcemanager-azurestackhci | 1.0.0-beta.5 | 2024-08-26 | Swagger | :white_check_mark: | package-2024-04 | specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI | False |
-|152| azure-resourcemanager-billing | 1.0.0 | 2024-09-05 | Swagger | :white_check_mark: | package-2024-04 | billing | False |
-|153| azure-resourcemanager-qumulo | 1.1.0 | 2024-09-10 | Swagger | :white_check_mark: | package-2024-06-19 | liftrqumulo | False |
-|154| azure-resourcemanager-avs | 1.2.0 | 2024-09-11 | Swagger | :white_check_mark: | package-2023-09-01 | vmware | False |
-|155| azure-resourcemanager-fabric | 1.0.0-beta.1 | 2024-09-23 | TypeSpec | :white_check_mark: |  |  | False |
-|156| azure-resourcemanager-mongocluster | 1.0.0 | 2024-09-25 | TypeSpec | :white_check_mark: |  |  | False |
-|157| azure-resourcemanager-computeschedule | 1.0.0-beta.1 | 2024-09-25 | TypeSpec | :white_check_mark: |  |  | False |
-|158| azure-resourcemanager-desktopvirtualization | 1.2.0 | 2024-09-25 | Swagger | :white_check_mark: | package-2024-04 | desktopvirtualization | False |
-|159| azure-resourcemanager-elasticsan | 1.1.0 | 2024-09-25 | Swagger | :white_check_mark: | package-2024-05 | elasticsan | False |
-|160| azure-resourcemanager-standbypool | 1.0.0 | 2024-09-25 | TypeSpec | :white_check_mark: |  |  | False |
-|161| azure-resourcemanager-batch | 2.0.0 | 2024-09-26 | Swagger | :white_check_mark: | package-2024-07 | batch | False |
-|162| azure-resourcemanager-webpubsub | 1.1.0 | 2024-09-26 | Swagger | :white_check_mark: | package-2024-03-01 | webpubsub | False |
-|163| azure-resourcemanager-trustedsigning | 1.0.0-beta.1 | 2024-09-27 | TypeSpec | :white_check_mark: |  |  | False |
-|164| azure-resourcemanager-msi | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|165| azure-resourcemanager-trafficmanager | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|166| azure-resourcemanager-cosmos | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|167| azure-resourcemanager-redis | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|168| azure-resourcemanager-dns | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|169| azure-resourcemanager-appservice | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|170| azure-resourcemanager-keyvault | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|171| azure-resourcemanager-containerservice | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|172| azure-resourcemanager-storage | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|173| azure-resourcemanager-sql | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|174| azure-resourcemanager-resources | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|175| azure-resourcemanager-containerregistry | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|176| azure-resourcemanager-servicebus | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|177| azure-resourcemanager-appplatform | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|178| azure-resourcemanager-compute | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|179| azure-resourcemanager-cdn | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|180| azure-resourcemanager-monitor | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|181| azure-resourcemanager-search | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|182| azure-resourcemanager-network | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|183| azure-resourcemanager-eventhubs | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|184| azure-resourcemanager-authorization | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|185| azure-resourcemanager-privatedns | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
-|186| azure-resourcemanager-servicenetworking | 1.1.0-beta.1 | 2024-09-30 | Swagger | :white_check_mark: | 2024-05-01-preview | servicenetworking | False |
-|187| azure-resourcemanager-consumption | 1.0.0-beta.4 | 2024-10-04 | Swagger | :white_check_mark: | package-2021-10 | consumption | False |
-|188| azure-resourcemanager-edgeorder | 1.0.0-beta.2 | 2024-10-06 | Swagger | :white_check_mark: | package-2021-12 | edgeorder | False |
-|189| azure-resourcemanager-containerinstance | 2.44.0-beta.1 | 2024-10-08 | Swagger | :white_check_mark: |  |  | True |
-|190| azure-resourcemanager-fluidrelay | 1.1.0 | 2024-10-08 | Swagger | :white_check_mark: | package-2022-06-01 | fluidrelay | False |
-|191| azure-resourcemanager-iotcentral | 1.1.0-beta.2 | 2024-10-09 | Swagger | :white_check_mark: | package-preview-2021-11 | iotcentral | False |
-|192| azure-resourcemanager-servicelinker | 1.0.0-beta.4 | 2024-10-09 | Swagger | :white_check_mark: | package-2024-07-01-preview | servicelinker | False |
-|193| azure-resourcemanager-marketplaceordering | 1.0.0-beta.3 | 2024-10-09 | Swagger | :white_check_mark: | package-2021-01-01 | marketplaceordering | False |
-|194| azure-resourcemanager-botservice | 1.0.0-beta.6 | 2024-10-09 | Swagger | :white_check_mark: | package-preview-2021-05 | botservice | False |
-|195| azure-resourcemanager-oep | 1.0.0-beta.2 | 2024-10-09 | Swagger | :white_check_mark: | package-2021-06-01-preview | oep | False |
-|196| azure-resourcemanager-alertsmanagement | 1.0.0-beta.2 | 2024-10-10 | Swagger | :white_check_mark: | package-2021-08 | alertsmanagement | False |
+|5| azure-resourcemanager-agrifood | 1.0.0-beta.1 | 2022-09-07 | Swagger | :white_large_square: | package-preview-2021-09 | agrifood | True |
+|6| azure-resourcemanager-securityinsights | 1.0.0-beta.4 | 2022-09-26 | Swagger | :white_large_square: | package-preview-2022-09 | securityinsights | True |
+|7| azure-resourcemanager-securitydevops | 1.0.0-beta.1 | 2022-10-13 | Swagger | :white_large_square: | package-2022-09-01-preview | securitydevops | True |
+|8| azure-resourcemanager-policyinsights | 1.0.0-beta.3 | 2022-10-14 | Swagger | :white_large_square: | package-2022-09 | policyinsights | True |
+|9| azure-resourcemanager-education | 1.0.0-beta.3 | 2022-10-17 | Swagger | :white_large_square: | package-2021-12-01-preview | education | True |
+|10| azure-resourcemanager-resourcegraph | 1.0.0 | 2022-11-02 | Swagger | :white_large_square: | package-2021-03 | resourcegraph | True |
+|11| azure-resourcemanager-networkfunction | 1.0.0-beta.2 | 2022-11-24 | Swagger | :white_large_square: | package-2022-11-01 | networkfunction | True |
+|12| azure-resourcemanager-advisor | 1.0.0-beta.2 | 2023-01-11 | Swagger | :white_large_square: | package-2020-01 | advisor | True |
+|13| azure-resourcemanager-azurearcdata | 1.0.0-beta.3 | 2023-01-11 | Swagger | :white_large_square: | package-2021-08-01 | azurearcdata | True |
+|14| azure-resourcemanager-attestation | 1.0.0-beta.2 | 2023-01-11 | Swagger | :white_large_square: | package-2020-10-01 | attestation | True |
+|15| azure-resourcemanager-billingbenefits | 1.0.0-beta.1 | 2023-01-11 | Swagger | :white_large_square: | package-2022-11-01 | billingbenefits | True |
+|16| azure-resourcemanager-changeanalysis | 1.0.1 | 2023-01-12 | Swagger | :white_large_square: | package-2021-04-01 | changeanalysis | True |
+|17| azure-resourcemanager-commerce | 1.0.0-beta.2 | 2023-01-12 | Swagger | :white_large_square: | package-2015-06-preview | commerce | True |
+|18| azure-resourcemanager-azurestack | 1.0.0-beta.2 | 2023-01-12 | Swagger | :white_large_square: | package-2022-06 | azurestack | True |
+|19| azure-resourcemanager-hybridkubernetes | 1.0.0-beta.3 | 2023-01-12 | Swagger | :white_large_square: | package-2021-10-01 | hybridkubernetes | True |
+|20| azure-resourcemanager-customerinsights | 1.0.0-beta.2 | 2023-01-13 | Swagger | :white_large_square: | package-2017-04 | customer-insights | True |
+|21| azure-resourcemanager-databoxedge | 1.0.0-beta.2 | 2023-01-13 | Swagger | :white_large_square: | package-2019-08 | databoxedge | True |
+|22| azure-resourcemanager-datalakeanalytics | 1.0.0-beta.2 | 2023-01-13 | Swagger | :white_large_square: | package-2016-11 | datalake-analytics | True |
+|23| azure-resourcemanager-deploymentmanager | 1.0.0-beta.2 | 2023-01-16 | Swagger | :white_large_square: | package-2019-11-01-preview | deploymentmanager | True |
+|24| azure-resourcemanager-datalakestore | 1.0.0-beta.2 | 2023-01-16 | Swagger | :white_large_square: | package-2016-11 | datalake-store | True |
+|25| azure-resourcemanager-hanaonazure | 1.0.0-beta.2 | 2023-01-16 | Swagger | :white_large_square: | package-2017-11 | hanaonazure | True |
+|26| azure-resourcemanager-delegatednetwork | 1.0.0-beta.2 | 2023-01-16 | Swagger | :white_large_square: | package-2021-03-15 | dnc | True |
+|27| azure-resourcemanager-datamigration | 1.0.0-beta.2 | 2023-01-17 | Swagger | :white_large_square: | package-2018-04-19 | datamigration | True |
+|28| azure-resourcemanager-logic | 1.0.0-beta.2 | 2023-01-17 | Swagger | :white_large_square: | package-2019-05 | logic | True |
+|29| azure-resourcemanager-devspaces | 1.0.0-beta.2 | 2023-01-17 | Swagger | :white_large_square: | package-2019-04-01 | devspaces | True |
+|30| azure-resourcemanager-logz | 1.0.0-beta.2 | 2023-01-17 | Swagger | :white_large_square: | package-2020-10-01 | logz | True |
+|31| azure-resourcemanager-operationsmanagement | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2015-11-preview | operationsmanagement | True |
+|32| azure-resourcemanager-purview | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2021-07-01 | purview | True |
+|33| azure-resourcemanager-powerbidedicated | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2021-01-01 | powerbidedicated | True |
+|34| azure-resourcemanager-mixedreality | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2021-01 | mixedreality | True |
+|35| azure-resourcemanager-mariadb | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2020-01-01 | mariadb | True |
+|36| azure-resourcemanager-peering | 1.0.0-beta.2 | 2023-01-18 | Swagger | :white_large_square: | package-2021-01-01 | peering | True |
+|37| azure-resourcemanager-storagepool | 1.0.0-beta.2 | 2023-01-19 | Swagger | :white_large_square: | package-2021-08-01 | storagepool | True |
+|38| azure-resourcemanager-subscription | 1.0.0-beta.2 | 2023-01-19 | Swagger | :white_large_square: | package-2020-09 | subscription | True |
+|39| azure-resourcemanager-vmwarecloudsimple | 1.0.0-beta.2 | 2023-01-19 | Swagger | :white_large_square: | package-2019-04-01 | vmwarecloudsimple | True |
+|40| azure-resourcemanager-storageimportexport | 1.0.0-beta.2 | 2023-01-19 | Swagger | :white_large_square: | package-preview-2021-01 | storageimportexport | True |
+|41| azure-resourcemanager-loadtesting | 1.0.0 | 2023-02-01 | Swagger | :white_large_square: | package-2022-12-01 | loadtestservice | True |
+|42| azure-resourcemanager-synapse | 1.0.0-beta.7 | 2023-02-10 | Swagger | :white_large_square: | package-composite-v2 | synapse | True |
+|43| azure-resourcemanager-mediaservices | 2.4.0-beta.1 | 2023-02-17 | Swagger | :white_large_square: | package-account-2023-01 | mediaservices | True |
+|44| azure-resourcemanager-providerhub | 1.0.0 | 2023-02-20 | Swagger | :white_large_square: | package-2020-11-20 | providerhub | True |
+|45| azure-resourcemanager-timeseriesinsights | 1.0.0-beta.2 | 2023-02-27 | Swagger | :white_large_square: | package-2020-05-15 | timeseriesinsights | True |
+|46| azure-resourcemanager-reservations | 1.0.0-beta.2 | 2023-03-20 | Swagger | :white_large_square: | package-2022-11 | reservations | True |
+|47| azure-resourcemanager-orbital | 1.0.0-beta.2 | 2023-03-21 | Swagger | :white_large_square: | package-2022-11-01 | orbital | True |
+|48| azure-resourcemanager-digitaltwins | 1.2.0 | 2023-03-24 | Swagger | :white_large_square: | package-2023-01 | digitaltwins | True |
+|49| azure-resourcemanager-workloads | 1.0.0 | 2023-04-17 | Swagger | :white_large_square: | package-2023-04 | workloads | True |
+|50| azure-resourcemanager-voiceservices | 1.0.0 | 2023-04-25 | Swagger | :white_large_square: | package-2023-01-31 | voiceservices | True |
+|51| azure-resourcemanager-appconfiguration | 1.0.0-beta.7 | 2023-04-28 | Swagger | :white_large_square: | package-2023-03-01 | appconfiguration | True |
+|52| azure-resourcemanager-devhub | 1.0.0-beta.2 | 2023-05-17 | Swagger | :white_large_square: | package-preview-2022-10 | developerhub | True |
+|53| azure-resourcemanager-costmanagement | 1.0.0-beta.6 | 2023-05-22 | Swagger | :white_large_square: | package-2022-10 | cost-management | True |
+|54| azure-resourcemanager-elastic | 1.0.0-beta.4 | 2023-05-23 | Swagger | :white_large_square: | package-2023-02-01-preview | elastic | True |
+|55| azure-resourcemanager-databox | 1.0.0-beta.3 | 2023-05-23 | Swagger | :white_large_square: | package-2022-12 | databox | True |
+|56| azure-resourcemanager-databricks | 1.0.0-beta.4 | 2023-06-08 | Swagger | :white_large_square: | package-2023-05-01 | databricks | True |
+|57| azure-resourcemanager-sqlvirtualmachine | 1.0.0-beta.4 | 2023-06-13 | Swagger | :white_large_square: | package-preview-2022-08 | sqlvirtualmachine | True |
+|58| azure-resourcemanager-managementgroups | 1.0.0-beta.1 | 2023-06-19 | Swagger | :white_large_square: | package-2021-04 | managementgroups | True |
+|59| azure-resourcemanager-graphservices | 1.0.0 | 2023-06-26 | Swagger | :white_large_square: | package-2023-04-13 | graphservicesprod | True |
+|60| azure-resourcemanager-managednetworkfabric | 1.0.0 | 2023-07-17 | Swagger | :white_large_square: | package-2023-06-15 | managednetworkfabric | True |
+|61| azure-resourcemanager-cognitiveservices | 1.1.0-beta.1 | 2023-07-19 | Swagger | :white_large_square: | package-2023-05 | cognitiveservices | True |
+|62| azure-resourcemanager-defendereasm | 1.0.0-beta.1 | 2023-08-17 | Swagger | :white_large_square: | package-preview-2023-04 | riskiq | False |
+|63| azure-resourcemanager-dynatrace | 1.0.0-beta.3 | 2023-08-22 | Swagger | :white_large_square: | package-2023-04-27 | dynatrace | False |
+|64| azure-resourcemanager-maps | 1.0.0 | 2023-08-22 | Swagger | :white_large_square: | package-2023-06 | maps | False |
+|65| azure-resourcemanager-resourceconnector | 1.0.0 | 2023-08-23 | Swagger | :white_large_square: | package-2022-10-27 | resourceconnector | False |
+|66| azure-resourcemanager-apimanagement | 1.0.0-beta.4 | 2023-08-25 | Swagger | :white_large_square: | package-2022-08 | apimanagement | False |
+|67| azure-resourcemanager-networkcloud | 1.0.0 | 2023-08-25 | Swagger | :white_large_square: | package-2023-07-01 | networkcloud | False |
+|68| azure-resourcemanager-iothub | 1.2.0 | 2023-09-20 | Swagger | :white_large_square: | package-2023-06 | iothub | False |
+|69| azure-resourcemanager-managedapplications | 1.0.0-beta.3 | 2023-09-21 | Swagger | :white_large_square: | package-managedapplications-2021-07 | solutions | False |
+|70| azure-resourcemanager-hybridconnectivity | 1.0.0 | 2023-09-22 | Swagger | :white_large_square: | package-2023-03 | hybridconnectivity | False |
+|71| azure-resourcemanager-kubernetesconfiguration | 1.0.0 | 2023-09-25 | Swagger | :white_large_square: | package-2023-05 | kubernetesconfiguration | False |
+|72| azure-resourcemanager-kusto | 1.0.0 | 2023-10-20 | Swagger | :white_large_square: | package-2023-08 | azure-kusto | False |
+|73| azure-resourcemanager-baremetalinfrastructure | 1.0.0-beta.3 | 2023-10-23 | Swagger | :white_large_square: | package-preview-2023-08 | baremetalinfrastructure | False |
+|74| azure-resourcemanager-signalr | 1.0.0-beta.8 | 2023-10-23 | Swagger | :white_large_square: | package-2023-08-01-preview | signalr | False |
+|75| azure-resourcemanager-datadog | 1.0.0 | 2023-10-23 | Swagger | :white_large_square: | package-2023-01 | datadog | False |
+|76| azure-resourcemanager-resourcemover | 1.1.0 | 2023-10-23 | Swagger | :white_large_square: | package-2023-08-01 | resourcemover | False |
+|77| azure-resourcemanager-recoveryservicesdatareplication | 1.0.0-beta.1 | 2023-10-24 | Swagger | :white_large_square: | package-2021-02-16-preview | recoveryservicesdatareplication | False |
+|78| azure-resourcemanager-loganalytics | 1.0.0 | 2023-10-26 | Swagger | :white_large_square: | package-2022-10 | operationalinsights | False |
+|79| azure-resourcemanager-resourcehealth | 1.1.0-beta.2 | 2023-10-26 | Swagger | :white_large_square: | package-preview-2023-10 | resourcehealth | False |
+|80| azure-resourcemanager-connectedvmware | 1.0.0 | 2023-10-26 | Swagger | :white_large_square: | package-2023-10 | connectedvmware | False |
+|81| azure-resourcemanager-applicationinsights | 1.0.0 | 2023-10-27 | Swagger | :white_large_square: | package-2022-06-15-java | applicationinsights | False |
+|82| azure-resourcemanager-devtestlabs | 1.0.0 | 2023-10-27 | Swagger | :white_large_square: | package-2018-09 | devtestlabs | False |
+|83| azure-resourcemanager-paloaltonetworks-ngfw | 1.1.0 | 2023-11-15 | Swagger | :white_large_square: | package-2023-09-01 | ngfw | False |
+|84| azure-resourcemanager-dashboard | 1.0.0 | 2023-11-16 | Swagger | :white_large_square: | package-2023-09-01 | dashboard | False |
+|85| azure-resourcemanager-hybridnetwork | 1.0.0 | 2023-11-20 | Swagger | :white_large_square: | package-2023-09-01 | hybridnetwork | False |
+|86| azure-resourcemanager-servicefabric | 1.0.0-beta.4 | 2023-12-19 | Swagger | :white_large_square: | package-2021-06 | servicefabric | False |
+|87| azure-resourcemanager-deviceupdate | 1.0.0 | 2023-12-19 | Swagger | :white_large_square: | package-2023-07-01 | deviceupdate | False |
+|88| azure-resourcemanager-streamanalytics | 1.0.0-beta.3 | 2024-01-22 | Swagger | :white_large_square: | package-2021-10-preview | streamanalytics | False |
+|89| azure-resourcemanager-springappdiscovery | 1.0.0-beta.1 | 2024-01-23 | Swagger | :white_large_square: | package-2023-01-01-preview | offazurespringboot | False |
+|90| azure-resourcemanager-hardwaresecuritymodules | 1.0.0-beta.2 | 2024-01-24 | Swagger | :white_large_square: | package-2023-12-preview | hardwaresecuritymodules | False |
+|91| azure-resourcemanager-networkanalytics | 1.0.0 | 2024-01-24 | Swagger | :white_large_square: | package-2023-11-15 | networkanalytics | False |
+|92| azure-resourcemanager-hybridcontainerservice | 1.0.0 | 2024-01-24 | Swagger | :white_large_square: | package-2024-01 | hybridaks | False |
+|93| azure-resourcemanager-apicenter | 1.0.0 | 2024-02-22 | Swagger | :white_large_square: | package-2024-03 | apicenter | False |
+|94| azure-resourcemanager-recoveryservicessiterecovery | 1.1.0 | 2024-02-22 | Swagger | :white_large_square: | package-2023-08 | recoveryservicessiterecovery | False |
+|95| azure-resourcemanager-astro | 1.0.0-beta.1 | 2024-02-22 | Swagger | :white_large_square: | package-2023-08-01 | liftrastronomer | False |
+|96| azure-resourcemanager-largeinstance | 1.0.0-beta.1 | 2024-02-27 | Swagger | :white_large_square: | package-2023-07-20-preview | azurelargeinstance | False |
+|97| azure-resourcemanager-playwrighttesting | 1.0.0-beta.2 | 2024-02-27 | Swagger | :white_large_square: | package-2023-10-01-preview | playwrighttesting | False |
+|98| azure-resourcemanager-cosmosdbforpostgresql | 1.1.0-beta.1 | 2024-03-15 | Swagger | :white_large_square: | package-preview-2023-03 | postgresqlhsc | False |
+|99| azure-resourcemanager-chaos | 1.1.0 | 2024-03-15 | Swagger | :white_large_square: | package-2024-01 | chaos | False |
+|100| azure-resourcemanager-quantum | 1.0.0-beta.2 | 2024-03-15 | Swagger | :white_large_square: | package-2023-11-13-preview | quantum | False |
+|101| azure-resourcemanager-newrelicobservability | 1.1.0 | 2024-03-15 | Swagger | :white_large_square: | package-2024-01-01 | newrelic | False |
+|102| azure-resourcemanager-notificationhubs | 1.0.0-beta.4 | 2024-03-15 | Swagger | :white_large_square: | package-preview-2023-10 | notificationhubs | False |
+|103| azure-resourcemanager-communication | 2.1.0 | 2024-03-18 | Swagger | :white_large_square: | package-2023-04 | communication | False |
+|104| azure-resourcemanager-iotfirmwaredefense | 1.0.0 | 2024-03-18 | Swagger | :white_large_square: | package-2024-01-10 | fist | False |
+|105| azure-resourcemanager-storageactions | 1.0.0-beta.1 | 2024-03-21 | Swagger | :white_large_square: | package-2023-01-01 | storageactions | False |
+|106| azure-resourcemanager-confluent | 1.1.0 | 2024-03-21 | Swagger | :white_large_square: | package-2024-02 | confluent | False |
+|107| azure-resourcemanager-workloadssapvirtualinstance | 1.0.0-beta.1 | 2024-03-22 | Swagger | :white_large_square: | package-preview-2023-10 | specification/workloads/resource-manager/Microsoft.Workloads/SAPVirtualInstance | False |
+|108| azure-resourcemanager-sphere | 1.0.0 | 2024-03-26 | Swagger | :white_large_square: | package-2024-04-01 | sphere | False |
+|109| azure-resourcemanager-migrationdiscoverysap | 1.0.0-beta.1 | 2024-04-09 | Swagger | :white_large_square: | package-preview-2023-10 | specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites | False |
+|110| azure-resourcemanager-frontdoor | 1.0.0 | 2024-04-15 | Swagger | :white_large_square: | package-2024-02 | frontdoor | False |
+|111| azure-resourcemanager-healthcareapis | 1.1.0 | 2024-04-15 | Swagger | :white_large_square: | package-2024-03-31 | healthcareapis | False |
+|112| azure-resourcemanager-postgresqlflexibleserver | 1.1.0-beta.3 | 2024-04-18 | Swagger | :white_large_square: | package-flexibleserver-2023-12-01-preview | postgresql | False |
+|113| azure-resourcemanager-confidentialledger | 1.0.0-beta.4 | 2024-04-23 | Swagger | :white_large_square: | package-preview-2023-06 | confidentialledger | False |
+|114| azure-resourcemanager-support | 1.0.0 | 2024-04-23 | Swagger | :white_large_square: | package-2024-04 | support | False |
+|115| azure-resourcemanager-devcenter | 1.0.0-beta.7 | 2024-04-23 | Swagger | :white_large_square: | package-2024-02 | devcenter | False |
+|116| azure-resourcemanager-quota | 1.1.0-beta.1 | 2024-04-24 | Swagger | :white_large_square: | package-2023-06-01-preview | quota | False |
+|117| azure-resourcemanager-edgezones | 1.0.0-beta.1 | 2024-04-24 | Swagger | :white_large_square: | package-2024-04-01-preview | edgezones | False |
+|118| azure-resourcemanager-deviceregistry | 1.0.0-beta.1 | 2024-04-26 | TypeSpec | :white_check_mark: |  |  | False |
+|119| azure-resourcemanager-eventgrid | 1.2.0-beta.6 | 2024-04-28 | Swagger | :white_large_square: | package-2024-06-preview | eventgrid | False |
+|120| azure-resourcemanager-mysqlflexibleserver | 1.0.0-beta.5 | 2024-04-29 | Swagger | :white_large_square: | package-flexibleserver-2023-12-30 | mysql | False |
+|121| azure-resourcemanager-security | 1.0.0-beta.7 | 2024-05-15 | Swagger | :white_large_square: | package-composite-v3 | security | False |
+|122| azure-resourcemanager-containerservicefleet | 1.1.0 | 2024-05-17 | Swagger | :white_large_square: | package-2024-04 | specification/containerservice/resource-manager/Microsoft.ContainerService/fleet | False |
+|123| azure-resourcemanager-recoveryservices | 1.3.0 | 2024-05-20 | Swagger | :white_large_square: | package-2024-04 | recoveryservices | False |
+|124| azure-resourcemanager-redisenterprise | 2.1.0-beta.1 | 2024-05-20 | Swagger | :white_large_square: | package-preview-2024-03 | redisenterprise | False |
+|125| azure-resourcemanager-nginx | 1.1.0-beta.1 | 2024-05-20 | Swagger | :white_large_square: | package-2024-01-01-preview | nginx | False |
+|126| azure-resourcemanager-storagecache | 1.0.0-beta.11 | 2024-05-20 | Swagger | :white_large_square: | package-2024-03 | storagecache | False |
+|127| azure-resourcemanager-maintenance | 1.1.0-beta.1 | 2024-05-20 | Swagger | :white_large_square: | package-preview-2023-10 | maintenance | False |
+|128| azure-resourcemanager-devopsinfrastructure | 1.0.0-beta.1 | 2024-05-23 | TypeSpec | :white_check_mark: |  |  | False |
+|129| azure-resourcemanager-recoveryservicesbackup | 1.4.0 | 2024-05-23 | Swagger | :white_large_square: | package-2024-04 | recoveryservicesbackup | False |
+|130| azure-resourcemanager-mobilenetwork | 1.2.0 | 2024-06-17 | Swagger | :white_large_square: | package-2024-04 | mobilenetwork | False |
+|131| azure-resourcemanager-imagebuilder | 1.1.0 | 2024-06-21 | Swagger | :white_large_square: | package-2024-02 | imagebuilder | False |
+|132| azure-resourcemanager-selfhelp | 1.1.0-beta.5 | 2024-06-21 | Swagger | :white_large_square: | package-2024-03-01-preview | help | False |
+|133| azure-resourcemanager-storagemover | 1.2.0 | 2024-06-24 | Swagger | :white_large_square: | package-2024-07 | storagemover | False |
+|134| azure-resourcemanager-scvmm | 1.0.0 | 2024-06-26 | Swagger | :white_large_square: | package-2023-10 | scvmm | False |
+|135| azure-resourcemanager-appcomplianceautomation | 1.0.0 | 2024-06-27 | Swagger | :white_large_square: | package-2024-06 | appcomplianceautomation | False |
+|136| azure-resourcemanager-oracledatabase | 1.0.0 | 2024-07-04 | Swagger | :white_large_square: | package-2023-09-01 | oracle | False |
+|137| azure-resourcemanager-informaticadatamanagement | 1.0.0 | 2024-07-15 | Swagger | :white_check_mark: | package-2024-05-08 | informatica | False |
+|138| azure-resourcemanager-dataprotection | 1.3.0 | 2024-07-22 | Swagger | :white_check_mark: | package-2024-04 | dataprotection | False |
+|139| azure-resourcemanager-computefleet | 1.0.0-beta.2 | 2024-07-23 | TypeSpec | :white_check_mark: |  |  | False |
+|140| azure-resourcemanager-servicefabricmanagedclusters | 1.0.0-beta.1 | 2024-07-31 | Swagger | :white_check_mark: | package-2024-04 | servicefabricmanagedclusters | False |
+|141| azure-resourcemanager-appcontainers | 1.0.0 | 2024-08-07 | Swagger | :white_check_mark: | package-2024-03 | app | False |
+|142| azure-resourcemanager-healthdataaiservices | 1.0.0-beta.1 | 2024-08-14 | TypeSpec | :white_check_mark: |  |  | False |
+|143| azure-resourcemanager-netapp | 1.4.0 | 2024-08-19 | Swagger | :white_check_mark: | package-2024-03 | netapp | False |
+|144| azure-resourcemanager-datafactory | 1.0.0-beta.30 | 2024-08-21 | Swagger | :white_check_mark: | package-2018-06 | datafactory | False |
+|145| azure-resourcemanager-hdinsight | 1.1.0-beta.2 | 2024-08-21 | Swagger | :white_check_mark: | package-2024-08-preview | hdinsight | False |
+|146| azure-resourcemanager-redhatopenshift | 1.0.0-beta.1 | 2024-08-21 | Swagger | :white_check_mark: | package-2023-11 | specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/openshiftclusters | False |
+|147| azure-resourcemanager-machinelearning | 1.1.0 | 2024-08-22 | Swagger | :white_check_mark: | package-2024-04 | machinelearningservices | False |
+|148| azure-resourcemanager-hdinsight-containers | 1.0.0-beta.3 | 2024-08-22 | Swagger | :white_check_mark: | package-preview-2024-05 | specification/hdinsight/resource-manager/Microsoft.HDInsight/HDInsightOnAks | False |
+|149| azure-resourcemanager-azurestackhci | 1.0.0-beta.5 | 2024-08-26 | Swagger | :white_check_mark: | package-2024-04 | specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI | False |
+|150| azure-resourcemanager-billing | 1.0.0 | 2024-09-05 | Swagger | :white_check_mark: | package-2024-04 | billing | False |
+|151| azure-resourcemanager-qumulo | 1.1.0 | 2024-09-10 | Swagger | :white_check_mark: | package-2024-06-19 | liftrqumulo | False |
+|152| azure-resourcemanager-avs | 1.2.0 | 2024-09-11 | Swagger | :white_check_mark: | package-2023-09-01 | vmware | False |
+|153| azure-resourcemanager-fabric | 1.0.0-beta.1 | 2024-09-23 | TypeSpec | :white_check_mark: |  |  | False |
+|154| azure-resourcemanager-mongocluster | 1.0.0 | 2024-09-25 | TypeSpec | :white_check_mark: |  |  | False |
+|155| azure-resourcemanager-computeschedule | 1.0.0-beta.1 | 2024-09-25 | TypeSpec | :white_check_mark: |  |  | False |
+|156| azure-resourcemanager-desktopvirtualization | 1.2.0 | 2024-09-25 | Swagger | :white_check_mark: | package-2024-04 | desktopvirtualization | False |
+|157| azure-resourcemanager-elasticsan | 1.1.0 | 2024-09-25 | Swagger | :white_check_mark: | package-2024-05 | elasticsan | False |
+|158| azure-resourcemanager-standbypool | 1.0.0 | 2024-09-25 | TypeSpec | :white_check_mark: |  |  | False |
+|159| azure-resourcemanager-batch | 2.0.0 | 2024-09-26 | Swagger | :white_check_mark: | package-2024-07 | batch | False |
+|160| azure-resourcemanager-webpubsub | 1.1.0 | 2024-09-26 | Swagger | :white_check_mark: | package-2024-03-01 | webpubsub | False |
+|161| azure-resourcemanager-trustedsigning | 1.0.0-beta.1 | 2024-09-27 | TypeSpec | :white_check_mark: |  |  | False |
+|162| azure-resourcemanager-msi | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|163| azure-resourcemanager-trafficmanager | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|164| azure-resourcemanager-cosmos | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|165| azure-resourcemanager-redis | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|166| azure-resourcemanager-appservice | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|167| azure-resourcemanager-keyvault | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|168| azure-resourcemanager-containerservice | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|169| azure-resourcemanager-storage | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|170| azure-resourcemanager-sql | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|171| azure-resourcemanager-resources | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|172| azure-resourcemanager-containerregistry | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|173| azure-resourcemanager-servicebus | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|174| azure-resourcemanager-appplatform | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|175| azure-resourcemanager-compute | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|176| azure-resourcemanager-cdn | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|177| azure-resourcemanager-monitor | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|178| azure-resourcemanager-search | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|179| azure-resourcemanager-network | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|180| azure-resourcemanager-eventhubs | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|181| azure-resourcemanager-authorization | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|182| azure-resourcemanager-privatedns | 2.43.0 | 2024-09-27 | Swagger | :white_check_mark: |  |  | True |
+|183| azure-resourcemanager-servicenetworking | 1.1.0-beta.1 | 2024-09-30 | Swagger | :white_check_mark: | 2024-05-01-preview | servicenetworking | False |
+|184| azure-resourcemanager-consumption | 1.0.0-beta.4 | 2024-10-04 | Swagger | :white_check_mark: | package-2021-10 | consumption | False |
+|185| azure-resourcemanager-edgeorder | 1.0.0-beta.2 | 2024-10-06 | Swagger | :white_check_mark: | package-2021-12 | edgeorder | False |
+|186| azure-resourcemanager-containerinstance | 2.44.0-beta.1 | 2024-10-08 | Swagger | :white_check_mark: |  |  | True |
+|187| azure-resourcemanager-fluidrelay | 1.1.0 | 2024-10-08 | Swagger | :white_check_mark: | package-2022-06-01 | fluidrelay | False |
+|188| azure-resourcemanager-iotcentral | 1.1.0-beta.2 | 2024-10-09 | Swagger | :white_check_mark: | package-preview-2021-11 | iotcentral | False |
+|189| azure-resourcemanager-servicelinker | 1.0.0-beta.4 | 2024-10-09 | Swagger | :white_check_mark: | package-2024-07-01-preview | servicelinker | False |
+|190| azure-resourcemanager-marketplaceordering | 1.0.0-beta.3 | 2024-10-09 | Swagger | :white_check_mark: | package-2021-01-01 | marketplaceordering | False |
+|191| azure-resourcemanager-botservice | 1.0.0-beta.6 | 2024-10-09 | Swagger | :white_check_mark: | package-preview-2021-05 | botservice | False |
+|192| azure-resourcemanager-oep | 1.0.0-beta.2 | 2024-10-09 | Swagger | :white_check_mark: | package-2021-06-01-preview | oep | False |
+|193| azure-resourcemanager-relay | 1.0.0-beta.3 | 2024-10-10 | Swagger | :white_check_mark: | package-2017-04 | relay | False |
+|194| azure-resourcemanager-hybridcompute | 1.0.0 | 2024-10-10 | Swagger | :white_check_mark: | package-2024-07 | hybridcompute | False |
+|195| azure-resourcemanager-alertsmanagement | 1.0.0-beta.2 | 2024-10-10 | Swagger | :white_check_mark: | package-2021-08 | alertsmanagement | False |
+|196| azure-resourcemanager-dns | 2.44.0-beta.1 | 2024-10-10 | Swagger | :white_check_mark: |  |  | True |
 |197| azure-resourcemanager-dnsresolver | 1.0.0-beta.3 | 2024-10-10 | Swagger | :white_check_mark: | package-2022-07 | dnsresolver | False |
 |198| azure-resourcemanager-labservices | 1.0.0-beta.4 | 2024-10-10 | Swagger | :white_check_mark: | package-2022-08 | labservices | False |
 |199| azure-resourcemanager-automanage | 1.0.0-beta.2 | 2024-10-10 | Swagger | :white_check_mark: | package-2022-05 | automanage | False |
