@@ -17,7 +17,8 @@ deprecated_projects = (
     "azure-resourcemanager-machinelearningservices",
     "azure-resourcemanager-loadtestservice",
     "azure-resourcemanager-batchai",
-    "azure-resourcemanager-videoanalyzer"
+    "azure-resourcemanager-videoanalyzer",
+    "azure-resourcemanager-securitydevops"
 )
 
 readme_template = """
