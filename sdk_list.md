@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2024-11-07 18:17:29.961136
+Generated At: 2024-11-08 18:17:19.656258
 
 ## Summary
 
@@ -195,28 +195,28 @@ Generated At: 2024-11-07 18:17:29.961136
 |180| azure-resourcemanager-containerservice | 2.44.0 | 2024-10-25 | Swagger | :white_check_mark: |  |  | True |
 |181| azure-resourcemanager-compute | 2.44.0 | 2024-10-25 | Swagger | :white_check_mark: |  |  | True |
 |182| azure-resourcemanager-sql | 2.44.0 | 2024-10-25 | Swagger | :white_check_mark: |  |  | True |
-|183| azure-resourcemanager-cosmos | 2.44.0 | 2024-10-25 | Swagger | :white_check_mark: |  |  | True |
-|184| azure-resourcemanager-netapp | 1.5.1 | 2024-10-25 | Swagger | :white_check_mark: | package-2024-07 | netapp | False |
-|185| azure-resourcemanager-managementgroups | 1.0.0-beta.2 | 2024-10-28 | Swagger | :white_check_mark: | package-2021-04 | managementgroups | False |
-|186| azure-resourcemanager-servicefabric | 1.0.0-beta.5 | 2024-10-28 | Swagger | :white_check_mark: | package-2021-06 | servicefabric | False |
-|187| azure-resourcemanager-databricks | 1.0.0-beta.5 | 2024-10-28 | Swagger | :white_check_mark: | package-2023-05-01 | databricks | False |
-|188| azure-resourcemanager-defendereasm | 1.0.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2023-04 | riskiq | False |
-|189| azure-resourcemanager-databox | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-2022-12 | databox | False |
-|190| azure-resourcemanager-dynatrace | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-2023-04-27 | dynatrace | False |
-|191| azure-resourcemanager-costmanagement | 1.0.0-beta.7 | 2024-10-31 | Swagger | :white_check_mark: | package-2022-10 | cost-management | False |
-|192| azure-resourcemanager-springappdiscovery | 1.0.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-2023-01-01-preview | offazurespringboot | False |
-|193| azure-resourcemanager-orbital | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-2022-11-01 | orbital | False |
-|194| azure-resourcemanager-signalr | 1.0.0-beta.9 | 2024-10-31 | Swagger | :white_check_mark: | package-2023-08-01-preview | signalr | False |
-|195| azure-resourcemanager-reservations | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-2022-11 | reservations | False |
-|196| azure-resourcemanager-sqlvirtualmachine | 1.0.0-beta.5 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2022-08 | sqlvirtualmachine | False |
-|197| azure-resourcemanager-managedapplications | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-managedapplications-2021-07 | solutions | False |
-|198| azure-resourcemanager-streamanalytics | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-2021-10-preview | streamanalytics | False |
-|199| azure-resourcemanager-baremetalinfrastructure | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2023-08 | baremetalinfrastructure | False |
-|200| azure-resourcemanager-mediaservices | 2.4.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-account-2023-01 | mediaservices | False |
-|201| azure-resourcemanager-synapse | 1.0.0-beta.8 | 2024-10-31 | Swagger | :white_check_mark: | package-composite-v2 | synapse | False |
-|202| azure-resourcemanager-cognitiveservices | 1.1.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-2023-05 | cognitiveservices | False |
-|203| azure-resourcemanager-timeseriesinsights | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-2020-05-15 | timeseriesinsights | False |
-|204| azure-resourcemanager-devhub | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2022-10 | developerhub | False |
+|183| azure-resourcemanager-netapp | 1.5.1 | 2024-10-25 | Swagger | :white_check_mark: | package-2024-07 | netapp | False |
+|184| azure-resourcemanager-managementgroups | 1.0.0-beta.2 | 2024-10-28 | Swagger | :white_check_mark: | package-2021-04 | managementgroups | False |
+|185| azure-resourcemanager-servicefabric | 1.0.0-beta.5 | 2024-10-28 | Swagger | :white_check_mark: | package-2021-06 | servicefabric | False |
+|186| azure-resourcemanager-databricks | 1.0.0-beta.5 | 2024-10-28 | Swagger | :white_check_mark: | package-2023-05-01 | databricks | False |
+|187| azure-resourcemanager-defendereasm | 1.0.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2023-04 | riskiq | False |
+|188| azure-resourcemanager-databox | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-2022-12 | databox | False |
+|189| azure-resourcemanager-dynatrace | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-2023-04-27 | dynatrace | False |
+|190| azure-resourcemanager-costmanagement | 1.0.0-beta.7 | 2024-10-31 | Swagger | :white_check_mark: | package-2022-10 | cost-management | False |
+|191| azure-resourcemanager-springappdiscovery | 1.0.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-2023-01-01-preview | offazurespringboot | False |
+|192| azure-resourcemanager-orbital | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-2022-11-01 | orbital | False |
+|193| azure-resourcemanager-signalr | 1.0.0-beta.9 | 2024-10-31 | Swagger | :white_check_mark: | package-2023-08-01-preview | signalr | False |
+|194| azure-resourcemanager-reservations | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-2022-11 | reservations | False |
+|195| azure-resourcemanager-sqlvirtualmachine | 1.0.0-beta.5 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2022-08 | sqlvirtualmachine | False |
+|196| azure-resourcemanager-managedapplications | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-managedapplications-2021-07 | solutions | False |
+|197| azure-resourcemanager-streamanalytics | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-2021-10-preview | streamanalytics | False |
+|198| azure-resourcemanager-baremetalinfrastructure | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2023-08 | baremetalinfrastructure | False |
+|199| azure-resourcemanager-mediaservices | 2.4.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-account-2023-01 | mediaservices | False |
+|200| azure-resourcemanager-synapse | 1.0.0-beta.8 | 2024-10-31 | Swagger | :white_check_mark: | package-composite-v2 | synapse | False |
+|201| azure-resourcemanager-cognitiveservices | 1.1.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-2023-05 | cognitiveservices | False |
+|202| azure-resourcemanager-timeseriesinsights | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-2020-05-15 | timeseriesinsights | False |
+|203| azure-resourcemanager-devhub | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2022-10 | developerhub | False |
+|204| azure-resourcemanager-cosmos | 2.44.1 | 2024-11-07 | Swagger | :white_check_mark: |  |  | True |
 
 ## Not planned
 
