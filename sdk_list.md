@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2024-11-21 18:18:56.609564
+Generated At: 2024-11-22 18:18:47.416712
 
 ## Summary
 
@@ -207,18 +207,18 @@ Generated At: 2024-11-21 18:18:56.609564
 |192| azure-resourcemanager-baremetalinfrastructure | 1.0.0-beta.4 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2023-08 | baremetalinfrastructure | False |
 |193| azure-resourcemanager-mediaservices | 2.4.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-account-2023-01 | mediaservices | False |
 |194| azure-resourcemanager-synapse | 1.0.0-beta.8 | 2024-10-31 | Swagger | :white_check_mark: | package-composite-v2 | synapse | False |
-|195| azure-resourcemanager-cognitiveservices | 1.1.0-beta.2 | 2024-10-31 | Swagger | :white_check_mark: | package-2023-05 | cognitiveservices | False |
-|196| azure-resourcemanager-timeseriesinsights | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-2020-05-15 | timeseriesinsights | False |
-|197| azure-resourcemanager-devhub | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2022-10 | developerhub | False |
-|198| azure-resourcemanager-cosmos | 2.44.1 | 2024-11-07 | Swagger | :white_check_mark: |  |  | True |
-|199| azure-resourcemanager-hybridcompute | 1.1.0-beta.1 | 2024-11-14 | Swagger | :white_check_mark: | package-preview-2024-07 | hybridcompute | False |
-|200| azure-resourcemanager-netapp | 1.6.0-beta.1 | 2024-11-18 | Swagger | :white_check_mark: | package-preview-2024-07-01-preview | netapp | False |
-|201| azure-resourcemanager-appconfiguration | 1.0.0 | 2024-11-20 | Swagger | :white_check_mark: | package-2024-05-01 | appconfiguration | False |
-|202| azure-resourcemanager-terraform | 1.0.0-beta.1 | 2024-11-20 | TypeSpec | :white_check_mark: |  |  | False |
-|203| azure-resourcemanager-devopsinfrastructure | 1.0.0 | 2024-11-21 | TypeSpec | :white_check_mark: |  |  | False |
-|204| azure-resourcemanager-connectedcache | 1.0.0-beta.1 | 2024-11-21 | TypeSpec | :white_check_mark: |  |  | False |
-|205| azure-resourcemanager-healthdataaiservices | 1.0.0 | 2024-11-21 | TypeSpec | :white_check_mark: |  |  | False |
-|206| azure-resourcemanager-networkcloud | 1.1.0-beta.1 | 2024-11-21 | Swagger | :white_check_mark: | package-2024-06-01-preview | networkcloud | False |
+|195| azure-resourcemanager-timeseriesinsights | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-2020-05-15 | timeseriesinsights | False |
+|196| azure-resourcemanager-devhub | 1.0.0-beta.3 | 2024-10-31 | Swagger | :white_check_mark: | package-preview-2022-10 | developerhub | False |
+|197| azure-resourcemanager-cosmos | 2.44.1 | 2024-11-07 | Swagger | :white_check_mark: |  |  | True |
+|198| azure-resourcemanager-hybridcompute | 1.1.0-beta.1 | 2024-11-14 | Swagger | :white_check_mark: | package-preview-2024-07 | hybridcompute | False |
+|199| azure-resourcemanager-netapp | 1.6.0-beta.1 | 2024-11-18 | Swagger | :white_check_mark: | package-preview-2024-07-01-preview | netapp | False |
+|200| azure-resourcemanager-appconfiguration | 1.0.0 | 2024-11-20 | Swagger | :white_check_mark: | package-2024-05-01 | appconfiguration | False |
+|201| azure-resourcemanager-terraform | 1.0.0-beta.1 | 2024-11-20 | TypeSpec | :white_check_mark: |  |  | False |
+|202| azure-resourcemanager-devopsinfrastructure | 1.0.0 | 2024-11-21 | TypeSpec | :white_check_mark: |  |  | False |
+|203| azure-resourcemanager-connectedcache | 1.0.0-beta.1 | 2024-11-21 | TypeSpec | :white_check_mark: |  |  | False |
+|204| azure-resourcemanager-healthdataaiservices | 1.0.0 | 2024-11-21 | TypeSpec | :white_check_mark: |  |  | False |
+|205| azure-resourcemanager-networkcloud | 1.1.0-beta.1 | 2024-11-21 | Swagger | :white_check_mark: | package-2024-06-01-preview | networkcloud | False |
+|206| azure-resourcemanager-cognitiveservices | 1.1.0 | 2024-11-22 | Swagger | :white_check_mark: | package-2024-10 | cognitiveservices | False |
 
 ## Not planned
 
