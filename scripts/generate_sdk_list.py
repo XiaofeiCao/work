@@ -11,14 +11,21 @@ exclude_projects = (
     "azure-resourcemanager-samples",
     "azure-resourcemanager-test",
     "azure-resourcemanager",
-    "azure-resourcemanager-perf"
+    "azure-resourcemanager-perf",
+    # service define two success response with different body: 
+    # https://github.com/Azure/azure-rest-api-specs/pull/23172#issuecomment-1475702721
+    "azure-resourcemanager-commerce",
+    # service never fixed backend: https://github.com/Azure/azure-sdk-for-java/pull/42223#issuecomment-2401690656
+    "azure-resourcemanager-azureadexternalidentities"
 )
 deprecated_projects = (
     "azure-resourcemanager-machinelearningservices",
     "azure-resourcemanager-loadtestservice",
     "azure-resourcemanager-batchai",
     "azure-resourcemanager-videoanalyzer",
-    "azure-resourcemanager-securitydevops"
+    # specs deleted from repo, will be merged into security
+    "azure-resourcemanager-securitydevops",
+    # service decomissioned: https://github.com/Azure/azure-rest-api-specs/pull/26818
     "azure-resourcemanager-deploymentmanager"
 )
 
@@ -158,7 +165,7 @@ def get_sdk_to_swagger_mapping(sdk_root: str) -> dict:
             service_segments = service.split("/")
             service_segments.insert(0, "specification")
             service_segments.insert(2, "resource-manager")
-            swagger = "/".join(service_segments)
+            swagger = "/".join(service_segments) + "/readme.md"
         if api_specs[service].__contains__("suffix"):
             if api_specs[service]["suffix"] == "generated":
                 continue
