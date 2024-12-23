@@ -12,10 +12,7 @@ exclude_projects = {
     "azure-resourcemanager-test": "",
     "azure-resourcemanager": "",
     "azure-resourcemanager-perf": "",
-    # service define two success response with different body: 
-    # https://github.com/Azure/azure-rest-api-specs/pull/23172#issuecomment-1475702721
     "azure-resourcemanager-commerce": "service define two success response with different body: https://github.com/Azure/azure-rest-api-specs/pull/23172#issuecomment-1475702721",
-    # service never fixed backend: https://github.com/Azure/azure-sdk-for-java/pull/42223#issuecomment-2401690656
     "azure-resourcemanager-azureadexternalidentities": "service never fixed backend: https://github.com/Azure/azure-sdk-for-java/pull/42223#issuecomment-2401690656"
 }
 deprecated_projects = {
@@ -23,11 +20,8 @@ deprecated_projects = {
     "azure-resourcemanager-loadtestservice": "decommissioned",
     "azure-resourcemanager-batchai": "decommissioned",
     "azure-resourcemanager-videoanalyzer": "decommissioned",
-    # specs deleted from repo, will be merged into security
     "azure-resourcemanager-securitydevops": "specs deleted from repo, will be merged into security",
-    # service decomissioned: https://github.com/Azure/azure-rest-api-specs/pull/26818
     "azure-resourcemanager-deploymentmanager": "decommissioned",
-    # service backend no longer works
     "azure-resourcemanager-mysql": "service backend no longer works"
 }
 
@@ -78,6 +72,8 @@ def main():
     sdk_to_swagger = get_sdk_to_swagger_mapping(sdk_root)
     packages = []
     resourcemanagerhybrid_packages = []
+    exclude_project_list = exclude_projects.keys()
+    deprecated_project_list = deprecated_projects.keys()
     for package_dir in listing:
         not_planned = False
         tag = ""
@@ -85,7 +81,7 @@ def main():
         sdk_name = package_dir_segments[len(package_dir_segments) - 1]
         javadoc_fix = False
 
-        if re.match(".*-generated", package_dir) or sdk_name in ([project] for project in exclude_projects) or sdk_name in ([project] for project in deprecated_projects):
+        if re.match(".*-generated", package_dir) or sdk_name in exclude_project_list or sdk_name in deprecated_project_list:
             continue
         if re.match(".*resourcemanagerhybrid.*", package_dir):
             not_planned = True
