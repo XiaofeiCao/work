@@ -65,7 +65,6 @@ def main():
     for package_dir in listing:
         not_planned = False
         tag = ""
-        version = ""
         package_dir_segments = package_dir.split("/")
         sdk_name = package_dir_segments[len(package_dir_segments) - 1]
         javadoc_fix = False
@@ -110,7 +109,7 @@ def main():
             if pom_content.__contains__("<doclintMissingInclusion>-</doclintMissingInclusion>"):
                 javadoc_fix = True
 
-        swagger = "" if typespec else sdk_to_swagger[sdk_name] if sdk_to_swagger.__contains__(sdk_name) else sdk_name.split("-")[len(sdk_name.split("-"))-1]
+        swagger = "" if typespec else sdk_to_swagger[sdk_name] if sdk_to_swagger.__contains__(sdk_name) else sdk_name[len("azure-resourcemanager-"):]
         if package_dir.__contains__("sdk/resourcemanager"):
             swagger = ""
 
@@ -171,6 +170,8 @@ def get_sdk_to_swagger_mapping(sdk_root: str) -> dict:
                 continue
             elif api_specs[service].__contains__("service"):
                 result[f'azure-resourcemanager-{api_specs[service]["service"]}-{api_specs[service]["suffix"]}'] = swagger
+            else:
+                result[f'azure-resourcemanager-{service}-{api_specs[service]["suffix"]}'] = swagger
         elif api_specs[service].__contains__("service"):
             result[f'azure-resourcemanager-{api_specs[service]["service"]}'] = swagger
     return result
