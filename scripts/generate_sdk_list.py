@@ -7,27 +7,29 @@ import datetime;
 import yaml;
 
 GROUP_ID = "com.azure.resourcemanager"
-exclude_projects = (
-    "azure-resourcemanager-samples",
-    "azure-resourcemanager-test",
-    "azure-resourcemanager",
-    "azure-resourcemanager-perf",
+exclude_projects = {
+    "azure-resourcemanager-samples": "",
+    "azure-resourcemanager-test": "",
+    "azure-resourcemanager": "",
+    "azure-resourcemanager-perf": "",
     # service define two success response with different body: 
     # https://github.com/Azure/azure-rest-api-specs/pull/23172#issuecomment-1475702721
-    "azure-resourcemanager-commerce",
+    "azure-resourcemanager-commerce": "service define two success response with different body: https://github.com/Azure/azure-rest-api-specs/pull/23172#issuecomment-1475702721",
     # service never fixed backend: https://github.com/Azure/azure-sdk-for-java/pull/42223#issuecomment-2401690656
-    "azure-resourcemanager-azureadexternalidentities"
-)
-deprecated_projects = (
-    "azure-resourcemanager-machinelearningservices",
-    "azure-resourcemanager-loadtestservice",
-    "azure-resourcemanager-batchai",
-    "azure-resourcemanager-videoanalyzer",
+    "azure-resourcemanager-azureadexternalidentities": "service never fixed backend: https://github.com/Azure/azure-sdk-for-java/pull/42223#issuecomment-2401690656"
+}
+deprecated_projects = {
+    "azure-resourcemanager-machinelearningservices": "decommissioned",
+    "azure-resourcemanager-loadtestservice": "decommissioned",
+    "azure-resourcemanager-batchai": "decommissioned",
+    "azure-resourcemanager-videoanalyzer": "decommissioned",
     # specs deleted from repo, will be merged into security
-    "azure-resourcemanager-securitydevops",
+    "azure-resourcemanager-securitydevops": "specs deleted from repo, will be merged into security",
     # service decomissioned: https://github.com/Azure/azure-rest-api-specs/pull/26818
-    "azure-resourcemanager-deploymentmanager"
-)
+    "azure-resourcemanager-deploymentmanager": "decommissioned",
+    # service backend no longer works
+    "azure-resourcemanager-mysql": "service backend no longer works"
+}
 
 readme_template = """
 # MGMT SDK for azure-json migration
@@ -54,6 +56,20 @@ not_planned_template = """
 |Index|SDK|Version|Last Released|
 |--|--|--|--|"""
 
+excluded_template = """
+
+### excluded
+
+|Index|SDK|reason|
+|--|--|--|"""
+
+deprecated_template = """
+
+### deprecated
+
+|Index|SDK|reason|
+|--|--|--|"""
+
 def main():
     (parser, args) = parse_args()
     args = vars(args)
@@ -69,7 +85,7 @@ def main():
         sdk_name = package_dir_segments[len(package_dir_segments) - 1]
         javadoc_fix = False
 
-        if re.match(".*-generated", package_dir) or sdk_name in exclude_projects or sdk_name in deprecated_projects:
+        if re.match(".*-generated", package_dir) or sdk_name in ([project] for project in exclude_projects) or sdk_name in ([project] for project in deprecated_projects):
             continue
         if re.match(".*resourcemanagerhybrid.*", package_dir):
             not_planned = True
@@ -148,6 +164,15 @@ def main():
     index=1
     for hybridsdk in resourcemanagerhybrid_packages:
         table_content += f'\n|{index}| {hybridsdk["sdk_name"]} | {hybridsdk["version"]} | {hybridsdk["last_release_date"]} |'
+        index+=1
+    table_content += excluded_template
+    index=1
+    for project in exclude_projects:
+        table_content += f'\n|{index}| {project} | {exclude_projects[project]} |'
+        index+=1
+    table_content += deprecated_template
+    for project in deprecated_projects:
+        table_content += f'\n|{index}| {project} | {deprecated_projects[project]} |'
         index+=1
     with open(os.path.join(sys.path[0], "../sdk_list.md"), "w") as fout:
         fout.write(table_content)
