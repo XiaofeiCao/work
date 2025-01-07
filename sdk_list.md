@@ -1,13 +1,13 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-01-06 18:18:20.981951
+Generated At: 2025-01-07 18:18:29.542523
 
 ## Summary
 
 - total: 202
 - migrated: 201
-- need javadoc fix: 8
+- need javadoc fix: 6
 
 ## Detail
 
@@ -148,7 +148,7 @@ Generated At: 2025-01-06 18:18:20.981951
 |133| azure-resourcemanager-containerinstance | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |134| azure-resourcemanager-trafficmanager | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |135| azure-resourcemanager-servicebus | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
-|136| azure-resourcemanager-dns | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
+|136| azure-resourcemanager-dns | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |137| azure-resourcemanager-keyvault | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |138| azure-resourcemanager-appplatform | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |139| azure-resourcemanager-redis | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
@@ -165,7 +165,7 @@ Generated At: 2025-01-06 18:18:20.981951
 |150| azure-resourcemanager-resources | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |151| azure-resourcemanager-authorization | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |152| azure-resourcemanager-search | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
-|153| azure-resourcemanager-msi | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
+|153| azure-resourcemanager-msi | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |154| azure-resourcemanager-mixedreality | 1.0.0 | 2024-12-23 | Swagger | :white_check_mark: | package-2021-01 | mixedreality | False |
 |155| azure-resourcemanager-postgresql | 1.1.0 | 2024-12-23 | Swagger | :white_check_mark: | package-2020-01-01 | postgresql | False |
 |156| azure-resourcemanager-healthbot | 1.0.0 | 2024-12-23 | Swagger | :white_check_mark: | package-2020-12-08 | healthbot | False |
