@@ -1,13 +1,13 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-01-07 18:18:29.542523
+Generated At: 2025-01-08 18:18:28.018013
 
 ## Summary
 
 - total: 202
 - migrated: 201
-- need javadoc fix: 6
+- need javadoc fix: 3
 
 ## Detail
 
@@ -143,7 +143,7 @@ Generated At: 2025-01-07 18:18:29.542523
 |128| azure-resourcemanager-apimanagement | 1.0.0 | 2024-12-23 | Swagger | :white_check_mark: | package-2022-08 | apimanagement | False |
 |129| azure-resourcemanager-storagemover | 1.3.0 | 2024-12-23 | Swagger | :white_check_mark: | package-2024-07 | storagemover | False |
 |130| azure-resourcemanager-databoxedge | 1.0.0 | 2024-12-23 | Swagger | :white_check_mark: | package-2019-08 | databoxedge | False |
-|131| azure-resourcemanager-sql | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
+|131| azure-resourcemanager-sql | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |132| azure-resourcemanager-cdn | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |133| azure-resourcemanager-containerinstance | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |134| azure-resourcemanager-trafficmanager | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
@@ -161,10 +161,10 @@ Generated At: 2025-01-07 18:18:29.542523
 |146| azure-resourcemanager-cosmos | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |147| azure-resourcemanager-containerservice | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |148| azure-resourcemanager-privatedns | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
-|149| azure-resourcemanager-storage | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
+|149| azure-resourcemanager-storage | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |150| azure-resourcemanager-resources | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |151| azure-resourcemanager-authorization | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
-|152| azure-resourcemanager-search | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
+|152| azure-resourcemanager-search | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |153| azure-resourcemanager-msi | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |154| azure-resourcemanager-mixedreality | 1.0.0 | 2024-12-23 | Swagger | :white_check_mark: | package-2021-01 | mixedreality | False |
 |155| azure-resourcemanager-postgresql | 1.1.0 | 2024-12-23 | Swagger | :white_check_mark: | package-2020-01-01 | postgresql | False |
