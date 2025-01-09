@@ -1,13 +1,13 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-01-08 18:18:28.018013
+Generated At: 2025-01-09 18:18:37.477936
 
 ## Summary
 
 - total: 202
 - migrated: 201
-- need javadoc fix: 3
+- need javadoc fix: 0
 
 ## Detail
 
@@ -147,14 +147,14 @@ Generated At: 2025-01-08 18:18:28.018013
 |132| azure-resourcemanager-cdn | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |133| azure-resourcemanager-containerinstance | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |134| azure-resourcemanager-trafficmanager | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
-|135| azure-resourcemanager-servicebus | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
+|135| azure-resourcemanager-servicebus | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |136| azure-resourcemanager-dns | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |137| azure-resourcemanager-keyvault | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |138| azure-resourcemanager-appplatform | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
-|139| azure-resourcemanager-redis | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
+|139| azure-resourcemanager-redis | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |140| azure-resourcemanager-containerregistry | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |141| azure-resourcemanager-compute | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
-|142| azure-resourcemanager-network | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | True |
+|142| azure-resourcemanager-network | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |143| azure-resourcemanager-appservice | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |144| azure-resourcemanager-monitor | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
 |145| azure-resourcemanager-eventhubs | 2.46.0 | 2024-12-23 | Swagger | :white_check_mark: |  |  | False |
