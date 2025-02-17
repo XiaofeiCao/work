@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-02-16 18:16:22.229826
+Generated At: 2025-02-17 18:17:59.991916
 
 ## Summary
 
@@ -195,25 +195,25 @@ Generated At: 2025-02-16 18:16:22.229826
 |180| azure-resourcemanager-containerregistry | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
 |181| azure-resourcemanager-compute | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
 |182| azure-resourcemanager-dns | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|183| azure-resourcemanager-eventhubs | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|184| azure-resourcemanager-containerservice | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|185| azure-resourcemanager-search | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|186| azure-resourcemanager-servicebus | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|187| azure-resourcemanager-containerinstance | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|188| azure-resourcemanager-trafficmanager | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|189| azure-resourcemanager-resources | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|190| azure-resourcemanager-msi | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|191| azure-resourcemanager-appservice | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|192| azure-resourcemanager-redis | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|193| azure-resourcemanager-cosmos | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|194| azure-resourcemanager-privatedns | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|195| azure-resourcemanager-keyvault | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|196| azure-resourcemanager-cdn | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|197| azure-resourcemanager-authorization | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|198| azure-resourcemanager-sql | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
-|199| azure-resourcemanager-kusto | 1.2.0 | 2025-01-24 | Swagger | :white_check_mark: | package-2024-04 | azure-kusto | False |
-|200| azure-resourcemanager-pineconevectordb | 1.0.0-beta.1 | 2025-02-06 | TypeSpec | :white_check_mark: |  |  | False |
-|201| azure-resourcemanager-servicenetworking | 1.1.0 | 2025-02-06 | TypeSpec | :white_check_mark: |  |  | False |
+|183| azure-resourcemanager-containerservice | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|184| azure-resourcemanager-search | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|185| azure-resourcemanager-servicebus | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|186| azure-resourcemanager-containerinstance | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|187| azure-resourcemanager-trafficmanager | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|188| azure-resourcemanager-resources | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|189| azure-resourcemanager-msi | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|190| azure-resourcemanager-appservice | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|191| azure-resourcemanager-redis | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|192| azure-resourcemanager-cosmos | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|193| azure-resourcemanager-privatedns | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|194| azure-resourcemanager-keyvault | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|195| azure-resourcemanager-cdn | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|196| azure-resourcemanager-authorization | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|197| azure-resourcemanager-sql | 2.47.0 | 2025-01-24 | Swagger | :white_check_mark: |  |  | False |
+|198| azure-resourcemanager-kusto | 1.2.0 | 2025-01-24 | Swagger | :white_check_mark: | package-2024-04 | azure-kusto | False |
+|199| azure-resourcemanager-pineconevectordb | 1.0.0-beta.1 | 2025-02-06 | TypeSpec | :white_check_mark: |  |  | False |
+|200| azure-resourcemanager-servicenetworking | 1.1.0 | 2025-02-06 | TypeSpec | :white_check_mark: |  |  | False |
+|201| azure-resourcemanager-eventhubs | 2.48.0-beta.1 | 2025-02-14 | Swagger | :white_check_mark: |  |  | False |
 |202| azure-resourcemanager-logz | 1.0.0-beta.4 | 2025-02-14 | Swagger | :white_check_mark: | package-2020-10-01 | logz | False |
 
 ## Not planned
