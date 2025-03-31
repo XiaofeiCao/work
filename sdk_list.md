@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-03-30 18:17:45.276818
+Generated At: 2025-03-31 18:19:50.584827
 
 ## Summary
 
-- total: 206
-- migrated: 205
+- total: 208
+- migrated: 207
 - need javadoc fix: 0
 
 ## Detail
@@ -219,6 +219,8 @@ Generated At: 2025-03-30 18:17:45.276818
 |204| azure-resourcemanager-resources | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
 |205| azure-resourcemanager-redis | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
 |206| azure-resourcemanager-containerservice | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|207| azure-resourcemanager-arizeaiobservabilityeval | 1.0.0-beta.1 | 2025-03-31 | TypeSpec | :white_check_mark: |  |  | False |
+|208| azure-resourcemanager-weightsandbiases | 1.0.0-beta.1 | 2025-03-31 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
