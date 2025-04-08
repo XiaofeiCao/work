@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-04-07 18:19:50.596246
+Generated At: 2025-04-08 18:19:18.152220
 
 ## Summary
 
@@ -205,22 +205,22 @@ Generated At: 2025-04-07 18:19:50.596246
 |190| azure-resourcemanager-eventhubs | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
 |191| azure-resourcemanager-appservice | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
 |192| azure-resourcemanager-servicebus | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|193| azure-resourcemanager-search | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|194| azure-resourcemanager-authorization | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|195| azure-resourcemanager-dns | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|196| azure-resourcemanager-containerregistry | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|197| azure-resourcemanager-cosmos | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|198| azure-resourcemanager-appplatform | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|199| azure-resourcemanager-keyvault | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|200| azure-resourcemanager-storage | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|201| azure-resourcemanager-network | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|202| azure-resourcemanager-containerinstance | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|203| azure-resourcemanager-privatedns | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|204| azure-resourcemanager-resources | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|205| azure-resourcemanager-redis | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|206| azure-resourcemanager-containerservice | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
-|207| azure-resourcemanager-arizeaiobservabilityeval | 1.0.0-beta.1 | 2025-03-31 | TypeSpec | :white_check_mark: |  |  | False |
-|208| azure-resourcemanager-weightsandbiases | 1.0.0-beta.1 | 2025-03-31 | TypeSpec | :white_check_mark: |  |  | False |
+|193| azure-resourcemanager-authorization | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|194| azure-resourcemanager-dns | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|195| azure-resourcemanager-containerregistry | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|196| azure-resourcemanager-cosmos | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|197| azure-resourcemanager-appplatform | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|198| azure-resourcemanager-keyvault | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|199| azure-resourcemanager-storage | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|200| azure-resourcemanager-network | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|201| azure-resourcemanager-containerinstance | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|202| azure-resourcemanager-privatedns | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|203| azure-resourcemanager-resources | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|204| azure-resourcemanager-redis | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|205| azure-resourcemanager-containerservice | 2.49.0 | 2025-03-28 | Swagger | :white_check_mark: |  |  | False |
+|206| azure-resourcemanager-arizeaiobservabilityeval | 1.0.0-beta.1 | 2025-03-31 | TypeSpec | :white_check_mark: |  |  | False |
+|207| azure-resourcemanager-weightsandbiases | 1.0.0-beta.1 | 2025-03-31 | TypeSpec | :white_check_mark: |  |  | False |
+|208| azure-resourcemanager-search | 2.50.0-beta.1 | 2025-04-07 | Swagger | :white_check_mark: |  |  | False |
 
 ## Not planned
 
