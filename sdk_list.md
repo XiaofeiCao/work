@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-04-28 18:20:57.537674
+Generated At: 2025-04-29 18:20:35.504139
 
 ## Summary
 
-- total: 211
-- migrated: 210
+- total: 212
+- migrated: 211
 - need javadoc fix: 0
 
 ## Detail
@@ -224,6 +224,7 @@ Generated At: 2025-04-28 18:20:57.537674
 |209| azure-resourcemanager-durabletask | 1.0.0-beta.2 | 2025-04-24 | TypeSpec | :white_check_mark: |  |  | False |
 |210| azure-resourcemanager-portalservicescopilot | 1.0.0-beta.1 | 2025-04-28 | TypeSpec | :white_check_mark: |  |  | False |
 |211| azure-resourcemanager-carbonoptimization | 1.0.0-beta.1 | 2025-04-29 | TypeSpec | :white_check_mark: |  |  | False |
+|212| azure-resourcemanager-lambdatesthyperexecute | 1.0.0-beta.1 | 2025-04-29 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
