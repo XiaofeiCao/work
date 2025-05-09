@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-05-08 18:20:48.011081
+Generated At: 2025-05-09 18:20:10.204301
 
 ## Summary
 
-- total: 216
-- migrated: 215
+- total: 218
+- migrated: 217
 - need javadoc fix: 0
 
 ## Detail
@@ -226,9 +226,11 @@ Generated At: 2025-05-08 18:20:48.011081
 |211| azure-resourcemanager-weightsandbiases | 1.0.0 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
 |212| azure-resourcemanager-iotfirmwaredefense | 1.2.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
 |213| azure-resourcemanager-dell-storage | 1.0.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|214| azure-resourcemanager-arizeaiobservabilityeval | 1.0.0 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|215| azure-resourcemanager-secretsstoreextension | 1.0.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|216| azure-resourcemanager-onlineexperimentation | 1.0.0-beta.1 | 2025-05-31 | TypeSpec | :white_check_mark: |  |  | False |
+|214| azure-resourcemanager-sitemanager | 1.0.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|215| azure-resourcemanager-arizeaiobservabilityeval | 1.0.0 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|216| azure-resourcemanager-secretsstoreextension | 1.0.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|217| azure-resourcemanager-mongodbatlas | 1.0.0-beta.1 | 2025-05-09 | TypeSpec | :white_check_mark: |  |  | False |
+|218| azure-resourcemanager-onlineexperimentation | 1.0.0-beta.1 | 2025-05-31 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
