@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-05-12 18:20:47.011216
+Generated At: 2025-05-13 18:21:15.551047
 
 ## Summary
 
-- total: 218
-- migrated: 217
+- total: 219
+- migrated: 218
 - need javadoc fix: 0
 
 ## Detail
@@ -230,7 +230,8 @@ Generated At: 2025-05-12 18:20:47.011216
 |215| azure-resourcemanager-iotfirmwaredefense | 1.2.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
 |216| azure-resourcemanager-mongodbatlas | 1.0.0-beta.1 | 2025-05-09 | TypeSpec | :white_check_mark: |  |  | False |
 |217| azure-resourcemanager-lambdatesthyperexecute | 1.0.0 | 2025-05-12 | TypeSpec | :white_check_mark: |  |  | False |
-|218| azure-resourcemanager-onlineexperimentation | 1.0.0-beta.1 | 2025-05-31 | TypeSpec | :white_check_mark: |  |  | False |
+|218| azure-resourcemanager-purestorageblock | 1.0.0-beta.1 | 2025-05-13 | TypeSpec | :white_check_mark: |  |  | False |
+|219| azure-resourcemanager-onlineexperimentation | 1.0.0-beta.1 | 2025-05-31 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
