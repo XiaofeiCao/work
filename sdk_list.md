@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-05-22 18:20:55.970023
+Generated At: 2025-05-23 18:19:43.167035
 
 ## Summary
 
-- total: 220
-- migrated: 219
+- total: 221
+- migrated: 220
 - need javadoc fix: 0
 
 ## Detail
@@ -232,7 +232,8 @@ Generated At: 2025-05-22 18:20:55.970023
 |217| azure-resourcemanager-postgresqlflexibleserver | 1.2.0-beta.1 | 2025-05-16 | Swagger | :white_check_mark: | package-flexibleserver-2025-01-01-preview | postgresql | False |
 |218| azure-resourcemanager-cognitiveservices | 1.2.0-beta.1 | 2025-05-22 | Swagger | :white_check_mark: | package-preview-2025-04-01-preview | cognitiveservices | False |
 |219| azure-resourcemanager-planetarycomputer | 1.0.0-beta.1 | 2025-05-22 | TypeSpec | :white_check_mark: |  |  | False |
-|220| azure-resourcemanager-onlineexperimentation | 1.0.0-beta.1 | 2025-05-31 | TypeSpec | :white_check_mark: |  |  | False |
+|220| azure-resourcemanager-kubernetesconfiguration-extensions | 1.0.0-beta.1 | 2025-05-23 | Swagger | :white_check_mark: | package-2024-11 | specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/readme.md | False |
+|221| azure-resourcemanager-onlineexperimentation | 1.0.0-beta.1 | 2025-05-31 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
