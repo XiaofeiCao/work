@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-06-02 18:21:16.655703
+Generated At: 2025-06-03 18:21:53.699399
 
 ## Summary
 
@@ -233,9 +233,9 @@ Generated At: 2025-06-02 18:21:16.655703
 |218| azure-resourcemanager-kubernetesconfiguration-fluxconfigurations | 1.0.0-beta.1 | 2025-05-26 | Swagger | :white_check_mark: | package-2025-04 | specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/readme.md | False |
 |219| azure-resourcemanager-purestorageblock | 1.0.0-beta.1 | 2025-05-27 | TypeSpec | :white_check_mark: |  |  | False |
 |220| azure-resourcemanager-datafactory | 1.2.0 | 2025-05-27 | Swagger | :white_check_mark: | package-2018-06 | datafactory | False |
-|221| azure-resourcemanager-avs | 1.3.0 | 2025-05-28 | Swagger | :white_check_mark: | package-2024-09-01 | vmware | False |
-|222| azure-resourcemanager-kubernetesconfiguration-extensiontypes | 1.0.0-beta.1 | 2025-05-28 | Swagger | :white_check_mark: | package-preview-2024-11 | specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/readme.md | False |
-|223| azure-resourcemanager-onlineexperimentation | 1.0.0-beta.1 | 2025-05-31 | TypeSpec | :white_check_mark: |  |  | False |
+|221| azure-resourcemanager-kubernetesconfiguration-extensiontypes | 1.0.0-beta.1 | 2025-05-28 | Swagger | :white_check_mark: | package-preview-2024-11 | specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/readme.md | False |
+|222| azure-resourcemanager-onlineexperimentation | 1.0.0-beta.1 | 2025-05-31 | TypeSpec | :white_check_mark: |  |  | False |
+|223| azure-resourcemanager-avs | 1.3.0 | 2025-06-03 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
