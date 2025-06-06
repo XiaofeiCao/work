@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-06-04 18:21:17.225943
+Generated At: 2025-06-06 18:21:59.523759
 
 ## Summary
 
-- total: 224
-- migrated: 223
+- total: 225
+- migrated: 224
 - need javadoc fix: 0
 
 ## Detail
@@ -237,6 +237,7 @@ Generated At: 2025-06-04 18:21:17.225943
 |222| azure-resourcemanager-mongocluster | 1.1.0-beta.1 | 2025-06-04 | TypeSpec | :white_check_mark: |  |  | False |
 |223| azure-resourcemanager-oracledatabase | 1.1.0 | 2025-06-04 | TypeSpec | :white_check_mark: |  |  | False |
 |224| azure-resourcemanager-recoveryservicesdatareplication | 1.0.0 | 2025-06-04 | TypeSpec | :white_check_mark: |  |  | False |
+|225| azure-resourcemanager-resources-deploymentstacks | 1.0.0-beta.1 | 2025-06-06 | Swagger | :white_check_mark: | package-2024-03 | specification/resources/resource-manager/Microsoft.Resources/deploymentStacks/readme.md | False |
 
 ## Not planned
 
