@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-06-17 18:21:39.623032
+Generated At: 2025-06-18 18:21:22.801899
 
 ## Summary
 
-- total: 225
-- migrated: 224
+- total: 226
+- migrated: 225
 - need javadoc fix: 0
 
 ## Detail
@@ -238,6 +238,7 @@ Generated At: 2025-06-17 18:21:39.623032
 |223| azure-resourcemanager-dnsresolver | 1.1.0 | 2025-06-16 | Swagger | :white_check_mark: | package-2025-05 | dnsresolver | False |
 |224| azure-resourcemanager-hybridcompute | 1.1.0-beta.2 | 2025-06-16 | Swagger | :white_check_mark: | package-preview-2025-02-19 | hybridcompute | False |
 |225| azure-resourcemanager-networkcloud | 2.0.0 | 2025-06-17 | Swagger | :white_check_mark: | package-2025-02-01 | networkcloud | False |
+|226| azure-resourcemanager-kubernetesconfiguration-privatelinkscopes | 1.0.0-beta.1 | 2025-06-18 | Swagger | :white_check_mark: | package-preview-2024-11 | specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/readme.md | False |
 
 ## Not planned
 
