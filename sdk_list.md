@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-07-03 18:21:08.717194
+Generated At: 2025-07-04 18:20:30.701526
 
 ## Summary
 
-- total: 226
-- migrated: 225
+- total: 227
+- migrated: 226
 - need javadoc fix: 0
 
 ## Detail
@@ -239,6 +239,7 @@ Generated At: 2025-07-03 18:21:08.717194
 |224| azure-resourcemanager-storage | 2.52.0 | 2025-06-27 | Swagger | :white_check_mark: |  |  | False |
 |225| azure-resourcemanager-purestorageblock | 1.0.0 | 2025-06-30 | TypeSpec | :white_check_mark: |  |  | False |
 |226| azure-resourcemanager-mongodbatlas | 1.0.0 | 2025-07-02 | TypeSpec | :white_check_mark: |  |  | False |
+|227| azure-resourcemanager-resources-bicep | 1.0.0-beta.1 | 2025-07-03 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
