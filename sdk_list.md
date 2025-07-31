@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-07-30 18:23:30.590536
+Generated At: 2025-07-31 18:24:29.097104
 
 ## Summary
 
-- total: 229
-- migrated: 228
+- total: 230
+- migrated: 229
 - need javadoc fix: 0
 
 ## Detail
@@ -242,6 +242,7 @@ Generated At: 2025-07-30 18:23:30.590536
 |227| azure-resourcemanager-datamigration | 1.1.0-beta.1 | 2025-07-28 | Swagger | :white_check_mark: | package-preview-2025-03 | datamigration | False |
 |228| azure-resourcemanager-policyinsights | 1.1.0-beta.1 | 2025-07-29 | Swagger | :white_check_mark: | package-2024-10 | policyinsights | False |
 |229| azure-resourcemanager-providerhub | 2.0.0 | 2025-07-29 | Swagger | :white_check_mark: | package-2024-09-01 | providerhub | False |
+|230| azure-resourcemanager-containerservicesafeguards | 1.0.0-beta.1 | 2025-07-31 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
