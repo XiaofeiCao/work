@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-08-03 18:21:54.976777
+Generated At: 2025-08-04 18:24:46.410121
 
 ## Summary
 
@@ -207,11 +207,11 @@ Generated At: 2025-08-03 18:21:54.976777
 |192| azure-resourcemanager-avs | 1.3.0 | 2025-07-08 | TypeSpec | :white_check_mark: |  |  | False |
 |193| azure-resourcemanager-resources-deploymentstacks | 1.0.0 | 2025-07-10 | Swagger | :white_check_mark: | package-2024-03 | specification/resources/resource-manager/Microsoft.Resources/deploymentStacks/readme.md | False |
 |194| azure-resourcemanager-playwright | 1.0.0-beta.1 | 2025-07-14 | TypeSpec | :white_check_mark: |  |  | False |
-|195| azure-resourcemanager-dashboard | 1.2.0-beta.1 | 2025-07-14 | TypeSpec | :white_check_mark: |  |  | False |
-|196| azure-resourcemanager-carbonoptimization | 1.0.0 | 2025-07-15 | TypeSpec | :white_check_mark: |  |  | False |
-|197| azure-resourcemanager-storagediscovery | 1.0.0-beta.1 | 2025-07-16 | TypeSpec | :white_check_mark: |  |  | False |
-|198| azure-resourcemanager-cognitiveservices | 1.2.0 | 2025-07-21 | Swagger | :white_check_mark: | package-2025-06-01 | cognitiveservices | False |
-|199| azure-resourcemanager-netapp | 1.8.0 | 2025-07-21 | Swagger | :white_check_mark: | package-2025-03-01 | netapp | False |
+|195| azure-resourcemanager-carbonoptimization | 1.0.0 | 2025-07-15 | TypeSpec | :white_check_mark: |  |  | False |
+|196| azure-resourcemanager-storagediscovery | 1.0.0-beta.1 | 2025-07-16 | TypeSpec | :white_check_mark: |  |  | False |
+|197| azure-resourcemanager-cognitiveservices | 1.2.0 | 2025-07-21 | Swagger | :white_check_mark: | package-2025-06-01 | cognitiveservices | False |
+|198| azure-resourcemanager-netapp | 1.8.0 | 2025-07-21 | Swagger | :white_check_mark: | package-2025-03-01 | netapp | False |
+|199| azure-resourcemanager-dashboard | 1.2.0-beta.2 | 2025-07-21 | TypeSpec | :white_check_mark: |  |  | False |
 |200| azure-resourcemanager-healthbot | 1.1.0 | 2025-07-21 | Swagger | :white_check_mark: | package-2025-05-25 | healthbot | False |
 |201| azure-resourcemanager-mongocluster | 1.1.0-beta.1 | 2025-07-23 | TypeSpec | :white_check_mark: |  |  | False |
 |202| azure-resourcemanager-computeschedule | 1.2.0-beta.1 | 2025-07-24 | TypeSpec | :white_check_mark: |  |  | False |
