@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-08-17 18:20:51.673825
+Generated At: 2025-08-18 18:23:10.526101
 
 ## Summary
 
-- total: 229
-- migrated: 228
+- total: 230
+- migrated: 229
 - need javadoc fix: 0
 
 ## Detail
@@ -216,10 +216,10 @@ Generated At: 2025-08-17 18:20:51.673825
 |201| azure-resourcemanager-policyinsights | 1.1.0-beta.1 | 2025-07-29 | Swagger | :white_check_mark: | package-2024-10 | policyinsights | False |
 |202| azure-resourcemanager-providerhub | 2.0.0 | 2025-07-29 | Swagger | :white_check_mark: | package-2024-09-01 | providerhub | False |
 |203| azure-resourcemanager-containerservicesafeguards | 1.0.0-beta.1 | 2025-07-31 | TypeSpec | :white_check_mark: |  |  | False |
-|204| azure-resourcemanager-storage | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|205| azure-resourcemanager-appplatform | 2.50.4 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|206| azure-resourcemanager-containerregistry | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|207| azure-resourcemanager-cdn | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|204| azure-resourcemanager-cdn | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  | cdn | False |
+|205| azure-resourcemanager-storage | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|206| azure-resourcemanager-appplatform | 2.50.4 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|207| azure-resourcemanager-containerregistry | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
 |208| azure-resourcemanager-privatedns | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
 |209| azure-resourcemanager-sql | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
 |210| azure-resourcemanager-resources | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
@@ -240,8 +240,9 @@ Generated At: 2025-08-17 18:20:51.673825
 |225| azure-resourcemanager-keyvault | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
 |226| azure-resourcemanager-containerservicefleet | 1.3.0-beta.1 | 2025-08-07 | TypeSpec | :white_check_mark: |  |  | False |
 |227| azure-resourcemanager-servicefabricmanagedclusters | 1.1.0-beta.2 | 2025-08-11 | TypeSpec | :white_check_mark: |  |  | False |
-|228| azure-resourcemanager-search | 2.54.0 | 2025-08-12 | Swagger | :white_check_mark: |  | search | False |
-|229| azure-resourcemanager-dataprotection | 1.4.0 | 2025-08-15 | Swagger | :white_check_mark: | package-2025-07-01 | dataprotection | False |
+|228| azure-resourcemanager-azurestackhci-vm | 1.0.0-beta.1 | 2025-08-11 | TypeSpec | :white_check_mark: |  |  | False |
+|229| azure-resourcemanager-search | 2.54.0 | 2025-08-12 | Swagger | :white_check_mark: |  | search | False |
+|230| azure-resourcemanager-dataprotection | 1.4.0 | 2025-08-15 | Swagger | :white_check_mark: | package-2025-07-01 | dataprotection | False |
 
 ## Not planned
 
