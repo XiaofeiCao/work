@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-08-19 18:20:41.926598
+Generated At: 2025-08-20 18:21:51.682178
 
 ## Summary
 
@@ -222,19 +222,19 @@ Generated At: 2025-08-19 18:20:41.926598
 |207| azure-resourcemanager-sql | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
 |208| azure-resourcemanager-resources | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
 |209| azure-resourcemanager-trafficmanager | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|210| azure-resourcemanager-dns | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|211| azure-resourcemanager-cosmos | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|212| azure-resourcemanager-containerinstance | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|213| azure-resourcemanager-eventhubs | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|214| azure-resourcemanager-servicebus | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|215| azure-resourcemanager-network | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|216| azure-resourcemanager-msi | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|217| azure-resourcemanager-monitor | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|218| azure-resourcemanager-appservice | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|219| azure-resourcemanager-compute | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|220| azure-resourcemanager-redis | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|221| azure-resourcemanager-authorization | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
-|222| azure-resourcemanager-containerservice | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|210| azure-resourcemanager-cosmos | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|211| azure-resourcemanager-containerinstance | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|212| azure-resourcemanager-eventhubs | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|213| azure-resourcemanager-servicebus | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|214| azure-resourcemanager-network | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|215| azure-resourcemanager-msi | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|216| azure-resourcemanager-monitor | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|217| azure-resourcemanager-appservice | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|218| azure-resourcemanager-compute | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|219| azure-resourcemanager-redis | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|220| azure-resourcemanager-authorization | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|221| azure-resourcemanager-containerservice | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  |  | False |
+|222| azure-resourcemanager-dns | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  | dns | False |
 |223| azure-resourcemanager-storage | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  | storage | False |
 |224| azure-resourcemanager-keyvault | 2.53.1 | 2025-08-05 | Swagger | :white_check_mark: |  | keyvault | False |
 |225| azure-resourcemanager-containerservicefleet | 1.3.0-beta.1 | 2025-08-07 | TypeSpec | :white_check_mark: |  |  | False |
