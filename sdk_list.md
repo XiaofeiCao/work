@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-09-09 18:18:48.118773
+Generated At: 2025-09-10 18:20:45.336327
 
 ## Summary
 
@@ -160,19 +160,19 @@ Generated At: 2025-09-09 18:18:48.118773
 |145| azure-resourcemanager-workloadssapvirtualinstance | 1.0.0 | 2025-04-18 | TypeSpec | :white_check_mark: |  |  | False |
 |146| azure-resourcemanager-elasticsan | 1.2.0-beta.2 | 2025-04-18 | Swagger | :white_check_mark: | package-2024-07-01-preview | elasticsan | False |
 |147| azure-resourcemanager-standbypool | 1.1.0 | 2025-04-21 | TypeSpec | :white_check_mark: |  |  | False |
-|148| azure-resourcemanager-programmableconnectivity | 1.0.0-beta.1 | 2025-04-22 | TypeSpec | :white_check_mark: |  |  | False |
-|149| azure-resourcemanager-apimanagement | 2.0.0 | 2025-04-23 | Swagger | :white_check_mark: | package-2024-05 | apimanagement | False |
-|150| azure-resourcemanager-recoveryservicessiterecovery | 1.3.0 | 2025-04-23 | Swagger | :white_check_mark: | package-2025-01-01 | recoveryservicessiterecovery | False |
-|151| azure-resourcemanager-servicenetworking | 1.2.0-beta.1 | 2025-04-24 | TypeSpec | :white_check_mark: |  |  | False |
-|152| azure-resourcemanager-durabletask | 1.0.0-beta.2 | 2025-04-24 | TypeSpec | :white_check_mark: |  |  | False |
-|153| azure-resourcemanager-portalservicescopilot | 1.0.0-beta.1 | 2025-04-28 | TypeSpec | :white_check_mark: |  |  | False |
-|154| azure-resourcemanager-redisenterprise | 2.1.0-beta.3 | 2025-05-06 | Swagger | :white_check_mark: | package-preview-2025-05-01 | redisenterprise | False |
-|155| azure-resourcemanager-secretsstoreextension | 1.0.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|156| azure-resourcemanager-dell-storage | 1.0.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|157| azure-resourcemanager-arizeaiobservabilityeval | 1.0.0 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|158| azure-resourcemanager-weightsandbiases | 1.0.0 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|159| azure-resourcemanager-lambdatesthyperexecute | 1.0.0 | 2025-05-12 | TypeSpec | :white_check_mark: |  |  | False |
-|160| azure-resourcemanager-neonpostgres | 1.1.0 | 2025-05-13 | TypeSpec | :white_check_mark: |  |  | False |
+|148| azure-resourcemanager-neonpostgres | 1.0.0 | 2025-04-21 | TypeSpec | :white_check_mark: |  |  | False |
+|149| azure-resourcemanager-programmableconnectivity | 1.0.0-beta.1 | 2025-04-22 | TypeSpec | :white_check_mark: |  |  | False |
+|150| azure-resourcemanager-apimanagement | 2.0.0 | 2025-04-23 | Swagger | :white_check_mark: | package-2024-05 | apimanagement | False |
+|151| azure-resourcemanager-recoveryservicessiterecovery | 1.3.0 | 2025-04-23 | Swagger | :white_check_mark: | package-2025-01-01 | recoveryservicessiterecovery | False |
+|152| azure-resourcemanager-servicenetworking | 1.2.0-beta.1 | 2025-04-24 | TypeSpec | :white_check_mark: |  |  | False |
+|153| azure-resourcemanager-durabletask | 1.0.0-beta.2 | 2025-04-24 | TypeSpec | :white_check_mark: |  |  | False |
+|154| azure-resourcemanager-portalservicescopilot | 1.0.0-beta.1 | 2025-04-28 | TypeSpec | :white_check_mark: |  |  | False |
+|155| azure-resourcemanager-redisenterprise | 2.1.0-beta.3 | 2025-05-06 | Swagger | :white_check_mark: | package-preview-2025-05-01 | redisenterprise | False |
+|156| azure-resourcemanager-secretsstoreextension | 1.0.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|157| azure-resourcemanager-dell-storage | 1.0.0-beta.1 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|158| azure-resourcemanager-arizeaiobservabilityeval | 1.0.0 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|159| azure-resourcemanager-weightsandbiases | 1.0.0 | 2025-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|160| azure-resourcemanager-lambdatesthyperexecute | 1.0.0 | 2025-05-12 | TypeSpec | :white_check_mark: |  |  | False |
 |161| azure-resourcemanager-confidentialledger | 1.1.0-beta.1 | 2025-05-15 | Swagger | :white_check_mark: | package-preview-2024-09 | confidentialledger | False |
 |162| azure-resourcemanager-chaos | 1.3.0 | 2025-05-15 | TypeSpec | :white_check_mark: |  |  | False |
 |163| azure-resourcemanager-postgresqlflexibleserver | 1.2.0-beta.1 | 2025-05-16 | Swagger | :white_check_mark: | package-flexibleserver-2025-01-01-preview | postgresql | False |
