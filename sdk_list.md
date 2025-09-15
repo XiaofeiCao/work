@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-09-14 18:17:37.353844
+Generated At: 2025-09-15 18:20:54.374750
 
 ## Summary
 
@@ -229,22 +229,22 @@ Generated At: 2025-09-14 18:17:37.353844
 |214| azure-resourcemanager-search | 2.54.1 | 2025-08-27 | Swagger | :white_check_mark: |  | search | False |
 |215| azure-resourcemanager-redis | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | redis | False |
 |216| azure-resourcemanager-storage | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | storage | False |
-|217| azure-resourcemanager-network | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | network | False |
-|218| azure-resourcemanager-compute | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | compute | False |
-|219| azure-resourcemanager-msi | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | msi | False |
-|220| azure-resourcemanager-trafficmanager | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | trafficmanager | False |
-|221| azure-resourcemanager-sql | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | sql | False |
-|222| azure-resourcemanager-containerinstance | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | containerinstance | False |
-|223| azure-resourcemanager-containerregistry | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | containerregistry | False |
-|224| azure-resourcemanager-privatedns | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | privatedns | False |
-|225| azure-resourcemanager-dns | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | dns | False |
-|226| azure-resourcemanager-authorization | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | authorization | False |
-|227| azure-resourcemanager-computerecommender | 1.0.0-beta.1 | 2025-08-29 | TypeSpec | :white_check_mark: |  |  | False |
-|228| azure-resourcemanager-iotfirmwaredefense | 2.0.0 | 2025-08-29 | TypeSpec | :white_check_mark: |  |  | False |
-|229| azure-resourcemanager-storagemover | 1.4.0 | 2025-08-29 | TypeSpec | :white_check_mark: |  |  | False |
-|230| azure-resourcemanager-sitemanager | 1.0.0 | 2025-09-03 | TypeSpec | :white_check_mark: |  |  | False |
-|231| azure-resourcemanager-resources-bicep | 1.0.0-beta.1 | 2025-09-08 | TypeSpec | :white_check_mark: |  |  | False |
-|232| azure-resourcemanager-playwrighttesting | 1.1.0-beta.2 | 2025-09-09 | TypeSpec | :white_check_mark: |  |  | False |
+|217| azure-resourcemanager-compute | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | compute | False |
+|218| azure-resourcemanager-msi | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | msi | False |
+|219| azure-resourcemanager-trafficmanager | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | trafficmanager | False |
+|220| azure-resourcemanager-sql | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | sql | False |
+|221| azure-resourcemanager-containerinstance | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | containerinstance | False |
+|222| azure-resourcemanager-containerregistry | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | containerregistry | False |
+|223| azure-resourcemanager-privatedns | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | privatedns | False |
+|224| azure-resourcemanager-dns | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | dns | False |
+|225| azure-resourcemanager-authorization | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | authorization | False |
+|226| azure-resourcemanager-computerecommender | 1.0.0-beta.1 | 2025-08-29 | TypeSpec | :white_check_mark: |  |  | False |
+|227| azure-resourcemanager-iotfirmwaredefense | 2.0.0 | 2025-08-29 | TypeSpec | :white_check_mark: |  |  | False |
+|228| azure-resourcemanager-storagemover | 1.4.0 | 2025-08-29 | TypeSpec | :white_check_mark: |  |  | False |
+|229| azure-resourcemanager-sitemanager | 1.0.0 | 2025-09-03 | TypeSpec | :white_check_mark: |  |  | False |
+|230| azure-resourcemanager-resources-bicep | 1.0.0-beta.1 | 2025-09-08 | TypeSpec | :white_check_mark: |  |  | False |
+|231| azure-resourcemanager-playwrighttesting | 1.1.0-beta.2 | 2025-09-09 | TypeSpec | :white_check_mark: |  |  | False |
+|232| azure-resourcemanager-network | 2.53.3 | 2025-09-15 | Swagger | :white_check_mark: |  | network | False |
 
 ## Not planned
 
