@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-09-17 18:20:29.842105
+Generated At: 2025-09-18 18:21:15.739763
 
 ## Summary
 
-- total: 232
-- migrated: 231
+- total: 233
+- migrated: 232
 - need javadoc fix: 0
 
 ## Detail
@@ -217,17 +217,17 @@ Generated At: 2025-09-17 18:20:29.842105
 |202| azure-resourcemanager-servicebus | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  |  | False |
 |203| azure-resourcemanager-appplatform | 2.50.5 | 2025-08-27 | Swagger | :white_check_mark: |  |  | False |
 |204| azure-resourcemanager-cosmos | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  |  | False |
-|205| azure-resourcemanager-monitor | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  |  | False |
-|206| azure-resourcemanager-containerservice | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | containerservice | False |
-|207| azure-resourcemanager-appservice | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | appservice | False |
-|208| azure-resourcemanager-keyvault | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | keyvault | False |
-|209| azure-resourcemanager-cdn | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | cdn | False |
-|210| azure-resourcemanager-search | 2.54.1 | 2025-08-27 | Swagger | :white_check_mark: |  | search | False |
-|211| azure-resourcemanager-redis | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | redis | False |
-|212| azure-resourcemanager-storage | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | storage | False |
-|213| azure-resourcemanager-compute | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | compute | False |
-|214| azure-resourcemanager-msi | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | msi | False |
-|215| azure-resourcemanager-trafficmanager | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | trafficmanager | False |
+|205| azure-resourcemanager-containerservice | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | containerservice | False |
+|206| azure-resourcemanager-appservice | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | appservice | False |
+|207| azure-resourcemanager-keyvault | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | keyvault | False |
+|208| azure-resourcemanager-cdn | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | cdn | False |
+|209| azure-resourcemanager-search | 2.54.1 | 2025-08-27 | Swagger | :white_check_mark: |  | search | False |
+|210| azure-resourcemanager-redis | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | redis | False |
+|211| azure-resourcemanager-storage | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | storage | False |
+|212| azure-resourcemanager-compute | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | compute | False |
+|213| azure-resourcemanager-msi | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | msi | False |
+|214| azure-resourcemanager-trafficmanager | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | trafficmanager | False |
+|215| azure-resourcemanager-monitor | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | monitor | False |
 |216| azure-resourcemanager-sql | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | sql | False |
 |217| azure-resourcemanager-containerinstance | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | containerinstance | False |
 |218| azure-resourcemanager-resources | 2.53.2 | 2025-08-27 | Swagger | :white_check_mark: |  | resources | False |
@@ -245,6 +245,7 @@ Generated At: 2025-09-17 18:20:29.842105
 |230| azure-resourcemanager-network | 2.53.3 | 2025-09-15 | Swagger | :white_check_mark: |  | network | False |
 |231| azure-resourcemanager-appcontainers | 1.2.0-beta.1 | 2025-09-16 | Swagger | :white_check_mark: | package-preview-2025-02-02-preview | specification/app/resource-manager/Microsoft.App/ContainerApps/readme.md | False |
 |232| azure-resourcemanager-cognitiveservices | 1.3.0 | 2025-09-16 | Swagger | :white_check_mark: | package-2025-06-01 | cognitiveservices | False |
+|233| azure-resourcemanager-disconnectedoperations | 1.0.0-beta.1 | 2025-09-24 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
