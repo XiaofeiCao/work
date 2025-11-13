@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-11-12 18:22:28.883556
+Generated At: 2025-11-13 18:22:42.699777
 
 ## Summary
 
-- total: 235
-- migrated: 234
+- total: 234
+- migrated: 233
 - need javadoc fix: 0
 
 ## Detail
@@ -238,16 +238,15 @@ Generated At: 2025-11-12 18:22:28.883556
 |223| azure-resourcemanager-containerinstance | 2.53.5 | 2025-10-27 | Swagger | :white_check_mark: |  | containerinstance | False |
 |224| azure-resourcemanager-eventhubs | 2.53.4 | 2025-10-27 | Swagger | :white_check_mark: |  | eventhubs | False |
 |225| azure-resourcemanager-msi | 2.53.4 | 2025-10-27 | Swagger | :white_check_mark: |  | msi | False |
-|226| azure-resourcemanager-appservice | 2.53.5 | 2025-10-27 | Swagger | :white_check_mark: |  | appservice | False |
-|227| azure-resourcemanager-redis | 2.53.4 | 2025-10-27 | Swagger | :white_check_mark: |  | redis | False |
-|228| azure-resourcemanager-paloaltonetworks-ngfw | 1.3.0 | 2025-10-30 | TypeSpec | :white_check_mark: |  |  | False |
-|229| azure-resourcemanager-containerregistry | 2.54.0 | 2025-11-05 | Swagger | :white_check_mark: |  | containerregistry | False |
-|230| azure-resourcemanager-monitor | 2.54.0-beta.1 | 2025-11-06 | Swagger | :white_check_mark: |  | monitor | False |
-|231| azure-resourcemanager-keyvault | 2.54.0 | 2025-11-10 | TypeSpec | :white_check_mark: |  |  | False |
-|232| azure-resourcemanager-containerservice | 2.56.0 | 2025-11-10 | Swagger | :white_check_mark: |  | containerservice | False |
-|233| azure-resourcemanager-network | 2.56.0 | 2025-11-12 | Swagger | :white_check_mark: |  | network | False |
-|234| azure-resourcemanager-hdinsight-containers | 1.0.0-beta.4 | 2025-11-12 | Swagger | :white_check_mark: | package-preview-2024-05 | specification/hdinsight/resource-manager/Microsoft.HDInsight/HDInsightOnAks/readme.md | False |
-|235| azure-resourcemanager-computelimit | 1.0.0-beta.1 | 2025-11-12 | TypeSpec | :white_check_mark: |  |  | False |
+|226| azure-resourcemanager-redis | 2.53.4 | 2025-10-27 | Swagger | :white_check_mark: |  | redis | False |
+|227| azure-resourcemanager-paloaltonetworks-ngfw | 1.3.0 | 2025-10-30 | TypeSpec | :white_check_mark: |  |  | False |
+|228| azure-resourcemanager-containerregistry | 2.54.0 | 2025-11-05 | Swagger | :white_check_mark: |  | containerregistry | False |
+|229| azure-resourcemanager-monitor | 2.54.0-beta.1 | 2025-11-06 | Swagger | :white_check_mark: |  | monitor | False |
+|230| azure-resourcemanager-keyvault | 2.54.0 | 2025-11-10 | TypeSpec | :white_check_mark: |  |  | False |
+|231| azure-resourcemanager-containerservice | 2.56.0 | 2025-11-10 | Swagger | :white_check_mark: |  | containerservice | False |
+|232| azure-resourcemanager-network | 2.56.0 | 2025-11-12 | Swagger | :white_check_mark: |  | network | False |
+|233| azure-resourcemanager-computelimit | 1.0.0-beta.1 | 2025-11-12 | TypeSpec | :white_check_mark: |  |  | False |
+|234| azure-resourcemanager-appservice | 2.54.0 | 2025-11-13 | Swagger | :white_check_mark: |  | appservice | False |
 
 ## Not planned
 
