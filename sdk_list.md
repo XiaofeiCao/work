@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-11-19 18:23:07.933404
+Generated At: 2025-11-20 18:23:15.128938
 
 ## Summary
 
@@ -236,17 +236,17 @@ Generated At: 2025-11-19 18:23:07.933404
 |221| azure-resourcemanager-monitor | 2.54.0-beta.1 | 2025-11-06 | Swagger | :white_check_mark: |  | monitor | False |
 |222| azure-resourcemanager-keyvault | 2.54.0 | 2025-11-10 | TypeSpec | :white_check_mark: |  |  | False |
 |223| azure-resourcemanager-containerservice | 2.56.0 | 2025-11-10 | Swagger | :white_check_mark: |  | containerservice | False |
-|224| azure-resourcemanager-network | 2.56.0 | 2025-11-12 | Swagger | :white_check_mark: |  | network | False |
-|225| azure-resourcemanager-computelimit | 1.0.0-beta.1 | 2025-11-12 | TypeSpec | :white_check_mark: |  |  | False |
-|226| azure-resourcemanager-appservice | 2.54.0 | 2025-11-13 | Swagger | :white_check_mark: |  | appservice | False |
-|227| azure-resourcemanager-authorization | 2.53.5 | 2025-11-14 | Swagger | :white_check_mark: |  | authorization | False |
-|228| azure-resourcemanager-netapp | 2.0.0 | 2025-11-14 | TypeSpec | :white_check_mark: |  |  | False |
-|229| azure-resourcemanager-resources | 2.53.5 | 2025-11-17 | Swagger | :white_check_mark: |  | resources | False |
-|230| azure-resourcemanager-compute | 2.55.0 | 2025-11-17 | Swagger | :white_check_mark: |  | compute | False |
-|231| azure-resourcemanager-iothub | 1.4.0-beta.1 | 2025-11-17 | Swagger | :white_check_mark: | package-preview-2025-08 | specification/iothub/resource-manager/Microsoft.Devices/IoTHub/readme.md | False |
-|232| azure-resourcemanager-recoveryservices | 1.6.0 | 2025-11-18 | TypeSpec | :white_check_mark: |  |  | False |
-|233| azure-resourcemanager-networkcloud | 2.1.0-beta.1 | 2025-11-18 | Swagger | :white_check_mark: | package-2025-07-01-preview | networkcloud | False |
-|234| azure-resourcemanager-cosmos | 2.54.0 | 2025-11-18 | Swagger | :white_check_mark: |  | cosmos | False |
+|224| azure-resourcemanager-computelimit | 1.0.0-beta.1 | 2025-11-12 | TypeSpec | :white_check_mark: |  |  | False |
+|225| azure-resourcemanager-appservice | 2.54.0 | 2025-11-13 | Swagger | :white_check_mark: |  | appservice | False |
+|226| azure-resourcemanager-authorization | 2.53.5 | 2025-11-14 | Swagger | :white_check_mark: |  | authorization | False |
+|227| azure-resourcemanager-netapp | 2.0.0 | 2025-11-14 | TypeSpec | :white_check_mark: |  |  | False |
+|228| azure-resourcemanager-resources | 2.53.5 | 2025-11-17 | Swagger | :white_check_mark: |  | resources | False |
+|229| azure-resourcemanager-compute | 2.55.0 | 2025-11-17 | Swagger | :white_check_mark: |  | compute | False |
+|230| azure-resourcemanager-iothub | 1.4.0-beta.1 | 2025-11-17 | Swagger | :white_check_mark: | package-preview-2025-08 | specification/iothub/resource-manager/Microsoft.Devices/IoTHub/readme.md | False |
+|231| azure-resourcemanager-recoveryservices | 1.6.0 | 2025-11-18 | TypeSpec | :white_check_mark: |  |  | False |
+|232| azure-resourcemanager-networkcloud | 2.1.0-beta.1 | 2025-11-18 | Swagger | :white_check_mark: | package-2025-07-01-preview | networkcloud | False |
+|233| azure-resourcemanager-cosmos | 2.54.0 | 2025-11-18 | Swagger | :white_check_mark: |  | cosmos | False |
+|234| azure-resourcemanager-network | 2.57.0 | 2025-11-19 | Swagger | :white_check_mark: |  | network | False |
 
 ## Not planned
 
