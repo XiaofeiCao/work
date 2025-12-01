@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-11-30 18:20:55.277952
+Generated At: 2025-12-01 18:26:15.183003
 
 ## Summary
 
@@ -241,12 +241,12 @@ Generated At: 2025-11-30 18:20:55.277952
 |226| azure-resourcemanager-authorization | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | authorization | False |
 |227| azure-resourcemanager-containerinstance | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | containerinstance | False |
 |228| azure-resourcemanager-eventhubs | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | eventhubs | False |
-|229| azure-resourcemanager-containerservice | 2.56.1 | 2025-11-24 | Swagger | :white_check_mark: |  | containerservice | False |
-|230| azure-resourcemanager-msi | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | msi | False |
-|231| azure-resourcemanager-appservice | 2.54.1 | 2025-11-24 | Swagger | :white_check_mark: |  | appservice | False |
-|232| azure-resourcemanager-monitor | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | monitor | False |
-|233| azure-resourcemanager-redis | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | redis | False |
-|234| azure-resourcemanager-netapp | 2.1.0-beta.1 | 2025-11-28 | TypeSpec | :white_check_mark: |  |  | False |
+|229| azure-resourcemanager-msi | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | msi | False |
+|230| azure-resourcemanager-appservice | 2.54.1 | 2025-11-24 | Swagger | :white_check_mark: |  | appservice | False |
+|231| azure-resourcemanager-monitor | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | monitor | False |
+|232| azure-resourcemanager-redis | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | redis | False |
+|233| azure-resourcemanager-netapp | 2.1.0-beta.1 | 2025-11-28 | TypeSpec | :white_check_mark: |  |  | False |
+|234| azure-resourcemanager-containerservice | 2.57.0-beta.1 | 2025-12-01 | Swagger | :white_check_mark: |  | containerservice | False |
 
 ## Not planned
 
