@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-12-03 18:26:07.154140
+Generated At: 2025-12-04 18:26:24.372952
 
 ## Summary
 
@@ -245,8 +245,8 @@ Generated At: 2025-12-03 18:26:07.154140
 |230| azure-resourcemanager-appservice | 2.54.1 | 2025-11-24 | Swagger | :white_check_mark: |  | appservice | False |
 |231| azure-resourcemanager-monitor | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | monitor | False |
 |232| azure-resourcemanager-redis | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | redis | False |
-|233| azure-resourcemanager-netapp | 2.1.0-beta.1 | 2025-11-28 | TypeSpec | :white_check_mark: |  |  | False |
-|234| azure-resourcemanager-containerservice | 2.57.0-beta.1 | 2025-12-01 | Swagger | :white_check_mark: |  | containerservice | False |
+|233| azure-resourcemanager-containerservice | 2.57.0-beta.1 | 2025-12-01 | Swagger | :white_check_mark: |  | containerservice | False |
+|234| azure-resourcemanager-netapp | 2.1.0-beta.1 | 2025-12-04 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
