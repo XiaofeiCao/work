@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2025-12-04 18:26:24.372952
+Generated At: 2025-12-05 18:21:37.500067
 
 ## Summary
 
@@ -226,26 +226,26 @@ Generated At: 2025-12-04 18:26:24.372952
 |211| azure-resourcemanager-cosmos | 2.54.0 | 2025-11-18 | Swagger | :white_check_mark: |  | cosmos | False |
 |212| azure-resourcemanager-network | 2.57.0 | 2025-11-19 | Swagger | :white_check_mark: |  | network | False |
 |213| azure-resourcemanager-postgresqlflexibleserver | 2.0.0 | 2025-11-21 | Swagger | :white_check_mark: | package-flexibleserver-2025-08-01 | postgresql | False |
-|214| azure-resourcemanager-containerregistry | 2.54.1 | 2025-11-24 | Swagger | :white_check_mark: |  | containerregistry | False |
-|215| azure-resourcemanager-privatedns | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | privatedns | False |
-|216| azure-resourcemanager-newrelicobservability | 1.3.0-beta.1 | 2025-11-24 | Swagger | :white_check_mark: | package-2025-05-01-preview | newrelic | False |
-|217| azure-resourcemanager-keyvault | 2.54.1 | 2025-11-24 | TypeSpec | :white_check_mark: |  |  | False |
-|218| azure-resourcemanager-sql | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | sql | False |
-|219| azure-resourcemanager-storage | 2.55.2 | 2025-11-24 | Swagger | :white_check_mark: |  | storage | False |
-|220| azure-resourcemanager-dns | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | dns | False |
-|221| azure-resourcemanager-servicebus | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | servicebus | False |
-|222| azure-resourcemanager-cdn | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | cdn | False |
-|223| azure-resourcemanager-compute | 2.55.1 | 2025-11-24 | Swagger | :white_check_mark: |  | compute | False |
-|224| azure-resourcemanager-search | 2.54.4 | 2025-11-24 | Swagger | :white_check_mark: |  | search | False |
-|225| azure-resourcemanager-trafficmanager | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | trafficmanager | False |
-|226| azure-resourcemanager-authorization | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | authorization | False |
-|227| azure-resourcemanager-containerinstance | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | containerinstance | False |
-|228| azure-resourcemanager-eventhubs | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | eventhubs | False |
-|229| azure-resourcemanager-msi | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | msi | False |
-|230| azure-resourcemanager-appservice | 2.54.1 | 2025-11-24 | Swagger | :white_check_mark: |  | appservice | False |
-|231| azure-resourcemanager-monitor | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | monitor | False |
-|232| azure-resourcemanager-redis | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | redis | False |
-|233| azure-resourcemanager-containerservice | 2.57.0-beta.1 | 2025-12-01 | Swagger | :white_check_mark: |  | containerservice | False |
+|214| azure-resourcemanager-privatedns | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | privatedns | False |
+|215| azure-resourcemanager-newrelicobservability | 1.3.0-beta.1 | 2025-11-24 | Swagger | :white_check_mark: | package-2025-05-01-preview | newrelic | False |
+|216| azure-resourcemanager-keyvault | 2.54.1 | 2025-11-24 | TypeSpec | :white_check_mark: |  |  | False |
+|217| azure-resourcemanager-sql | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | sql | False |
+|218| azure-resourcemanager-storage | 2.55.2 | 2025-11-24 | Swagger | :white_check_mark: |  | storage | False |
+|219| azure-resourcemanager-dns | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | dns | False |
+|220| azure-resourcemanager-servicebus | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | servicebus | False |
+|221| azure-resourcemanager-cdn | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | cdn | False |
+|222| azure-resourcemanager-compute | 2.55.1 | 2025-11-24 | Swagger | :white_check_mark: |  | compute | False |
+|223| azure-resourcemanager-search | 2.54.4 | 2025-11-24 | Swagger | :white_check_mark: |  | search | False |
+|224| azure-resourcemanager-trafficmanager | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | trafficmanager | False |
+|225| azure-resourcemanager-authorization | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | authorization | False |
+|226| azure-resourcemanager-containerinstance | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | containerinstance | False |
+|227| azure-resourcemanager-eventhubs | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | eventhubs | False |
+|228| azure-resourcemanager-msi | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | msi | False |
+|229| azure-resourcemanager-appservice | 2.54.1 | 2025-11-24 | Swagger | :white_check_mark: |  | appservice | False |
+|230| azure-resourcemanager-monitor | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | monitor | False |
+|231| azure-resourcemanager-redis | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | redis | False |
+|232| azure-resourcemanager-containerservice | 2.57.0-beta.1 | 2025-12-01 | Swagger | :white_check_mark: |  | containerservice | False |
+|233| azure-resourcemanager-containerregistry | 2.55.0-beta.1 | 2025-12-04 | Swagger | :white_check_mark: |  | containerregistry | False |
 |234| azure-resourcemanager-netapp | 2.1.0-beta.1 | 2025-12-04 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
