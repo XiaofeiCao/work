@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-01-04 18:22:42.019837
+Generated At: 2026-01-05 18:26:03.928704
 
 ## Summary
 
@@ -245,8 +245,8 @@ Generated At: 2026-01-04 18:22:42.019837
 |230| azure-resourcemanager-containerservice | 2.58.0-beta.1 | 2025-12-15 | Swagger | :white_check_mark: |  | containerservice | False |
 |231| azure-resourcemanager-mobilenetwork | 1.3.1 | 2025-12-16 | Swagger | :white_check_mark: | package-2024-04 | mobilenetwork | False |
 |232| azure-resourcemanager-networkcloud | 2.1.0 | 2025-12-17 | Swagger | :white_check_mark: | package-2025-09-01 | networkcloud | False |
-|233| azure-resourcemanager-loganalytics | 2.0.0 | 2025-12-22 | Swagger | :white_check_mark: | package-2025-07-01 | specification/operationalinsights/resource-manager/Microsoft.OperationalInsights/OperationalInsights/readme.md | False |
-|234| azure-resourcemanager-dell-storage | 1.0.0 | 2025-12-29 | TypeSpec | :white_check_mark: |  |  | False |
+|233| azure-resourcemanager-dell-storage | 1.0.0 | 2025-12-29 | TypeSpec | :white_check_mark: |  |  | False |
+|234| azure-resourcemanager-loganalytics | 2.1.0 | 2026-01-05 | Swagger | :white_check_mark: | package-2025-07-01 | specification/operationalinsights/resource-manager/Microsoft.OperationalInsights/OperationalInsights/readme.md | False |
 
 ## Not planned
 
