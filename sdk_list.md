@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-01-13 18:26:09.724033
+Generated At: 2026-01-14 18:27:28.276167
 
 ## Summary
 
@@ -224,29 +224,29 @@ Generated At: 2026-01-13 18:26:09.724033
 |209| azure-resourcemanager-dns | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | dns | False |
 |210| azure-resourcemanager-servicebus | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | servicebus | False |
 |211| azure-resourcemanager-cdn | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | cdn | False |
-|212| azure-resourcemanager-compute | 2.55.1 | 2025-11-24 | Swagger | :white_check_mark: |  | compute | False |
-|213| azure-resourcemanager-search | 2.54.4 | 2025-11-24 | Swagger | :white_check_mark: |  | search | False |
-|214| azure-resourcemanager-trafficmanager | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | trafficmanager | False |
-|215| azure-resourcemanager-authorization | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | authorization | False |
-|216| azure-resourcemanager-containerinstance | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | containerinstance | False |
-|217| azure-resourcemanager-eventhubs | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | eventhubs | False |
-|218| azure-resourcemanager-msi | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | msi | False |
-|219| azure-resourcemanager-appservice | 2.54.1 | 2025-11-24 | Swagger | :white_check_mark: |  | appservice | False |
-|220| azure-resourcemanager-monitor | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | monitor | False |
-|221| azure-resourcemanager-redis | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | redis | False |
-|222| azure-resourcemanager-containerservicefleet | 1.3.0-beta.2 | 2025-12-03 | TypeSpec | :white_check_mark: |  |  | False |
-|223| azure-resourcemanager-containerregistry | 2.55.0-beta.1 | 2025-12-04 | Swagger | :white_check_mark: |  | containerregistry | False |
-|224| azure-resourcemanager-netapp | 2.1.0-beta.1 | 2025-12-04 | TypeSpec | :white_check_mark: |  |  | False |
-|225| azure-resourcemanager-avs | 1.4.0 | 2025-12-12 | TypeSpec | :white_check_mark: |  |  | False |
-|226| azure-resourcemanager-containerservice | 2.58.0-beta.1 | 2025-12-15 | Swagger | :white_check_mark: |  | containerservice | False |
-|227| azure-resourcemanager-mobilenetwork | 1.3.1 | 2025-12-16 | Swagger | :white_check_mark: | package-2024-04 | mobilenetwork | False |
-|228| azure-resourcemanager-networkcloud | 2.1.0 | 2025-12-17 | Swagger | :white_check_mark: | package-2025-09-01 | networkcloud | False |
-|229| azure-resourcemanager-connectedcache | 1.0.0-beta.2 | 2025-12-24 | TypeSpec | :white_check_mark: |  |  | False |
-|230| azure-resourcemanager-dell-storage | 1.0.0 | 2025-12-29 | TypeSpec | :white_check_mark: |  |  | False |
-|231| azure-resourcemanager-healthbot | 1.2.0 | 2026-01-05 | TypeSpec | :white_check_mark: |  |  | False |
-|232| azure-resourcemanager-loganalytics | 2.1.0 | 2026-01-05 | Swagger | :white_check_mark: | package-2025-07-01 | specification/operationalinsights/resource-manager/Microsoft.OperationalInsights/OperationalInsights/readme.md | False |
-|233| azure-resourcemanager-subscription | 1.1.0-beta.1 | 2026-01-08 | Swagger | :white_check_mark: | package-2021-10 | subscription | False |
-|234| azure-resourcemanager-resourceconnector | 1.2.0-beta.1 | 2026-01-09 | TypeSpec | :white_check_mark: |  |  | False |
+|212| azure-resourcemanager-search | 2.54.4 | 2025-11-24 | Swagger | :white_check_mark: |  | search | False |
+|213| azure-resourcemanager-trafficmanager | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | trafficmanager | False |
+|214| azure-resourcemanager-authorization | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | authorization | False |
+|215| azure-resourcemanager-containerinstance | 2.53.6 | 2025-11-24 | Swagger | :white_check_mark: |  | containerinstance | False |
+|216| azure-resourcemanager-eventhubs | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | eventhubs | False |
+|217| azure-resourcemanager-msi | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | msi | False |
+|218| azure-resourcemanager-appservice | 2.54.1 | 2025-11-24 | Swagger | :white_check_mark: |  | appservice | False |
+|219| azure-resourcemanager-monitor | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | monitor | False |
+|220| azure-resourcemanager-redis | 2.53.5 | 2025-11-24 | Swagger | :white_check_mark: |  | redis | False |
+|221| azure-resourcemanager-containerservicefleet | 1.3.0-beta.2 | 2025-12-03 | TypeSpec | :white_check_mark: |  |  | False |
+|222| azure-resourcemanager-containerregistry | 2.55.0-beta.1 | 2025-12-04 | Swagger | :white_check_mark: |  | containerregistry | False |
+|223| azure-resourcemanager-netapp | 2.1.0-beta.1 | 2025-12-04 | TypeSpec | :white_check_mark: |  |  | False |
+|224| azure-resourcemanager-avs | 1.4.0 | 2025-12-12 | TypeSpec | :white_check_mark: |  |  | False |
+|225| azure-resourcemanager-containerservice | 2.58.0-beta.1 | 2025-12-15 | Swagger | :white_check_mark: |  | containerservice | False |
+|226| azure-resourcemanager-mobilenetwork | 1.3.1 | 2025-12-16 | Swagger | :white_check_mark: | package-2024-04 | mobilenetwork | False |
+|227| azure-resourcemanager-networkcloud | 2.1.0 | 2025-12-17 | Swagger | :white_check_mark: | package-2025-09-01 | networkcloud | False |
+|228| azure-resourcemanager-connectedcache | 1.0.0-beta.2 | 2025-12-24 | TypeSpec | :white_check_mark: |  |  | False |
+|229| azure-resourcemanager-dell-storage | 1.0.0 | 2025-12-29 | TypeSpec | :white_check_mark: |  |  | False |
+|230| azure-resourcemanager-healthbot | 1.2.0 | 2026-01-05 | TypeSpec | :white_check_mark: |  |  | False |
+|231| azure-resourcemanager-loganalytics | 2.1.0 | 2026-01-05 | Swagger | :white_check_mark: | package-2025-07-01 | specification/operationalinsights/resource-manager/Microsoft.OperationalInsights/OperationalInsights/readme.md | False |
+|232| azure-resourcemanager-subscription | 1.1.0-beta.1 | 2026-01-08 | Swagger | :white_check_mark: | package-2021-10 | subscription | False |
+|233| azure-resourcemanager-resourceconnector | 1.2.0-beta.1 | 2026-01-09 | TypeSpec | :white_check_mark: |  |  | False |
+|234| azure-resourcemanager-compute | 2.56.0 | 2026-01-12 | Swagger | :white_check_mark: |  | compute | False |
 
 ## Not planned
 
