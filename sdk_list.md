@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-01-21 18:36:23.015719
+Generated At: 2026-01-22 18:25:54.556097
 
 ## Summary
 
-- total: 234
-- migrated: 233
+- total: 235
+- migrated: 234
 - need javadoc fix: 0
 
 ## Detail
@@ -247,6 +247,7 @@ Generated At: 2026-01-21 18:36:23.015719
 |232| azure-resourcemanager-resourceconnector | 1.2.0-beta.1 | 2026-01-09 | TypeSpec | :white_check_mark: |  |  | False |
 |233| azure-resourcemanager-compute | 2.56.0 | 2026-01-12 | Swagger | :white_check_mark: |  | compute | False |
 |234| azure-resourcemanager-appconfiguration | 1.2.0-beta.1 | 2026-01-16 | TypeSpec | :white_check_mark: |  |  | False |
+|235| azure-resourcemanager-virtualenclaves | 1.0.0-beta.1 | 2026-01-22 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
