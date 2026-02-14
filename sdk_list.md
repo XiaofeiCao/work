@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-02-13 18:40:16.612143
+Generated At: 2026-02-14 18:27:57.334017
 
 ## Summary
 
-- total: 237
-- migrated: 236
+- total: 238
+- migrated: 237
 - need javadoc fix: 0
 
 ## Detail
@@ -249,7 +249,8 @@ Generated At: 2026-02-13 18:40:16.612143
 |234| azure-resourcemanager-edgeactions | 1.0.0-beta.1 | 2026-02-07 | TypeSpec | :white_check_mark: |  |  | False |
 |235| azure-resourcemanager-nginx | 1.1.0-beta.4 | 2026-02-10 | TypeSpec | :white_check_mark: |  |  | False |
 |236| azure-resourcemanager-computebulkactions | 1.0.0-beta.1 | 2026-02-10 | TypeSpec | :white_check_mark: |  |  | False |
-|237| azure-resourcemanager-network | 2.58.0 | 2026-02-14 | Swagger | :white_check_mark: |  | network | False |
+|237| azure-resourcemanager-artifactsigning | 1.0.0 | 2026-02-11 | TypeSpec | :white_check_mark: |  |  | False |
+|238| azure-resourcemanager-network | 2.58.0 | 2026-02-14 | Swagger | :white_check_mark: |  | network | False |
 
 ## Not planned
 
