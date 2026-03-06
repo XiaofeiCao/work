@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-03-05 19:12:43.010165
+Generated At: 2026-03-06 18:37:25.970386
 
 ## Summary
 
@@ -237,21 +237,21 @@ Generated At: 2026-03-05 19:12:43.010165
 |222| azure-resourcemanager-confluent | 1.3.0-beta.1 | 2026-02-10 | TypeSpec | :white_check_mark: |  |  | False |
 |223| azure-resourcemanager-artifactsigning | 1.0.0 | 2026-02-11 | TypeSpec | :white_check_mark: |  |  | False |
 |224| azure-resourcemanager-postgresqlflexibleserver | 2.1.0-beta.1 | 2026-02-13 | TypeSpec | :white_check_mark: |  |  | False |
-|225| azure-resourcemanager-managedops | 1.0.0-beta.1 | 2026-02-13 | TypeSpec | :white_check_mark: |  |  | False |
-|226| azure-resourcemanager-network | 2.58.0 | 2026-02-14 | Swagger | :white_check_mark: |  | network | False |
-|227| azure-resourcemanager-recoveryservicesbackup | 1.7.0-beta.1 | 2026-02-25 | TypeSpec | :white_check_mark: |  |  | False |
-|228| azure-resourcemanager-servicefabricmanagedclusters | 1.1.0 | 2026-02-26 | TypeSpec | :white_check_mark: |  |  | False |
-|229| azure-resourcemanager-netapp | 2.1.0 | 2026-02-26 | TypeSpec | :white_check_mark: |  |  | False |
-|230| azure-resourcemanager-containerinstance | 2.53.8 | 2026-02-26 | Swagger | :white_check_mark: |  | containerinstance | False |
-|231| azure-resourcemanager-compute | 2.56.2 | 2026-02-26 | Swagger | :white_check_mark: |  | compute | False |
-|232| azure-resourcemanager-newrelicobservability | 1.3.0-beta.2 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
-|233| azure-resourcemanager-providerhub | 2.1.0 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
-|234| azure-resourcemanager-elastic | 1.2.0 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
-|235| azure-resourcemanager-selfhelp | 1.1.0-beta.6 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
-|236| azure-resourcemanager-maintenance | 1.1.0-beta.3 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
-|237| azure-resourcemanager-cosmosdbforpostgresql | 1.1.0-beta.3 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
-|238| azure-resourcemanager-networkfunction | 1.0.0 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
-|239| azure-resourcemanager-powerbidedicated | 1.1.0 | 2026-03-05 | TypeSpec | :white_check_mark: |  |  | False |
+|225| azure-resourcemanager-network | 2.58.0 | 2026-02-14 | Swagger | :white_check_mark: |  | network | False |
+|226| azure-resourcemanager-recoveryservicesbackup | 1.7.0-beta.1 | 2026-02-25 | TypeSpec | :white_check_mark: |  |  | False |
+|227| azure-resourcemanager-servicefabricmanagedclusters | 1.1.0 | 2026-02-26 | TypeSpec | :white_check_mark: |  |  | False |
+|228| azure-resourcemanager-netapp | 2.1.0 | 2026-02-26 | TypeSpec | :white_check_mark: |  |  | False |
+|229| azure-resourcemanager-containerinstance | 2.53.8 | 2026-02-26 | Swagger | :white_check_mark: |  | containerinstance | False |
+|230| azure-resourcemanager-compute | 2.56.2 | 2026-02-26 | Swagger | :white_check_mark: |  | compute | False |
+|231| azure-resourcemanager-newrelicobservability | 1.3.0-beta.2 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
+|232| azure-resourcemanager-providerhub | 2.1.0 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
+|233| azure-resourcemanager-elastic | 1.2.0 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
+|234| azure-resourcemanager-selfhelp | 1.1.0-beta.6 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
+|235| azure-resourcemanager-maintenance | 1.1.0-beta.3 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
+|236| azure-resourcemanager-cosmosdbforpostgresql | 1.1.0-beta.3 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
+|237| azure-resourcemanager-networkfunction | 1.0.0 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
+|238| azure-resourcemanager-powerbidedicated | 1.1.0 | 2026-03-05 | TypeSpec | :white_check_mark: |  |  | False |
+|239| azure-resourcemanager-managedops | 1.0.0-beta.2 | 2026-03-06 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
