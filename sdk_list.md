@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-03-11 18:47:49.534623
+Generated At: 2026-03-12 18:45:52.473100
 
 ## Summary
 
@@ -209,17 +209,17 @@ Generated At: 2026-03-11 18:47:49.534623
 |194| azure-resourcemanager-communication | 2.3.0 | 2026-01-22 | Swagger | :white_check_mark: | package-2025-09-01 | communication | False |
 |195| azure-resourcemanager-containerregistry | 2.54.2 | 2026-01-29 | TypeSpec | :white_check_mark: |  |  | False |
 |196| azure-resourcemanager-servicebus | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | servicebus | False |
-|197| azure-resourcemanager-trafficmanager | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | trafficmanager | False |
+|197| azure-resourcemanager-trafficmanager | 2.53.6 | 2026-01-29 | TypeSpec | :white_check_mark: |  |  | False |
 |198| azure-resourcemanager-redis | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | redis | False |
 |199| azure-resourcemanager-msi | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | msi | False |
-|200| azure-resourcemanager-cosmos | 2.54.1 | 2026-01-29 | Swagger | :white_check_mark: |  | cosmos | False |
+|200| azure-resourcemanager-cosmos | 2.54.1 | 2026-01-29 | TypeSpec | :white_check_mark: |  |  | False |
 |201| azure-resourcemanager-eventhubs | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | eventhubs | False |
 |202| azure-resourcemanager-privatedns | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | privatedns | False |
 |203| azure-resourcemanager-keyvault | 2.54.2 | 2026-01-29 | TypeSpec | :white_check_mark: |  |  | False |
 |204| azure-resourcemanager-sql | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | sql | False |
 |205| azure-resourcemanager-storage | 2.55.3 | 2026-01-29 | Swagger | :white_check_mark: |  | storage | False |
 |206| azure-resourcemanager-containerservice | 2.57.1 | 2026-01-29 | Swagger | :white_check_mark: |  | containerservice | False |
-|207| azure-resourcemanager-search | 2.54.5 | 2026-01-29 | Swagger | :white_check_mark: |  | search | False |
+|207| azure-resourcemanager-search | 2.54.5 | 2026-01-29 | TypeSpec | :white_check_mark: |  |  | False |
 |208| azure-resourcemanager-dns | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | dns | False |
 |209| azure-resourcemanager-monitor | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | monitor | False |
 |210| azure-resourcemanager-authorization | 2.53.7 | 2026-01-29 | Swagger | :white_check_mark: |  | authorization | False |
