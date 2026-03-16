@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-03-15 18:31:54.982286
+Generated At: 2026-03-16 18:55:17.003488
 
 ## Summary
 
@@ -237,21 +237,21 @@ Generated At: 2026-03-15 18:31:54.982286
 |222| azure-resourcemanager-network | 2.58.0 | 2026-02-14 | Swagger | :white_check_mark: |  | network | False |
 |223| azure-resourcemanager-recoveryservicesbackup | 1.7.0-beta.1 | 2026-02-25 | TypeSpec | :white_check_mark: |  |  | False |
 |224| azure-resourcemanager-servicefabricmanagedclusters | 1.1.0 | 2026-02-26 | TypeSpec | :white_check_mark: |  |  | False |
-|225| azure-resourcemanager-netapp | 2.1.0 | 2026-02-26 | TypeSpec | :white_check_mark: |  |  | False |
-|226| azure-resourcemanager-disconnectedoperations | 1.0.0 | 2026-02-26 | TypeSpec | :white_check_mark: |  |  | False |
-|227| azure-resourcemanager-containerinstance | 2.53.8 | 2026-02-26 | Swagger | :white_check_mark: |  | containerinstance | False |
-|228| azure-resourcemanager-compute | 2.56.2 | 2026-02-26 | Swagger | :white_check_mark: |  | compute | False |
-|229| azure-resourcemanager-appservice | 2.55.0 | 2026-02-26 | Swagger | :white_check_mark: |  | appservice | False |
-|230| azure-resourcemanager-newrelicobservability | 1.3.0-beta.2 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
-|231| azure-resourcemanager-providerhub | 2.1.0 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
-|232| azure-resourcemanager-elastic | 1.2.0 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
-|233| azure-resourcemanager-selfhelp | 1.1.0-beta.6 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
-|234| azure-resourcemanager-maintenance | 1.1.0-beta.3 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
-|235| azure-resourcemanager-cosmosdbforpostgresql | 1.1.0-beta.3 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
-|236| azure-resourcemanager-networkfunction | 1.0.0 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
-|237| azure-resourcemanager-powerbidedicated | 1.1.0 | 2026-03-05 | TypeSpec | :white_check_mark: |  |  | False |
-|238| azure-resourcemanager-managedops | 1.0.0-beta.2 | 2026-03-06 | TypeSpec | :white_check_mark: |  |  | False |
-|239| azure-resourcemanager-durabletask | 1.1.0 | 2026-03-09 | TypeSpec | :white_check_mark: |  |  | False |
+|225| azure-resourcemanager-disconnectedoperations | 1.0.0 | 2026-02-26 | TypeSpec | :white_check_mark: |  |  | False |
+|226| azure-resourcemanager-containerinstance | 2.53.8 | 2026-02-26 | Swagger | :white_check_mark: |  | containerinstance | False |
+|227| azure-resourcemanager-compute | 2.56.2 | 2026-02-26 | Swagger | :white_check_mark: |  | compute | False |
+|228| azure-resourcemanager-appservice | 2.55.0 | 2026-02-26 | Swagger | :white_check_mark: |  | appservice | False |
+|229| azure-resourcemanager-newrelicobservability | 1.3.0-beta.2 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
+|230| azure-resourcemanager-providerhub | 2.1.0 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
+|231| azure-resourcemanager-elastic | 1.2.0 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
+|232| azure-resourcemanager-selfhelp | 1.1.0-beta.6 | 2026-03-03 | TypeSpec | :white_check_mark: |  |  | False |
+|233| azure-resourcemanager-maintenance | 1.1.0-beta.3 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
+|234| azure-resourcemanager-cosmosdbforpostgresql | 1.1.0-beta.3 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
+|235| azure-resourcemanager-networkfunction | 1.0.0 | 2026-03-04 | TypeSpec | :white_check_mark: |  |  | False |
+|236| azure-resourcemanager-powerbidedicated | 1.1.0 | 2026-03-05 | TypeSpec | :white_check_mark: |  |  | False |
+|237| azure-resourcemanager-managedops | 1.0.0-beta.2 | 2026-03-06 | TypeSpec | :white_check_mark: |  |  | False |
+|238| azure-resourcemanager-durabletask | 1.1.0 | 2026-03-09 | TypeSpec | :white_check_mark: |  |  | False |
+|239| azure-resourcemanager-netapp | 2.2.0-beta.1 | 2026-03-13 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
