@@ -1,8 +1,5 @@
 # Legacy Azure SDK for Java Migration with AppMod — Video Script
 
-> **Total runtime:** ~5 minutes | **Audience:** Internal engineering/PM
-> **Format:** Slide narration (no live demo — narrate over screenshots)
-
 ---
 
 ## Slide 2 — Context (~1:00)
@@ -23,7 +20,7 @@ To validate this approach, Weidong ran benchmarks comparing several migration st
 
 On the left chart — build pass rate. A bare coding agent, without any modernization tooling, achieves only about 78%. Adding Azure Skills alone brings it to 76% — roughly the same, with a lot of variance run to run. By contrast, the Modernization extension reaches 96%. And our dedicated legacy-Azure-SDK upgrade skill(which is only a prototype) also hits 96%.
 
-Now look at the right chart — CVE count, meaning known vulnerabilities remaining after migration. The plain agent and Azure Skills both leave about 5 CVEs unresolved. The Modernization extension eliminates all of them — zero CVEs. Our upgrade skill prototype reduces them to 1.
+Now look at the right chart — CVE count. The plain agent and Azure Skills both leave about 5 CVEs unresolved. The Modernization extension eliminates all of them — zero CVEs. Our upgrade skill prototype reduces them to 1.
 
 The takeaway is clear: Guided migration is both more reliable and more secure. A generic coding agent simply doesn't have the domain knowledge to handle Azure SDK migrations consistently.
 
@@ -33,7 +30,7 @@ The takeaway is clear: Guided migration is both more reliable and more secure. A
 
 Now let's walk through the actual user experience, using a real Java project as an example.
 
-This project uses the legacy `azure-storage` library. The organization enforces disabled shared access key — also known as the infamous disable local auth  — for their storage account. But the legacy library doesn't support that capability. So they worked around it by mixing legacy and modern SDK usage in the same codebase. As you can see, it needs to get access token using Track2 library and injects it into Track1 StorageCredentialsToken. It's messy, and exactly the kind of technical debt we want to clean up.
+This project uses the legacy `azure-storage` library. The organization enforces disabled shared access key for storage accounts. But the legacy library doesn't support that capability. So they worked around it by mixing legacy and modern SDK usage in the same codebase. As you can see, it needs to get access token using Track2 library and injects it into Track1 StorageCredentialsToken. It's messy, and exactly the kind of technical debt we want to clean up.
 
 Here's the workflow. In VS Code marketplace, search for "GitHub Copilot Modernization" and install the extension. On the left panel, you'll see the extension's quickstart menu.
 
@@ -70,5 +67,3 @@ For more detailed context and design documentation, I'll put links at the end in
 That's all for the demo. Thank you!
 
 ---
-
-> **Word count:** ~740 | **Estimated read time:** ~4:55 at 150 wpm
