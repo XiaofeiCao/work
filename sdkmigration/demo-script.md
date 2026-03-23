@@ -37,9 +37,11 @@ This project uses the legacy `azure-storage` library. The team wanted to disable
 
 Here's the workflow. In VS Code, you search the marketplace for "GitHub Copilot Modernization" and install the extension. On the left panel, you'll see the extension's quickstart menu.
 
-Click "Start Assessment" to kick off a project assessment. The extension scans the project and generates an Assessment Report — that's what you see in the center panel. It identifies several issue categories. Our focus is the first one: "Legacy Azure SDKs for Java." As you can see, it detected legacy dependencies in `BlobStorageService.java`, `pom.xml`, and the test file. On the right, the explanation spells out exactly what was found — `com.microsoft.azure.*` packages — along with suggested actions: inventory the legacy dependencies, adopt supported SDKs, update application code, and test thoroughly.
+Click "Start Assessment" to kick off a project assessment. The extension scans the project and generates an Assessment Report — that's what you see in the center panel. It identifies several issue categories. Our focus is the first one: "Legacy Azure SDKs for Java." As you can see, it detected legacy dependencies in `BlobStorageService.java`, `pom.xml`, and the test file. On the right is the detailed message — along with suggested actions.
 
 Now, click "Run Task." This sends a structured instruction — developed by our team — to a custom agent that handles the actual migration. The agent generates a migration plan, executes each step, tracks progress, and produces a final summary.
+
+It'll take some time and I'll let it run. Let's get directly into the result.
 
 The migration plan specifies upgrade goals up front, includes project-specific guidelines selected by the agent from our instruction set, lists the technology stacks to replace, and lays out detailed migration steps. 
 
