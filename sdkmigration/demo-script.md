@@ -23,7 +23,7 @@ To validate this approach, Weidong ran benchmarks comparing several migration st
 
 On the left chart — build pass rate. A bare coding agent, without any modernization tooling, achieves only about 78%. Adding Azure Skills alone brings it to 76% — roughly the same, with a lot of variance run to run. By contrast, the Modernization extension reaches 96%. And our dedicated legacy-Azure-SDK upgrade skill(which is only a prototype) also hits 96%.
 
-Now look at the right chart — CVE count, meaning known vulnerabilities remaining after migration. The plain agent and Azure Skills both leave about 5 CVEs unresolved. The Modernization extension eliminates all of them — zero CVEs. Our upgrade skill reduces them to just 1.
+Now look at the right chart — CVE count, meaning known vulnerabilities remaining after migration. The plain agent and Azure Skills both leave about 5 CVEs unresolved. The Modernization extension eliminates all of them — zero CVEs. Our upgrade skill prototype reduces them to 1.
 
 The takeaway is clear: Guided migration is both more reliable and more secure. A generic coding agent simply doesn't have the domain knowledge to handle Azure SDK migrations consistently.
 
