@@ -1,4 +1,4 @@
-# Legacy Azure SDK for Java Migration with Modernization Extension — Video Script
+# Legacy Azure SDK for Java Migration with AppMod — Video Script
 
 > **Total runtime:** ~5 minutes | **Audience:** Internal engineering/PM
 > **Format:** Slide narration (no live demo — narrate over screenshots)
@@ -9,9 +9,11 @@
 
 The new Azure SDK libraries have been generally available for over four years, and the older, legacy SDKs have been out of SLA since September 2023. Yet adoption of the new SDKs has been slow.
 
-Take a look at this chart. It shows request counts and subscription counts for Azure SDK for Java, broken down by Track 1 — the legacy libraries — and Track 2 — the current ones. Even in January 2026, more than two years after the SLA ended, Track 1 still accounts for a significant share of both requests and subscriptions. That's a real security concern — these libraries no longer receive patches.
+Take a look at this chart. Track 1 still accounts for a significant share of both requests and subscriptions. That's a real security concern.
 
-GitHub Copilot Modernization extension is an agentic, end-to-end solution that analyzes, upgrades, and migrates Java and .NET applications to Azure. We're proposing a new capability that extends the modernization extension to detect legacy Azure SDK dependencies, generate a consolidated upgrade plan, and migrate projects to the latest GA SDKs — improving security, supportability, and Azure compatibility. Let me show you how it performs.
+And what's GitHub Copilot Modernization? What can it help with our scenario?
+It is an agentic, end-to-end solution that provides approachable and consistent user experience for analyzing, upgrading, and migrating Java and .NET applications to Azure.
+We're proposing a new capability that extends this extension to detect legacy Azure SDK dependencies - improving security, supportability, and latest Azure compatibility. Let me show you how it performs.
 
 ---
 
@@ -56,3 +58,5 @@ Second, GHCP4A skill integration. We plan to ship a dedicated `legacy-azure-sdk-
 Stay tuned.
 
 ---
+
+> **Word count:** ~740 | **Estimated read time:** ~4:55 at 150 wpm
