@@ -33,11 +33,11 @@ The takeaway is clear: Guided migration is both more reliable and more secure. A
 
 Now let's walk through the actual user experience, using a real Java project as an example.
 
-This project uses the legacy `azure-storage` library. It wanted to disable shared access key — also known as the infamous disable local auth  — for their storage account. But the legacy library doesn't support that capability. So they worked around it by mixing legacy and modern SDK usage in the same codebase. It's messy, and exactly the kind of technical debt we want to clean up.
+This project uses the legacy `azure-storage` library. The organization enforces disabled shared access key — also known as the infamous disable local auth  — for their storage account. But the legacy library doesn't support that capability. So they worked around it by mixing legacy and modern SDK usage in the same codebase. It's messy, and exactly the kind of technical debt we want to clean up.
 
-Here's the workflow. In VS Code, you search the marketplace for "GitHub Copilot Modernization" and install the extension. On the left panel, you'll see the extension's quickstart menu.
+Here's the workflow. In VS Code marketplace, search for "GitHub Copilot Modernization" and install the extension. On the left panel, you'll see the extension's quickstart menu.
 
-Click "Start Assessment" to kick off a project assessment. The extension scans the project and generates an Assessment Report — that's what you see in the center panel. It identifies several issue categories. Our focus is the first one: "Legacy Azure SDKs for Java." As you can see, it detected legacy dependencies in `BlobStorageService.java`, `pom.xml`, and the test file. On the right is the detailed message — along with suggested actions.
+Click "Start Assessment" to kick off a project assessment. The extension scans the project and generates an Assessment Report — that's what you see in the center panel. It identifies several issue categories. Our focus be: "Legacy Azure SDKs for Java." As you can see, it detected legacy dependencies in `BlobStorageService.java`, `pom.xml`, and the test file. On the right is the detailed message — along with suggested actions.
 
 Now, click "Run Task." This sends a structured instruction — developed by our team — to a custom agent that handles the actual migration. The agent generates a migration plan, executes each step, tracks progress, and produces a final summary.
 
@@ -47,6 +47,8 @@ The migration plan includes project-specific guidelines selected by the agent fr
 
 After execution, the summary reports on goal completion status, confirms minimum behavioral changes, and flags any CVEs it detects. The messy workaround for acquiring access tokens gets replaced cleanly with `DefaultAzureCredential` and the behavior remains the same.
 
+And that concludes the live demo part.
+
 ---
 
 ## Slide 5 — Next Steps (~1:00)
@@ -55,7 +57,7 @@ Here's what's ahead for this work.
 
 First, more validation and enhancement. We're working through all known legacy Track 1 data-plane SDKs to make sure we provide detailed migration guidance for each one. This is actively in progress.
 
-Second, GHCP4A skill integration. We plan to ship a dedicated `legacy-azure-sdk-for-java-migration` skill that plugs directly into GitHub Copilot for Azure. We already have meetings set up with Kay to align on this, so the improvements we're building here will flow into that experience as well.
+Second, GHCP4A skill integration. We plan to ship a dedicated `legacy-azure-sdk-for-java-migration` skill(mentioned in benchmark) that plugs directly into GitHub Copilot for Azure. We already have meetings set up with Kay to align on this, so the improvements we're building here will flow into that experience as well.
 
 Stay tuned.
 
