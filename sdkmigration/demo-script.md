@@ -63,4 +63,12 @@ Stay tuned.
 
 ---
 
+## Slide 6 — Appendix
+
+For more detailed context and design documentation, I'll put links at the end in case you are interested.
+
+That's all for the demo. Thank you!
+
+---
+
 > **Word count:** ~740 | **Estimated read time:** ~4:55 at 150 wpm
