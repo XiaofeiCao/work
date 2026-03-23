@@ -8,9 +8,9 @@ The new Azure SDK libraries have been generally available for over four years. Y
 
 Take a look at this chart. Track 1 still accounts for a significant share of both requests and subscriptions. That's a real security concern.
 
-And what's GitHub Copilot Modernization? What can it help with our scenario?
+And what is GitHub Copilot Modernization? What can it help with our scenario?
 It is an agentic, end-to-end solution that provides approachable and consistent user experience for analyzing, upgrading, and migrating Java and .NET applications to Azure.
-We're proposing a new capability that extends this extension to detect legacy Azure SDK dependencies - improving security, supportability, and latest Azure compatibility. Let me show you how it performs.
+We're proposing a new capability that extends this extension to detect legacy Azure SDK dependencies - improving security, supportability, and latest Azure compatibility.
 
 ---
 
