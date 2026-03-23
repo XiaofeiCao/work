@@ -33,7 +33,7 @@ The takeaway is clear: Guided migration is both more reliable and more secure. A
 
 Now let's walk through the actual user experience, using a real Java project as an example.
 
-This project uses the legacy `azure-storage` library. The organization enforces disabled shared access key — also known as the infamous disable local auth  — for their storage account. But the legacy library doesn't support that capability. So they worked around it by mixing legacy and modern SDK usage in the same codebase. It's messy, and exactly the kind of technical debt we want to clean up.
+This project uses the legacy `azure-storage` library. The organization enforces disabled shared access key — also known as the infamous disable local auth  — for their storage account. But the legacy library doesn't support that capability. So they worked around it by mixing legacy and modern SDK usage in the same codebase. As you can see, it needs to get access token using Track2 library and injects it into Track1 StorageCredentialsToken. It's messy, and exactly the kind of technical debt we want to clean up.
 
 Here's the workflow. In VS Code marketplace, search for "GitHub Copilot Modernization" and install the extension. On the left panel, you'll see the extension's quickstart menu.
 
