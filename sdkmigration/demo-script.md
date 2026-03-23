@@ -6,7 +6,7 @@
 
 The new Azure SDK libraries have been generally available for over four years. Yet adoption of the new SDKs has been slow.
 
-Take a look at this chart. Track 1 still accounts for a significant share of both requests and subscriptions. That's a real security concern.
+Take a look at this chart. Track 1 still accounts for a significant share of both requests and subscriptions.
 
 And what is GitHub Copilot Modernization? What can it help with our scenario?
 It is an agentic, end-to-end solution that provides approachable and consistent user experience for analyzing, upgrading, and migrating Java and .NET applications to Azure.
@@ -16,13 +16,8 @@ We're proposing a new capability that extends this extension to detect legacy Az
 
 ## Slide 3 — Benchmark Comparison (~1:15)
 
-To validate this approach, Weidong ran benchmarks comparing several migration strategies across a set of test projects. Let's look at the two key metrics: build pass rate and CVE count.
-
-On the left chart — build pass rate. A bare coding agent, without any modernization tooling, achieves only about 78%. Adding Azure Skills alone brings it to 76% — roughly the same, with a lot of variance run to run. By contrast, the Modernization extension reaches 96%. And our dedicated legacy-Azure-SDK upgrade skill(which is only a prototype) also hits 96%.
-
-Now look at the right chart — CVE count. The plain agent and Azure Skills both leave about 5 CVEs unresolved. The Modernization extension eliminates all of them — zero CVEs. Our upgrade skill prototype reduces them to 1.
-
-The takeaway is clear: Guided migration is both more reliable and more secure. A generic coding agent simply doesn't have the domain knowledge to handle Azure SDK migrations consistently.
+To validate this approach, Weidong ran benchmarks comparing several migration strategies across a set of test projects. From the two key metrics: build pass rate and CVE count, we can tell that guided migration is both more reliable and more secure. A generic coding agent simply doesn't have the domain knowledge to handle Azure SDK migrations consistently.
+What's more, we experienced that bare coding agent would introduce new CVE during upgrade, while Modernization and our skill will not.
 
 ---
 
@@ -30,7 +25,7 @@ The takeaway is clear: Guided migration is both more reliable and more secure. A
 
 Now let's walk through the actual user experience, using a real Java project as an example.
 
-This project uses the legacy `azure-storage` library. The organization enforces disabled shared access key for storage accounts. But the legacy library doesn't support that capability. So they worked around it by mixing legacy and modern SDK usage in the same codebase. As you can see, it needs to get access token using Track2 library and injects it into Track1 StorageCredentialsToken. It's messy, and exactly the kind of technical debt we want to clean up.
+This project has a mixed usage of Track1 and Track2 libraries to support disable local auth feature. It's messy, and exactly the kind of technical debt we want to clean up.
 
 Here's the workflow. In VS Code marketplace, search for "GitHub Copilot Modernization" and install the extension. On the left panel, you'll see the extension's quickstart menu.
 
