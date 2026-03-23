@@ -7,7 +7,7 @@
 
 ## Slide 2 — Context (~1:00)
 
-The new Azure SDK libraries have been generally available for over four years, and the older, legacy SDKs have been out of SLA since September 2023. Yet adoption of the new SDKs has been slow.
+The new Azure SDK libraries have been generally available for over four years. Yet adoption of the new SDKs has been slow.
 
 Take a look at this chart. Track 1 still accounts for a significant share of both requests and subscriptions. That's a real security concern.
 
