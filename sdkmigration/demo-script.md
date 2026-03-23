@@ -21,7 +21,7 @@ We're proposing a new capability that extends this extension to detect legacy Az
 
 To validate this approach, Weidong ran benchmarks comparing several migration strategies across a set of test projects. Let's look at the two key metrics: build pass rate and CVE count.
 
-On the left chart — build pass rate. A bare coding agent, without any modernization tooling, achieves only about 78%. Adding Azure Skills alone brings it to 76% — roughly the same, with a lot of variance run to run. By contrast, the Modernization extension reaches 96%. And our dedicated legacy-Azure-SDK upgrade skill also hits 96%.
+On the left chart — build pass rate. A bare coding agent, without any modernization tooling, achieves only about 78%. Adding Azure Skills alone brings it to 76% — roughly the same, with a lot of variance run to run. By contrast, the Modernization extension reaches 96%. And our dedicated legacy-Azure-SDK upgrade skill(which is only a prototype) also hits 96%.
 
 Now look at the right chart — CVE count, meaning known vulnerabilities remaining after migration. The plain agent and Azure Skills both leave about 5 CVEs unresolved. The Modernization extension eliminates all of them — zero CVEs. Our upgrade skill reduces them to just 1.
 
@@ -33,7 +33,7 @@ The takeaway is clear: Guided migration is both more reliable and more secure. A
 
 Now let's walk through the actual user experience, using a real Java project as an example.
 
-This project uses the legacy `azure-storage` library. The team wanted to disable shared access key — also known as the infamous disable local auth  — for their storage account. But the legacy library doesn't support that capability. So they worked around it by mixing legacy and modern SDK usage in the same codebase. It's messy, and exactly the kind of technical debt we want to clean up.
+This project uses the legacy `azure-storage` library. It wanted to disable shared access key — also known as the infamous disable local auth  — for their storage account. But the legacy library doesn't support that capability. So they worked around it by mixing legacy and modern SDK usage in the same codebase. It's messy, and exactly the kind of technical debt we want to clean up.
 
 Here's the workflow. In VS Code, you search the marketplace for "GitHub Copilot Modernization" and install the extension. On the left panel, you'll see the extension's quickstart menu.
 
@@ -43,9 +43,9 @@ Now, click "Run Task." This sends a structured instruction — developed by our 
 
 It'll take some time and I'll let it run. Let's get directly into the result.
 
-The migration plan specifies upgrade goals up front, includes project-specific guidelines selected by the agent from our instruction set, lists the technology stacks to replace, and lays out detailed migration steps. 
+The migration plan includes project-specific guidelines selected by the agent from our instruction set, specifies upgrade goals, lists the technology stacks to replace, and lays out detailed migration steps. 
 
-After execution, the summary reports on goal completion status, confirms minimum behavioral changes, and flags any CVEs it detects. For example, the messy workaround for acquiring access tokens gets replaced cleanly with `DefaultAzureCredential` and the behavior remains the same.
+After execution, the summary reports on goal completion status, confirms minimum behavioral changes, and flags any CVEs it detects. The messy workaround for acquiring access tokens gets replaced cleanly with `DefaultAzureCredential` and the behavior remains the same.
 
 ---
 
