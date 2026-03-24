@@ -25,7 +25,7 @@ What's more, we experienced that bare coding agent would introduce new CVE durin
 
 Now let's walk through the actual user experience, using a real Java project as an example.
 
-This project has a mixed usage of Track1 and Track2 libraries to support disable local auth feature. It's messy, and exactly the kind of technical debt we want to clean up.
+This project has a mixed usage of Track1 and Track2 libraries to support disable local auth feature. This is exactly the kind of technical debt we want to clean up.
 
 Here's the workflow. In VS Code marketplace, search for "GitHub Copilot Modernization" and install the extension. On the left panel, you'll see the extension's quickstart menu.
 
