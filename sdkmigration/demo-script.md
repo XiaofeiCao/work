@@ -29,7 +29,7 @@ This project has a mixed usage of Track1 and Track2 libraries to support disable
 
 Here's the workflow. In VS Code marketplace, search for "GitHub Copilot Modernization" and install the extension. On the left panel, you'll see the extension's quickstart menu.
 
-Click "Start Assessment" to kick off a project assessment. The extension scans the project and generates an Assessment Report — that's what you see in the center panel. It identifies several issue categories. Our focus be: "Legacy Azure SDKs for Java." As you can see, it detected legacy dependencies in `BlobStorageService.java`, `pom.xml`, and the test file. On the right is the detailed message — along with suggested actions.
+Click "Start Assessment" to kick off a project assessment. The extension scans the project and generates an Assessment Report — that's what you see in the center panel. It identifies several issue categories. Our focus be: "Legacy Azure SDKs for Java." As you can see, it detected legacy code and dependencies. On the right is the detailed message — along with suggested actions.
 
 Now, click "Run Task." This sends a structured instruction — developed by our team — to a custom agent that handles the actual migration. The agent generates a migration plan, executes each step, tracks progress, and produces a final summary.
 
