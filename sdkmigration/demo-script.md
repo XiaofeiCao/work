@@ -6,7 +6,7 @@
 
 The new Azure SDK libraries have been generally available for over four years. Yet adoption of the new SDKs has been slow.
 
-Take a look at this chart. Track 1 still accounts for a significant share of both requests and subscriptions.
+According to our BI report, track 1 still accounts for a significant share of both requests and subscriptions.
 
 And what is GitHub Copilot Modernization? What can it help with our scenario?
 It is an agentic, end-to-end solution that provides approachable and consistent user experience for analyzing, upgrading, and migrating Java and .NET applications to Azure.
