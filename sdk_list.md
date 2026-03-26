@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-03-25 18:50:38.019822
+Generated At: 2026-03-26 18:58:54.810638
 
 ## Summary
 
-- total: 240
-- migrated: 239
+- total: 241
+- migrated: 240
 - need javadoc fix: 0
 
 ## Detail
@@ -252,7 +252,8 @@ Generated At: 2026-03-25 18:50:38.019822
 |237| azure-resourcemanager-containerservice | 2.58.0 | 2026-03-20 | TypeSpec | :white_check_mark: |  |  | False |
 |238| azure-resourcemanager-datafactory | 1.3.0-beta.1 | 2026-03-23 | TypeSpec | :white_check_mark: |  |  | False |
 |239| azure-resourcemanager-containerservicefleet | 1.3.0-beta.3 | 2026-03-24 | TypeSpec | :white_check_mark: |  |  | False |
-|240| azure-resourcemanager-servicegroups | 1.0.0-beta.1 | 2026-03-25 | Swagger | :white_check_mark: | package-2024-02-preview | specification/management/resource-manager/Microsoft.Management/ServiceGroups/readme.md | False |
+|240| azure-resourcemanager-appnetwork | 1.0.0-beta.1 | 2026-03-25 | TypeSpec | :white_check_mark: |  |  | False |
+|241| azure-resourcemanager-servicegroups | 1.0.0-beta.1 | 2026-03-25 | Swagger | :white_check_mark: | package-2024-02-preview | specification/management/resource-manager/Microsoft.Management/ServiceGroups/readme.md | False |
 
 ## Not planned
 
