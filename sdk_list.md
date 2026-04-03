@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-04-02 18:50:48.103253
+Generated At: 2026-04-03 18:39:22.379428
 
 ## Summary
 
@@ -205,7 +205,7 @@ Generated At: 2026-04-02 18:50:48.103253
 |190| azure-resourcemanager-redis | 2.53.6 | 2026-01-29 | TypeSpec | :white_check_mark: |  |  | False |
 |191| azure-resourcemanager-storage | 2.55.3 | 2026-01-29 | TypeSpec | :white_check_mark: |  |  | False |
 |192| azure-resourcemanager-authorization | 2.53.7 | 2026-01-29 | Swagger | :white_check_mark: |  | authorization | False |
-|193| azure-resourcemanager-eventhubs | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | eventhubs | False |
+|193| azure-resourcemanager-eventhubs | 2.53.6 | 2026-01-29 | TypeSpec | :white_check_mark: |  |  | False |
 |194| azure-resourcemanager-cosmos | 2.54.1 | 2026-01-29 | TypeSpec | :white_check_mark: |  |  | False |
 |195| azure-resourcemanager-monitor | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | monitor | False |
 |196| azure-resourcemanager-servicebus | 2.53.6 | 2026-01-29 | Swagger | :white_check_mark: |  | servicebus | False |
