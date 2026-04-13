@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-04-12 18:39:48.557820
+Generated At: 2026-04-13 19:07:28.918563
 
 ## Summary
 
@@ -246,7 +246,7 @@ Generated At: 2026-04-12 18:39:48.557820
 |231| azure-resourcemanager-sql | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |232| azure-resourcemanager-containerregistry | 2.55.1 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |233| azure-resourcemanager-cosmos | 2.54.2 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
-|234| azure-resourcemanager-msi | 2.53.7 | 2026-03-30 | Swagger | :white_check_mark: |  | msi | False |
+|234| azure-resourcemanager-msi | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |235| azure-resourcemanager-containerinstance | 2.53.9 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |236| azure-resourcemanager-search | 2.54.6 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |237| azure-resourcemanager-redis | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
