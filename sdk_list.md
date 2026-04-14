@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-04-13 19:07:28.918563
+Generated At: 2026-04-14 19:06:13.633234
 
 ## Summary
 
@@ -230,7 +230,7 @@ Generated At: 2026-04-13 19:07:28.918563
 |215| azure-resourcemanager-kubernetesconfiguration-extensions | 1.0.0 | 2026-03-26 | TypeSpec | :white_check_mark: |  |  | False |
 |216| azure-resourcemanager-servicegroups | 1.0.0-beta.2 | 2026-03-27 | TypeSpec | :white_check_mark: |  |  | False |
 |217| azure-resourcemanager-containerservice | 2.59.0-beta.1 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
-|218| azure-resourcemanager-privatedns | 2.53.7 | 2026-03-30 | Swagger | :white_check_mark: |  | privatedns | False |
+|218| azure-resourcemanager-privatedns | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |219| azure-resourcemanager-trafficmanager | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |220| azure-resourcemanager-compute | 2.56.3 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |221| azure-resourcemanager-storage | 2.55.4 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
@@ -239,7 +239,7 @@ Generated At: 2026-04-13 19:07:28.918563
 |224| azure-resourcemanager-network | 2.58.1 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |225| azure-resourcemanager-cdn | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |226| azure-resourcemanager-monitor | 2.53.7 | 2026-03-30 | Swagger | :white_check_mark: |  | monitor | False |
-|227| azure-resourcemanager-dns | 2.53.7 | 2026-03-30 | Swagger | :white_check_mark: |  | dns | False |
+|227| azure-resourcemanager-dns | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |228| azure-resourcemanager-servicebus | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |229| azure-resourcemanager-eventhubs | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |230| azure-resourcemanager-keyvault | 2.55.1 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
