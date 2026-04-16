@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-04-15 19:09:01.400412
+Generated At: 2026-04-16 19:05:38.254872
 
 ## Summary
 
@@ -250,10 +250,10 @@ Generated At: 2026-04-15 19:09:01.400412
 |235| azure-resourcemanager-containerinstance | 2.53.9 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |236| azure-resourcemanager-search | 2.54.6 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
 |237| azure-resourcemanager-redis | 2.53.7 | 2026-03-30 | TypeSpec | :white_check_mark: |  |  | False |
-|238| azure-resourcemanager-azurestackhci | 1.0.0 | 2026-04-01 | TypeSpec | :white_check_mark: |  |  | False |
-|239| azure-resourcemanager-playwright | 1.1.0-beta.1 | 2026-04-06 | TypeSpec | :white_check_mark: |  |  | False |
-|240| azure-resourcemanager-storagemover | 1.5.0 | 2026-04-06 | TypeSpec | :white_check_mark: |  |  | False |
-|241| azure-resourcemanager-deviceregistry | 1.2.0-beta.1 | 2026-04-07 | TypeSpec | :white_check_mark: |  |  | False |
+|238| azure-resourcemanager-playwright | 1.1.0-beta.1 | 2026-04-06 | TypeSpec | :white_check_mark: |  |  | False |
+|239| azure-resourcemanager-storagemover | 1.5.0 | 2026-04-06 | TypeSpec | :white_check_mark: |  |  | False |
+|240| azure-resourcemanager-deviceregistry | 1.2.0-beta.1 | 2026-04-07 | TypeSpec | :white_check_mark: |  |  | False |
+|241| azure-resourcemanager-azurestackhci | 1.1.0-beta.1 | 2026-04-14 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
