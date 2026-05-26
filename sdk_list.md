@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-05-25 19:22:19.094900
+Generated At: 2026-05-26 20:02:17.391672
 
 ## Summary
 
@@ -241,23 +241,23 @@ Generated At: 2026-05-25 19:22:19.094900
 |226| azure-resourcemanager-containerregistry | 2.55.2 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
 |227| azure-resourcemanager-containerinstance | 2.53.10 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
 |228| azure-resourcemanager-keyvault | 2.55.2 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
-|229| azure-resourcemanager-msi | 2.53.8 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
-|230| azure-resourcemanager-cosmos | 2.54.3 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
-|231| azure-resourcemanager-network | 2.58.2 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
-|232| azure-resourcemanager-redis | 2.53.8 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
-|233| azure-resourcemanager-authorization | 2.53.9 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
-|234| azure-resourcemanager-appservice | 2.55.2 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
-|235| azure-resourcemanager-fileshares | 1.0.0-beta.1 | 2026-05-06 | TypeSpec | :white_check_mark: |  |  | False |
-|236| azure-resourcemanager-mongocluster | 1.2.0-beta.1 | 2026-05-06 | TypeSpec | :white_check_mark: |  |  | False |
-|237| azure-resourcemanager-storage | 2.56.0 | 2026-05-07 | TypeSpec | :white_check_mark: |  |  | False |
-|238| azure-resourcemanager-edgezones | 1.0.0-beta.3 | 2026-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|239| azure-resourcemanager-iothub | 1.4.0-beta.2 | 2026-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|240| azure-resourcemanager-trafficmanager | 2.54.0-beta.1 | 2026-05-08 | TypeSpec | :white_check_mark: |  |  | False |
-|241| azure-resourcemanager-loganalytics | 2.2.0 | 2026-05-09 | TypeSpec | :white_check_mark: |  |  | False |
-|242| azure-resourcemanager-security | 1.1.0-beta.1 | 2026-05-10 | TypeSpec | :white_check_mark: |  |  | False |
-|243| azure-resourcemanager-azurestackhci | 1.1.0 | 2026-05-15 | TypeSpec | :white_check_mark: |  |  | False |
-|244| azure-resourcemanager-containerservice | 2.61.0-beta.1 | 2026-05-18 | TypeSpec | :white_check_mark: |  |  | False |
-|245| azure-resourcemanager-appcomplianceautomation | 1.1.0 | 2026-05-20 | TypeSpec | :white_check_mark: |  |  | False |
+|229| azure-resourcemanager-cosmos | 2.54.3 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
+|230| azure-resourcemanager-network | 2.58.2 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
+|231| azure-resourcemanager-redis | 2.53.8 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
+|232| azure-resourcemanager-authorization | 2.53.9 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
+|233| azure-resourcemanager-appservice | 2.55.2 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
+|234| azure-resourcemanager-fileshares | 1.0.0-beta.1 | 2026-05-06 | TypeSpec | :white_check_mark: |  |  | False |
+|235| azure-resourcemanager-mongocluster | 1.2.0-beta.1 | 2026-05-06 | TypeSpec | :white_check_mark: |  |  | False |
+|236| azure-resourcemanager-storage | 2.56.0 | 2026-05-07 | TypeSpec | :white_check_mark: |  |  | False |
+|237| azure-resourcemanager-edgezones | 1.0.0-beta.3 | 2026-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|238| azure-resourcemanager-iothub | 1.4.0-beta.2 | 2026-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|239| azure-resourcemanager-trafficmanager | 2.54.0-beta.1 | 2026-05-08 | TypeSpec | :white_check_mark: |  |  | False |
+|240| azure-resourcemanager-loganalytics | 2.2.0 | 2026-05-09 | TypeSpec | :white_check_mark: |  |  | False |
+|241| azure-resourcemanager-security | 1.1.0-beta.1 | 2026-05-10 | TypeSpec | :white_check_mark: |  |  | False |
+|242| azure-resourcemanager-azurestackhci | 1.1.0 | 2026-05-15 | TypeSpec | :white_check_mark: |  |  | False |
+|243| azure-resourcemanager-containerservice | 2.61.0-beta.1 | 2026-05-18 | TypeSpec | :white_check_mark: |  |  | False |
+|244| azure-resourcemanager-appcomplianceautomation | 1.1.0 | 2026-05-20 | TypeSpec | :white_check_mark: |  |  | False |
+|245| azure-resourcemanager-msi | 2.54.0-beta.1 | 2026-05-22 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
