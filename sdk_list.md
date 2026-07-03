@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-07-02 19:17:01.235883
+Generated At: 2026-07-03 19:11:37.169039
 
 ## Summary
 
-- total: 250
-- migrated: 249
+- total: 251
+- migrated: 250
 - need javadoc fix: 0
 
 ## Detail
@@ -263,6 +263,7 @@ Generated At: 2026-07-02 19:17:01.235883
 |248| azure-resourcemanager-cognitiveservices | 1.5.0-beta.3 | 2026-06-26 | TypeSpec | :white_check_mark: |  |  | False |
 |249| azure-resourcemanager-network | 2.59.0 | 2026-06-29 | TypeSpec | :white_check_mark: |  |  | False |
 |250| azure-resourcemanager-netapp | 2.4.0-beta.1 | 2026-06-30 | TypeSpec | :white_check_mark: |  |  | False |
+|251| azure-resourcemanager-billing-trust | 1.0.0-beta.1 | 2026-07-01 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
