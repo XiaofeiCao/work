@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-07-12 18:58:24.451256
+Generated At: 2026-07-13 19:17:47.545114
 
 ## Summary
 
@@ -261,9 +261,9 @@ Generated At: 2026-07-12 18:58:24.451256
 |246| azure-resourcemanager-cosmos | 2.55.0 | 2026-07-01 | TypeSpec | :white_check_mark: |  |  | False |
 |247| azure-resourcemanager-billing-trust | 1.0.0-beta.1 | 2026-07-01 | TypeSpec | :white_check_mark: |  |  | False |
 |248| azure-resourcemanager-computelimit | 1.3.0 | 2026-07-07 | TypeSpec | :white_check_mark: |  |  | False |
-|249| azure-resourcemanager-cloudhealth | 1.0.0-beta.3 | 2026-07-07 | TypeSpec | :white_check_mark: |  |  | False |
-|250| azure-resourcemanager-hybridcompute | 1.1.0-beta.3 | 2026-07-07 | TypeSpec | :white_check_mark: |  |  | False |
-|251| azure-resourcemanager-recoveryservices | 1.7.0 | 2026-07-10 | TypeSpec | :white_check_mark: |  |  | False |
+|249| azure-resourcemanager-hybridcompute | 1.1.0-beta.3 | 2026-07-07 | TypeSpec | :white_check_mark: |  |  | False |
+|250| azure-resourcemanager-recoveryservices | 1.7.0 | 2026-07-10 | TypeSpec | :white_check_mark: |  |  | False |
+|251| azure-resourcemanager-cloudhealth | 1.0.0-beta.3 | 2026-07-13 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
