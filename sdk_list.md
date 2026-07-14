@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-07-13 19:17:47.545114
+Generated At: 2026-07-14 19:11:12.551290
 
 ## Summary
 
@@ -219,7 +219,7 @@ Generated At: 2026-07-13 19:17:47.545114
 |204| azure-resourcemanager-servicebus | 2.53.8 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
 |205| azure-resourcemanager-appservice | 2.55.2 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
 |206| azure-resourcemanager-authorization | 2.53.9 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
-|207| azure-resourcemanager-monitor | 2.53.8 | 2026-05-05 | Swagger | :white_check_mark: |  | monitor | False |
+|207| azure-resourcemanager-monitor | 2.53.8 | 2026-05-05 | TypeSpec | :white_check_mark: |  |  | False |
 |208| azure-resourcemanager-networkcloud | 2.2.0-beta.1 | 2026-05-06 | TypeSpec | :white_check_mark: |  |  | False |
 |209| azure-resourcemanager-fileshares | 1.0.0-beta.1 | 2026-05-06 | TypeSpec | :white_check_mark: |  |  | False |
 |210| azure-resourcemanager-servicefabric | 1.1.0-beta.1 | 2026-05-06 | TypeSpec | :white_check_mark: |  |  | False |
