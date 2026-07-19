@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-07-18 18:55:43.808906
+Generated At: 2026-07-19 18:58:31.499629
 
 ## Summary
 
-- total: 252
-- migrated: 251
+- total: 253
+- migrated: 252
 - need javadoc fix: 0
 
 ## Detail
@@ -265,6 +265,7 @@ Generated At: 2026-07-18 18:55:43.808906
 |250| azure-resourcemanager-sql | 2.54.0 | 2026-07-16 | TypeSpec | :white_check_mark: |  |  | False |
 |251| azure-resourcemanager-containerservicepreparedimgspec | 1.0.0-beta.1 | 2026-07-16 | TypeSpec | :white_check_mark: |  |  | False |
 |252| azure-resourcemanager-msi | 2.54.0 | 2026-07-16 | Swagger | :white_check_mark: |  | msi | False |
+|253| azure-resourcemanager-enclave | 1.0.0-beta.1 | 2026-07-17 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
