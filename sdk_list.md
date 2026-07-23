@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-07-22 19:06:11.827376
+Generated At: 2026-07-23 19:06:39.654120
 
 ## Summary
 
@@ -255,17 +255,17 @@ Generated At: 2026-07-22 19:06:11.827376
 |240| azure-resourcemanager-containerinstance | 2.53.12 | 2026-07-07 | TypeSpec | :white_check_mark: |  |  | False |
 |241| azure-resourcemanager-appservice | 2.55.4 | 2026-07-07 | TypeSpec | :white_check_mark: |  |  | False |
 |242| azure-resourcemanager-computelimit | 1.3.0 | 2026-07-07 | TypeSpec | :white_check_mark: |  |  | False |
-|243| azure-resourcemanager-hybridcompute | 1.1.0-beta.3 | 2026-07-07 | TypeSpec | :white_check_mark: |  |  | False |
-|244| azure-resourcemanager-recoveryservices | 1.7.0 | 2026-07-10 | TypeSpec | :white_check_mark: |  |  | False |
-|245| azure-resourcemanager-cloudhealth | 1.0.0-beta.3 | 2026-07-13 | TypeSpec | :white_check_mark: |  |  | False |
-|246| azure-resourcemanager-redisenterprise | 2.2.0-beta.1 | 2026-07-14 | TypeSpec | :white_check_mark: |  |  | False |
-|247| azure-resourcemanager-compute | 2.59.0 | 2026-07-15 | TypeSpec | :white_check_mark: |  |  | False |
-|248| azure-resourcemanager-msi | 2.54.0 | 2026-07-16 | Swagger | :white_check_mark: |  | msi | False |
-|249| azure-resourcemanager-sql | 2.54.0 | 2026-07-16 | TypeSpec | :white_check_mark: |  |  | False |
-|250| azure-resourcemanager-containerservicepreparedimgspec | 1.0.0-beta.1 | 2026-07-16 | TypeSpec | :white_check_mark: |  |  | False |
-|251| azure-resourcemanager-enclave | 1.0.0-beta.1 | 2026-07-17 | TypeSpec | :white_check_mark: |  |  | False |
-|252| azure-resourcemanager-netapp | 2.4.0 | 2026-07-21 | TypeSpec | :white_check_mark: |  |  | False |
-|253| azure-resourcemanager-containerservice | 2.62.0 | 2026-07-22 | TypeSpec | :white_check_mark: |  |  | False |
+|243| azure-resourcemanager-recoveryservices | 1.7.0 | 2026-07-10 | TypeSpec | :white_check_mark: |  |  | False |
+|244| azure-resourcemanager-cloudhealth | 1.0.0-beta.3 | 2026-07-13 | TypeSpec | :white_check_mark: |  |  | False |
+|245| azure-resourcemanager-redisenterprise | 2.2.0-beta.1 | 2026-07-14 | TypeSpec | :white_check_mark: |  |  | False |
+|246| azure-resourcemanager-compute | 2.59.0 | 2026-07-15 | TypeSpec | :white_check_mark: |  |  | False |
+|247| azure-resourcemanager-msi | 2.54.0 | 2026-07-16 | Swagger | :white_check_mark: |  | msi | False |
+|248| azure-resourcemanager-sql | 2.54.0 | 2026-07-16 | TypeSpec | :white_check_mark: |  |  | False |
+|249| azure-resourcemanager-containerservicepreparedimgspec | 1.0.0-beta.1 | 2026-07-16 | TypeSpec | :white_check_mark: |  |  | False |
+|250| azure-resourcemanager-enclave | 1.0.0-beta.1 | 2026-07-17 | TypeSpec | :white_check_mark: |  |  | False |
+|251| azure-resourcemanager-netapp | 2.4.0 | 2026-07-21 | TypeSpec | :white_check_mark: |  |  | False |
+|252| azure-resourcemanager-containerservice | 2.62.0 | 2026-07-22 | TypeSpec | :white_check_mark: |  |  | False |
+|253| azure-resourcemanager-hybridcompute | 1.1.0-beta.3 | 2026-07-23 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
