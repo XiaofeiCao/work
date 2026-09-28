@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-09-27 20:44:25.847605
+Generated At: 2026-09-28 22:54:18.442570
 
 ## Summary
 
-- total: 259
-- migrated: 258
+- total: 260
+- migrated: 259
 - need javadoc fix: 0
 
 ## Detail
@@ -271,7 +271,8 @@ Generated At: 2026-09-27 20:44:25.847605
 |256| azure-resourcemanager-compute-workloadmanager | 1.0.0-beta.1 | 2026-09-23 | TypeSpec | :white_check_mark: |  |  | False |
 |257| azure-resourcemanager-oracledatabase | 1.3.0 | 2026-09-24 | TypeSpec | :white_check_mark: |  |  | False |
 |258| azure-resourcemanager-compute-bulkactions | 1.0.0-beta.5 | 2026-09-24 | TypeSpec | :white_check_mark: |  |  | False |
-|259| azure-resourcemanager-weightsandbiases | 1.0.1 | 2026-09-30 | TypeSpec | :white_check_mark: |  |  | False |
+|259| azure-resourcemanager-platformvalidation | 1.0.0-beta.1 | 2026-09-28 | TypeSpec | :white_check_mark: |  |  | False |
+|260| azure-resourcemanager-weightsandbiases | 1.0.1 | 2026-09-30 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
