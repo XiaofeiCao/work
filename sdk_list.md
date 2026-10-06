@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-10-05 23:37:25.576754
+Generated At: 2026-10-06 22:11:47.920720
 
 ## Summary
 
@@ -225,16 +225,16 @@ Generated At: 2026-10-05 23:37:25.576754
 |210| azure-resourcemanager-msi | 2.54.1 | 2026-08-18 | Swagger | :white_check_mark: |  | msi | False |
 |211| azure-resourcemanager-authorization | 2.53.12 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
 |212| azure-resourcemanager-dns | 2.53.10 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
-|213| azure-resourcemanager-cosmos | 2.55.1 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
-|214| azure-resourcemanager-monitor | 2.53.10 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
-|215| azure-resourcemanager-containerinstance | 2.53.13 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
-|216| azure-resourcemanager-servicebus | 2.53.10 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
-|217| azure-resourcemanager-resources | 2.54.3 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
-|218| azure-resourcemanager-eventhubs | 2.53.11 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
-|219| azure-resourcemanager-privatedns | 2.53.10 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
-|220| azure-resourcemanager-redhatopenshifthcp | 1.0.0-beta.1 | 2026-08-19 | TypeSpec | :white_check_mark: |  |  | False |
-|221| azure-resourcemanager-securityinsights | 1.1.0-beta.1 | 2026-08-19 | TypeSpec | :white_check_mark: |  |  | False |
-|222| azure-resourcemanager-horizondb | 1.0.0-beta.2 | 2026-08-20 | TypeSpec | :white_check_mark: |  |  | False |
+|213| azure-resourcemanager-monitor | 2.53.10 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
+|214| azure-resourcemanager-containerinstance | 2.53.13 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
+|215| azure-resourcemanager-servicebus | 2.53.10 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
+|216| azure-resourcemanager-resources | 2.54.3 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
+|217| azure-resourcemanager-eventhubs | 2.53.11 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
+|218| azure-resourcemanager-privatedns | 2.53.10 | 2026-08-18 | TypeSpec | :white_check_mark: |  |  | False |
+|219| azure-resourcemanager-redhatopenshifthcp | 1.0.0-beta.1 | 2026-08-19 | TypeSpec | :white_check_mark: |  |  | False |
+|220| azure-resourcemanager-securityinsights | 1.1.0-beta.1 | 2026-08-19 | TypeSpec | :white_check_mark: |  |  | False |
+|221| azure-resourcemanager-horizondb | 1.0.0-beta.2 | 2026-08-20 | TypeSpec | :white_check_mark: |  |  | False |
+|222| azure-resourcemanager-cosmos | 2.56.0-beta.1 | 2026-08-20 | TypeSpec | :white_check_mark: |  |  | False |
 |223| azure-resourcemanager-cloudhealth | 1.0.0-beta.4 | 2026-08-25 | TypeSpec | :white_check_mark: |  |  | False |
 |224| azure-resourcemanager-resources-deployments | 1.0.0 | 2026-08-25 | TypeSpec | :white_check_mark: |  |  | False |
 |225| azure-resourcemanager-deviceprovisioningservices | 1.2.0 | 2026-08-26 | TypeSpec | :white_check_mark: |  |  | False |
