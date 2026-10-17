@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-10-16 20:25:07.410221
+Generated At: 2026-10-17 19:59:35.266873
 
 ## Summary
 
@@ -261,16 +261,16 @@ Generated At: 2026-10-16 20:25:07.410221
 |246| azure-resourcemanager-servicebus | 2.53.12 | 2026-10-09 | TypeSpec | :white_check_mark: |  |  | False |
 |247| azure-resourcemanager-eventhubs | 2.53.13 | 2026-10-09 | TypeSpec | :white_check_mark: |  |  | False |
 |248| azure-resourcemanager-privatedns | 2.53.12 | 2026-10-09 | TypeSpec | :white_check_mark: |  |  | False |
-|249| azure-resourcemanager-compute | 2.61.2 | 2026-10-09 | TypeSpec | :white_check_mark: |  |  | False |
-|250| azure-resourcemanager-sql | 2.54.3 | 2026-10-09 | TypeSpec | :white_check_mark: |  |  | False |
-|251| azure-resourcemanager-edgeactions | 1.0.0 | 2026-10-10 | TypeSpec | :white_check_mark: |  |  | False |
-|252| azure-resourcemanager-cognitiveservices | 1.5.0-beta.5 | 2026-10-10 | TypeSpec | :white_check_mark: |  |  | False |
-|253| azure-resourcemanager-keyvault | 2.56.0 | 2026-10-12 | TypeSpec | :white_check_mark: |  |  | False |
-|254| azure-resourcemanager-storage | 2.59.0 | 2026-10-13 | TypeSpec | :white_check_mark: |  |  | False |
-|255| azure-resourcemanager-monitor-workspaces | 1.1.0-beta.1 | 2026-10-13 | TypeSpec | :white_check_mark: |  |  | False |
-|256| azure-resourcemanager-compute-bulkactions | 1.0.0-beta.8 | 2026-10-13 | TypeSpec | :white_check_mark: |  |  | False |
-|257| azure-resourcemanager-azurestackhci | 1.2.0 | 2026-10-15 | TypeSpec | :white_check_mark: |  |  | False |
-|258| azure-resourcemanager-cloudhealth | 1.0.0 | 2026-10-15 | TypeSpec | :white_check_mark: |  |  | False |
+|249| azure-resourcemanager-sql | 2.54.3 | 2026-10-09 | TypeSpec | :white_check_mark: |  |  | False |
+|250| azure-resourcemanager-edgeactions | 1.0.0 | 2026-10-10 | TypeSpec | :white_check_mark: |  |  | False |
+|251| azure-resourcemanager-cognitiveservices | 1.5.0-beta.5 | 2026-10-10 | TypeSpec | :white_check_mark: |  |  | False |
+|252| azure-resourcemanager-keyvault | 2.56.0 | 2026-10-12 | TypeSpec | :white_check_mark: |  |  | False |
+|253| azure-resourcemanager-storage | 2.59.0 | 2026-10-13 | TypeSpec | :white_check_mark: |  |  | False |
+|254| azure-resourcemanager-monitor-workspaces | 1.1.0-beta.1 | 2026-10-13 | TypeSpec | :white_check_mark: |  |  | False |
+|255| azure-resourcemanager-compute-bulkactions | 1.0.0-beta.8 | 2026-10-13 | TypeSpec | :white_check_mark: |  |  | False |
+|256| azure-resourcemanager-azurestackhci | 1.2.0 | 2026-10-15 | TypeSpec | :white_check_mark: |  |  | False |
+|257| azure-resourcemanager-cloudhealth | 1.0.0 | 2026-10-15 | TypeSpec | :white_check_mark: |  |  | False |
+|258| azure-resourcemanager-compute | 2.62.0 | 2026-10-15 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
