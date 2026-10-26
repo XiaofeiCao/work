@@ -1,12 +1,12 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-10-25 20:18:11.369423
+Generated At: 2026-10-26 22:12:14.595258
 
 ## Summary
 
-- total: 256
-- migrated: 256
+- total: 257
+- migrated: 257
 - need javadoc fix: 0
 
 ## Detail
@@ -269,6 +269,7 @@ Generated At: 2026-10-25 20:18:11.369423
 |254| azure-resourcemanager-containerservice | 2.66.0-beta.1 | 2026-10-21 | TypeSpec | :white_check_mark: |  |  | False |
 |255| azure-resourcemanager-netapp | 2.5.0 | 2026-10-21 | TypeSpec | :white_check_mark: |  |  | False |
 |256| azure-resourcemanager-redhatopenshifthcp | 1.0.0 | 2026-10-21 | TypeSpec | :white_check_mark: |  |  | False |
+|257| azure-resourcemanager-datatransfer | 1.0.0-beta.1 | 2026-10-23 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
