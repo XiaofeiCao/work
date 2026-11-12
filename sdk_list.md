@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-11-11 23:57:53.152597
+Generated At: 2026-11-12 23:06:31.984371
 
 ## Summary
 
@@ -250,29 +250,29 @@ Generated At: 2026-11-11 23:57:53.152597
 |235| azure-resourcemanager-resources | 2.56.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
 |236| azure-resourcemanager-msi | 2.55.1 | 2026-11-02 | Swagger | :white_check_mark: |  | msi | False |
 |237| azure-resourcemanager-eventhubs | 2.54.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|238| azure-resourcemanager-containerinstance | 2.54.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|239| azure-resourcemanager-storage | 2.60.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|240| azure-resourcemanager-authorization | 2.54.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|241| azure-resourcemanager-search | 2.55.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|242| azure-resourcemanager-cosmos | 2.56.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|243| azure-resourcemanager-keyvault | 2.57.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|244| azure-resourcemanager-appservice | 2.57.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|245| azure-resourcemanager-trafficmanager | 2.55.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|246| azure-resourcemanager-redis | 2.54.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|247| azure-resourcemanager-containerservice | 2.66.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|248| azure-resourcemanager-servicebus | 2.54.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|249| azure-resourcemanager-sql | 2.55.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
-|250| azure-resourcemanager-sovereign | 1.0.0-beta.1 | 2026-11-03 | TypeSpec | :white_check_mark: |  |  | False |
-|251| azure-resourcemanager-chaos | 1.4.0 | 2026-11-04 | TypeSpec | :white_check_mark: |  |  | False |
-|252| azure-resourcemanager-compute-recommender | 1.0.0-beta.4 | 2026-11-05 | TypeSpec | :white_check_mark: |  |  | False |
-|253| azure-resourcemanager-commvaultcontentstore | 1.1.0 | 2026-11-05 | TypeSpec | :white_check_mark: |  |  | False |
-|254| azure-resourcemanager-horizondb | 1.0.0-beta.4 | 2026-11-06 | TypeSpec | :white_check_mark: |  |  | False |
-|255| azure-resourcemanager-monitor | 2.55.0-beta.1 | 2026-11-06 | TypeSpec | :white_check_mark: |  |  | False |
-|256| azure-resourcemanager-networksecurity | 1.0.0-beta.1 | 2026-11-06 | TypeSpec | :white_check_mark: |  |  | False |
-|257| azure-resourcemanager-containerregistry | 2.57.0-beta.1 | 2026-11-09 | TypeSpec | :white_check_mark: |  |  | False |
-|258| azure-resourcemanager-redisenterprise | 2.3.0-beta.1 | 2026-11-09 | TypeSpec | :white_check_mark: |  |  | False |
-|259| azure-resourcemanager-aiinfraoptimization | 1.0.0-beta.2 | 2026-11-10 | TypeSpec | :white_check_mark: |  |  | False |
-|260| azure-resourcemanager-privatedns | 2.55.0-beta.1 | 2026-11-11 | TypeSpec | :white_check_mark: |  |  | False |
+|238| azure-resourcemanager-storage | 2.60.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|239| azure-resourcemanager-authorization | 2.54.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|240| azure-resourcemanager-search | 2.55.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|241| azure-resourcemanager-cosmos | 2.56.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|242| azure-resourcemanager-keyvault | 2.57.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|243| azure-resourcemanager-appservice | 2.57.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|244| azure-resourcemanager-trafficmanager | 2.55.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|245| azure-resourcemanager-redis | 2.54.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|246| azure-resourcemanager-servicebus | 2.54.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|247| azure-resourcemanager-sql | 2.55.1 | 2026-11-02 | TypeSpec | :white_check_mark: |  |  | False |
+|248| azure-resourcemanager-sovereign | 1.0.0-beta.1 | 2026-11-03 | TypeSpec | :white_check_mark: |  |  | False |
+|249| azure-resourcemanager-chaos | 1.4.0 | 2026-11-04 | TypeSpec | :white_check_mark: |  |  | False |
+|250| azure-resourcemanager-compute-recommender | 1.0.0-beta.4 | 2026-11-05 | TypeSpec | :white_check_mark: |  |  | False |
+|251| azure-resourcemanager-commvaultcontentstore | 1.1.0 | 2026-11-05 | TypeSpec | :white_check_mark: |  |  | False |
+|252| azure-resourcemanager-horizondb | 1.0.0-beta.4 | 2026-11-06 | TypeSpec | :white_check_mark: |  |  | False |
+|253| azure-resourcemanager-monitor | 2.55.0-beta.1 | 2026-11-06 | TypeSpec | :white_check_mark: |  |  | False |
+|254| azure-resourcemanager-containerinstance | 2.55.0 | 2026-11-06 | TypeSpec | :white_check_mark: |  |  | False |
+|255| azure-resourcemanager-networksecurity | 1.0.0-beta.1 | 2026-11-06 | TypeSpec | :white_check_mark: |  |  | False |
+|256| azure-resourcemanager-containerregistry | 2.57.0-beta.1 | 2026-11-09 | TypeSpec | :white_check_mark: |  |  | False |
+|257| azure-resourcemanager-redisenterprise | 2.3.0-beta.1 | 2026-11-09 | TypeSpec | :white_check_mark: |  |  | False |
+|258| azure-resourcemanager-aiinfraoptimization | 1.0.0-beta.2 | 2026-11-10 | TypeSpec | :white_check_mark: |  |  | False |
+|259| azure-resourcemanager-privatedns | 2.55.0-beta.1 | 2026-11-11 | TypeSpec | :white_check_mark: |  |  | False |
+|260| azure-resourcemanager-containerservice | 2.67.0 | 2026-11-11 | TypeSpec | :white_check_mark: |  |  | False |
 |261| azure-resourcemanager-containerservicefleet | 1.4.0 | 2026-11-11 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
