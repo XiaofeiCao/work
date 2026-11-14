@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-11-13 23:09:35.187468
+Generated At: 2026-11-14 21:54:36.663859
 
 ## Summary
 
@@ -272,8 +272,8 @@ Generated At: 2026-11-13 23:09:35.187468
 |257| azure-resourcemanager-privatedns | 2.55.0-beta.1 | 2026-11-11 | TypeSpec | :white_check_mark: |  |  | False |
 |258| azure-resourcemanager-containerservice | 2.67.0 | 2026-11-11 | TypeSpec | :white_check_mark: |  |  | False |
 |259| azure-resourcemanager-cognitiveservices | 1.5.0 | 2026-11-11 | TypeSpec | :white_check_mark: |  |  | False |
-|260| azure-resourcemanager-containerservicefleet | 1.4.0 | 2026-11-11 | TypeSpec | :white_check_mark: |  |  | False |
-|261| azure-resourcemanager-iothub | 1.4.0 | 2026-11-12 | TypeSpec | :white_check_mark: |  |  | False |
+|260| azure-resourcemanager-iothub | 1.4.0 | 2026-11-12 | TypeSpec | :white_check_mark: |  |  | False |
+|261| azure-resourcemanager-containerservicefleet | 1.5.0-beta.1 | 2026-11-13 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
