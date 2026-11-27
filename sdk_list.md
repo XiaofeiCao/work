@@ -1,7 +1,7 @@
 
 # MGMT SDK for azure-json migration
 
-Generated At: 2026-11-26 01:28:02.857281
+Generated At: 2026-11-27 01:25:02.891412
 
 ## Summary
 
@@ -266,14 +266,14 @@ Generated At: 2026-11-26 01:28:02.857281
 |251| azure-resourcemanager-keyvault | 2.58.0-beta.1 | 2026-11-11 | TypeSpec | :white_check_mark: |  |  | False |
 |252| azure-resourcemanager-iothub | 1.4.0 | 2026-11-12 | TypeSpec | :white_check_mark: |  |  | False |
 |253| azure-resourcemanager-containerservicefleet | 1.5.0-beta.1 | 2026-11-13 | TypeSpec | :white_check_mark: |  |  | False |
-|254| azure-resourcemanager-netapp | 2.6.0 | 2026-11-16 | TypeSpec | :white_check_mark: |  |  | False |
-|255| azure-resourcemanager-cognitiveservices | 1.6.0-beta.1 | 2026-11-16 | TypeSpec | :white_check_mark: |  |  | False |
-|256| azure-resourcemanager-networksecurity | 1.0.0-beta.2 | 2026-11-17 | TypeSpec | :white_check_mark: |  |  | False |
-|257| azure-resourcemanager-containerservice | 2.68.0-beta.1 | 2026-11-17 | TypeSpec | :white_check_mark: |  |  | False |
-|258| azure-resourcemanager-mongocluster | 1.3.0 | 2026-11-17 | TypeSpec | :white_check_mark: |  |  | False |
-|259| azure-resourcemanager-network | 2.64.0 | 2026-11-18 | TypeSpec | :white_check_mark: |  |  | False |
-|260| azure-resourcemanager-confluent | 1.3.0-beta.2 | 2026-11-18 | TypeSpec | :white_check_mark: |  |  | False |
-|261| azure-resourcemanager-containerregistry | 2.57.0 | 2026-11-20 | TypeSpec | :white_check_mark: |  |  | False |
+|254| azure-resourcemanager-cognitiveservices | 1.6.0-beta.1 | 2026-11-16 | TypeSpec | :white_check_mark: |  |  | False |
+|255| azure-resourcemanager-networksecurity | 1.0.0-beta.2 | 2026-11-17 | TypeSpec | :white_check_mark: |  |  | False |
+|256| azure-resourcemanager-containerservice | 2.68.0-beta.1 | 2026-11-17 | TypeSpec | :white_check_mark: |  |  | False |
+|257| azure-resourcemanager-mongocluster | 1.3.0 | 2026-11-17 | TypeSpec | :white_check_mark: |  |  | False |
+|258| azure-resourcemanager-network | 2.64.0 | 2026-11-18 | TypeSpec | :white_check_mark: |  |  | False |
+|259| azure-resourcemanager-confluent | 1.3.0-beta.2 | 2026-11-18 | TypeSpec | :white_check_mark: |  |  | False |
+|260| azure-resourcemanager-containerregistry | 2.57.0 | 2026-11-20 | TypeSpec | :white_check_mark: |  |  | False |
+|261| azure-resourcemanager-netapp | 2.7.0-beta.1 | 2026-11-26 | TypeSpec | :white_check_mark: |  |  | False |
 
 ## Not planned
 
